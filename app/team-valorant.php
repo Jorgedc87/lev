@@ -213,7 +213,7 @@
                 <section class="jugador__valorant jugador__valorant--2">
 
                     <div class="jugador__render">
-                        <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/BULLZrender.png" alt="knzy render" data-wow-delay="300ms">
+                        <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/BULLZrender2.png" alt="bullz render" data-wow-delay="300ms">
                     </div>
 
                     <div class="jugador__valorant--cuadro wow animate__animated animate__fadeInDown" data-wow-delay="100ms">

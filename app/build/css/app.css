@@ -2030,7 +2030,7 @@ h3 {
 
 .jugador__valorant .jugador__render img {
   position: absolute;
-  bottom: 0;
+  vertical-align: middle;
   left: 10%;
   width: 15rem;
   transition: width .6s;
@@ -2039,7 +2039,6 @@ h3 {
 @media (min-width: 769px) {
   .jugador__valorant .jugador__render img {
     position: absolute;
-    bottom: 0;
     left: 10%;
     width: 20rem;
   }
@@ -2048,7 +2047,7 @@ h3 {
 @media (min-width: 1450px) {
   .jugador__valorant .jugador__render img {
     position: absolute;
-    bottom: 0;
+    bottom: 20rem;
     left: 10%;
     width: 30rem;
   }

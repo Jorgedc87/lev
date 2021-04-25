@@ -318,7 +318,7 @@
         
         img{
             position: absolute;
-            bottom: 0;
+            vertical-align: middle;
             left: 10%;
             width: 15rem;
             transition: width .6s;
@@ -327,7 +327,7 @@
         @include tablet{
             img{
                 position: absolute;
-                bottom: 0;
+                // bottom: 0;
                 left: 10%;
                 width: 20rem;
                 
@@ -337,7 +337,7 @@
         @include big-desktop{
             img{
                 position: absolute;
-                bottom: 0;
+                bottom: 20rem;
                 left: 10%;
                 width: 30rem;
                 
