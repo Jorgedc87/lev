@@ -77,6 +77,69 @@
         </div>
         
     </section>
+
+    <div class="separacion"></div>
+
+    <section class="calendario">
+        <h3>PRÓXIMAS <b>COMPETENCIAS</b></h3>
+        <p>Podés alentarnos en las siguientes fechas:</p>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>MAR 2/3 - 21:00HS</span><br>VS River Plate Gaming</b></div>
+            <div class="vivo"></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/csgo.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/unity-league.png" alt="liga-master"></div>
+            <div class="rival"><b><span>MIE 3/3 - 21:00HS</span><br>VS Stone Esports</b></div>
+            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>JUE 4/3 - 23:00HS</span><br>VS Naguara</b></div>
+            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>VIE 5/3 - 23:50HS</span><br>VS Savage esports</b></div>
+            <div class="vivo"></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>MAR 2/3 - 21:00HS</span><br>VS River Plate Gaming</b></div>
+            <div class="vivo"></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/csgo.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/unity-league.png" alt="liga-master"></div>
+            <div class="rival"><b><span>MIE 3/3 - 21:00HS</span><br>VS Stone Esports</b></div>
+            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>JUE 4/3 - 23:00HS</span><br>VS Naguara</b></div>
+            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>VIE 5/3 - 23:50HS</span><br>VS Savage esports</b></div>
+            <div class="vivo"></div>
+        </div>
+    </section>
     <?php
     }
     
@@ -222,7 +285,7 @@
 
     <!-- <div class="separacion"></div> -->
 
-    <!-- <div class="separacion"></div> -->
+    <!-- <div class="separacion"></div>-->
 
     <div class="separacion"></div>
 

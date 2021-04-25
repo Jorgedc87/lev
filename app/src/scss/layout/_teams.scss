@@ -16,7 +16,7 @@
     background-size: cover;
     // background-repeat:round;
     background-position:center;
-    height: calc(100vh - 67px);
+    height: calc(100% - 67px);
 
     color: white;
 
@@ -30,27 +30,129 @@
         justify-content:space-around;
         vertical-align: middle;
 
-        img {
-            max-width: 20rem;
-            margin-bottom: 2rem;
+        // img {
+        //     max-width: 20rem;
+        //     margin-bottom: 2rem;
+        // }
+
+        @include tablet2{
+            column-gap: 4rem;
+            
+            img{
+                max-width: 12rem;
+            }
         }
+        @include desktop{
+            column-gap: 6rem;
+            
+            
+            img{
+                max-width: 15rem;
+            }
+        }
+
+        @include big-desktop{
+            column-gap: 9rem;
+            
+            img{
+                max-width: 20rem;
+            }
+        }
+
+        
 
         .roster__valorant--juego{
             display:flex;
             column-gap: 5rem;
+            max-width: 10rem;
             
             justify-content:space-evenly;
             align-items: center;
             margin: 0 auto;
+
+            img {
+                max-width: 13rem;
+                margin-bottom: 1rem;
+            }
+
+            @include tablet2{
+                column-gap: 4rem;
+                
+                img{
+                    margin-bottom: 1rem;
+                    max-width: 12rem;
+                }
+            }
+            @include desktop{
+                column-gap: 6rem;
+                
+                
+                img{
+                    max-width: 15rem;
+                }
+            }
+    
+            @include big-desktop{
+                column-gap: 9rem;
+                
+                img{
+                    max-width: 20rem;
+                }
+            }
             
         }
         .roster__valorant--jugadores{
             display:grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             justify-content: space-between;
-            gap: 10rem;
+            column-gap: 1rem;
             row-gap: 3rem;
             color: white;
+            transition: column-gap .6s;
+            transition: max-width .6s;
+            margin: 0 auto;
+
+            img {
+                max-width: 20rem;
+                margin-bottom: 2rem;
+            }
+            // max-width: 20rem;
+            
+            // @include telefono{
+            //     column-gap: 2rem;
+            //     justify-content: space-around;
+            //     grid-template-columns: repeat(5, 1fr);
+                
+            //     img{
+            //         max-width: 10rem;
+            //     }
+            // }
+            @include tablet2{
+                column-gap: 4rem;
+                justify-content: space-around;
+                grid-template-columns: repeat(5, 1fr);
+                
+                img{
+                    max-width: 12rem;
+                }
+            }
+            @include desktop{
+                column-gap: 6rem;
+                justify-content: space-around;
+                
+                
+                img{
+                    max-width: 15rem;
+                }
+            }
+
+            @include big-desktop{
+                column-gap: 9rem;
+                
+                img{
+                    max-width: 20rem;
+                }
+            }
         }
 
         .roster__valorant--jugador{
@@ -58,6 +160,7 @@
             grid-template-columns: repeat(1, 1fr);
             color: white;
             justify-content: center;
+            margin: 0 auto;
 
             a{
                 text-decoration: none;
@@ -75,12 +178,16 @@
     }
 
     .id__jugador{
-        font-size: 3.5rem;
+        font-size: 1.5rem;
         background: -webkit-linear-gradient(#68b7fd, #4c6cf2);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight:bold;
         text-align: center;
+
+        @include big-desktop{
+            font-size: 2rem;
+        }
     }
     .nombre__jugador{
         
@@ -166,8 +273,28 @@
             position: absolute;
             bottom: 0;
             left: 10%;
-            width: 30rem;
-            
+            width: 15rem;
+            transition: width .6s;
+        }
+
+        @include tablet{
+            img{
+                position: absolute;
+                bottom: 0;
+                left: 10%;
+                width: 20rem;
+                
+            }
+        }
+
+        @include big-desktop{
+            img{
+                position: absolute;
+                bottom: 0;
+                left: 10%;
+                width: 30rem;
+                
+            }
         }
     }
 }

@@ -176,10 +176,10 @@
         <p>Conocé a nuestra familia.</p>
 
         <div class="botones">
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="500ms"><a href="#"><img src="img/Juegos LEVIATAN/freefire.png" alt="free fire logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="550ms"><a href="#"><img src="img/Juegos LEVIATAN/csgo.png" alt="csgo logo" class="img-teams"></a></div>
+            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="500ms"><a href="team-freefire.php"><img src="img/Juegos LEVIATAN/freefire.png" alt="free fire logo" class="img-teams"></a></div>
+            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="550ms"><a href="team-csgo.php"><img src="img/Juegos LEVIATAN/csgo.png" alt="csgo logo" class="img-teams"></a></div>
             <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="450ms"><a href="team-lol.php"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="550ms"><a href="#"><img src="img/Juegos LEVIATAN/valorant.png" alt="valorant logo" class="img-teams"></a></div>
+            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="550ms"><a href="team-valorant.php"><img src="img/Juegos LEVIATAN/valorant.png" alt="valorant logo" class="img-teams"></a></div>
             <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="350ms"><a href="#"><img src="img/Juegos LEVIATAN/staff.png" alt="staff logo" class="img-teams"></a></div>
         </div>
     </section>
