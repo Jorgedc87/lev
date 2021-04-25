@@ -1,0 +1,77 @@
+// Fuentes
+
+@font-face {
+    font-family: 'Microgramma D';
+    src: url('../../src/fonts/MicrogrammaD-BoldExte.eot');
+    src: url('../../src/fonts/MicrogrammaD-BoldExte.eot?#iefix') format('embedded-opentype'),
+        url('../../src/fonts/MicrogrammaD-BoldExte.woff2') format('woff2'),
+        url('../../src/fonts/MicrogrammaD-BoldExte.woff') format('woff'),
+        url('../../src/fonts/MicrogrammaD-BoldExte.ttf') format('truetype'),
+        url('../../src/fonts/MicrogrammaD-BoldExte.svg#MicrogrammaD-BoldExte') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    // font-display: swap;
+}
+
+@font-face {
+    font-family: 'Microgramma';
+    src: url('../../src/fonts/MicrogrammaNormal.woff') format('woff'),
+         url('../../src/fonts/MicrogrammaNormal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: unset;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../../src/fonts/Helvetica.woff') format('woff'),
+         url('../../src/fonts/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: unset;
+}
+
+
+$fuentePrincipal : 'Microgramma', sans-serif !important;
+$fuenteSecundaria : 'Microgramma D', sans-serif !important;
+$fuenteTerceria : 'Helvetica', sans-serif !important;
+
+$delgada: 400;
+$bold: 700;
+
+// Colores
+
+$verde: #30aa18;
+$rojo: #ee5757;
+$celeste: #0066f3;
+$celeste2:#0c58c1;
+$blanco:#f7f7f7;
+$gris:#c7c7c7;
+$negro:#0f0f0f;
+$naranja:#e4b943;
+$cian: #2e3542;
+$azul: #1d2129;
+$azul2: #252a34;
+$fondoOscuro: #00162a;
+$fondoOscuro2: #000e1e;
+$fondoOscuro2Hover: #031a35;
+$borde1: #03b7ff;
+$borde2: #376bf6;
+
+
+// Media Queries
+
+$telefono: 480px;
+$tablet: 769px;
+$tablet2: 860px;
+$desktop: 1200px;
+$bigDesktop: 1450px;
+
+$break1: 1522px;
+$break2: 1000px;
+$break3: 1250px;
+$break4: 1100px;
+
+$altura: 693px;
+
+// Separaciones
+
+$separacion: 5rem;

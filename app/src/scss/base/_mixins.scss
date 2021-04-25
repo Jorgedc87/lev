@@ -1,0 +1,53 @@
+@mixin telefono{
+    @media (min-width: $telefono){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media (min-width: $tablet){
+        @content;
+    }
+}
+@mixin tablet2{
+    @media (min-width: $tablet2){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media (min-width: $desktop){
+        @content;
+    }
+}
+
+@mixin big-desktop{
+    @media (min-width: $bigDesktop){
+        @content;
+    }
+}
+@mixin break1{
+    @media (min-width: $break1){
+        @content;
+    }
+}
+@mixin break2{
+    @media (min-width: $break2){
+        @content;
+    }
+}
+@mixin break3{
+    @media (min-width: $break3){
+        @content;
+    }
+}
+@mixin break4{
+    @media (min-width: $break4){
+        @content;
+    }
+}
+@mixin altura{
+    @media (max-height: $altura){
+        @content;
+    }
+}

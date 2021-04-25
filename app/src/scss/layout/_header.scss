@@ -1,0 +1,330 @@
+.header-nav{
+    // display: flex;
+    align-items: center;
+    background: linear-gradient(to right,$azul2,$azul,$azul2);
+    -webkit-box-shadow: 0px 2px 4px 2px rgba(17, 17, 17, 0.3);
+    -moz-box-shadow: 0px 2px 4px 2px rgba(12, 12, 12, 0.3);
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.3);
+
+    z-index: 30;
+    position: sticky;
+    top: 0rem;
+
+    a{
+        white-space: nowrap;
+    }
+
+    .logo {
+        width: 135px;
+    }
+    
+    .logo a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+
+        @include telefono{
+            margin: 0 auto;
+        }
+        @include tablet{
+            margin: 0 auto;
+        }
+
+    }
+
+    .contenido-header{
+        
+        max-width: 190rem;
+        width: 95%;
+        margin: 0 auto;
+        padding: 0rem 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+
+        
+        
+        @include telefono{
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        @include tablet{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-between;
+            // align-items: center;
+        }
+
+        @include break4{
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        z-index: 30;
+        position: sticky;
+        top: 0;
+    }
+
+    .logo img{
+        max-height: 4rem;
+
+        @include telefono{
+            max-height: 6rem;
+        }
+    }
+
+    .logo img:nth-child(2){
+        max-height: 2rem;
+
+        @include telefono{
+            max-height: 3rem;
+        }
+    }
+
+    .login-top{
+        text-transform: uppercase;
+        right: 0;
+        display:none;
+        float: right;
+        font-size: 1rem;
+        text-align: center;
+        border: 1px solid $blanco;
+        border-radius: 1px;
+        line-height: 2;
+
+        &:hover{
+            background-color: $naranja;
+        }
+        
+        a{
+            color: $blanco;
+            text-align: center;
+            padding: 1.5rem 1rem 2rem 1.3rem;
+
+            &:hover{
+                color: $negro;
+            }
+        }
+
+        @include tablet{
+            display: block
+            
+        }
+    }
+
+    .fa-bars{
+    
+        min-width: 3rem;
+        color: white;
+        font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+        font-style: normal;
+        font-weight: normal;
+        font-size:2rem;
+        font-weight:900;
+        // background-color: $celeste;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 70%;
+
+        @include tablet2{
+            display:none;
+        }
+}
+
+    .login2{
+        min-width:6rem;
+        max-width: 6rem;
+        display: none;
+        align-items: center;
+        text-transform: uppercase;
+        border: 1px solid #fff;
+        border-radius: 10px;
+
+        @include tablet{
+            display:flex;
+        }
+
+        a{
+            display:block;
+            font-size: 1rem;
+            transition: font-size .5s;
+            color: $blanco;
+            padding: .5rem;
+            margin: 0 auto;
+
+            &:hover{
+                color: $negro;
+            }
+        }
+
+        &:hover{
+            background-color: $naranja;
+            color: $negro;
+        }
+    }
+
+    .nav-prin{
+        // margin-left: 5rem;
+        z-index: 30;
+        position: sticky;
+        top: 0;
+    }
+}
+
+.menu-toggle{
+    text-align: right;
+    
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.menu-principal{
+    display: none;
+    gap: 1rem;
+    z-index: 10;
+    position: static;
+    margin-top: 1rem;
+
+    @include tablet2{
+        display: block;
+    }
+
+    a {
+        display:flex;
+        font-size: 1rem;
+        transition: font-size .5s;
+        color: $blanco;
+        text-transform: uppercase;
+        padding: 1.5rem;
+
+        &:hover{
+            color: $naranja;
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+    }
+
+    li:hover .submenu{
+        display:inline-block;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+            
+    }
+
+    .submenu{
+        background-color: $cian;
+        display:none;
+        z-index: 10;
+        a{
+            color: $blanco;   
+            padding: 01.3rem;
+            
+            &.active, &:hover{
+                color:$naranja;
+            }
+        }
+
+        img{
+            width: 3rem;
+            height: 3rem;
+            margin: 0 1rem;
+
+            border-radius: 3px;
+
+            filter: grayscale(100);
+            
+        }
+
+        li:hover img{
+            filter: grayscale(0);
+        }
+
+        .middle{
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+    
+    
+
+}
+
+.nav-rrss {
+
+    display: none;
+
+    @include break4{
+        display: flex;
+        float: right
+    }
+    
+    img {
+        padding: 0;
+        width: 100%;
+        max-width: 5rem;
+        height: 100%;
+        max-height: 5rem;
+    }
+}
+
+.sidemenu{
+    width:100vw;
+    height: 100vh;
+    position:fixed;
+    background-color: $azul;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    left: -110%;
+    transition: all .5s;
+
+    .show{
+        left: 0;
+    }
+
+    @include tablet{
+        display: none;  
+    }
+
+    img{
+        width: 4rem;
+    }
+    
+    
+    ul{
+        text-align: center;
+        vertical-align: middle;
+        padding: 1rem
+    }
+
+    li{
+        text-transform: uppercase;
+        list-style: none;
+        vertical-align: middle;
+        padding: 1rem;
+    }
+
+    a{
+        color: $blanco;   
+
+        &.active, &:hover{
+            color:$naranja;
+        }
+    }
+
+    .mini{
+        font-size: 1rem;
+    }
+    
+}
+

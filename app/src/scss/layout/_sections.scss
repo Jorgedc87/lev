@@ -1,0 +1,751 @@
+h3{
+    text-transform: uppercase;
+}
+
+.principal {
+    position: relative;
+
+    @include break2{
+        position: relative;
+        height: 55rem;
+        overflow: hidden;
+        display:flex;
+        align-items: center;
+    }
+
+    @include break1{
+        position: relative;
+        height: 85rem;
+        overflow: hidden;
+        display:flex;
+        align-items: center;
+    }
+
+    .imgPrincipal{
+        margin: 0 auto;
+        margin-bottom: -1rem;
+    }
+
+    .imgOverlay{
+        position: absolute;
+        display: flex;
+        background: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        align-items: center;
+        overflow: hidden;
+        
+    }
+
+    video{
+        position: relative;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+
+        @include tablet{
+            margin: 0 auto;
+            width: 100%;
+            max-width: 110%;
+            height: auto;
+        }
+        @include break2{
+            width: 100%;
+        }
+        @include big-desktop{
+            margin: 0 auto;
+            width: 340rem;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .titulo{
+        margin-left: 4vw;
+        padding: .6rem 1rem;
+        color: $blanco;
+        border: 2px solid $blanco;
+        border-radius: 1px;
+        text-transform: uppercase;
+        h4{
+            font-size: .9rem;
+            transition: font-size 1s;
+
+            @include telefono{
+                font-size: 1.2rem;
+                transition: font-size 1s;
+            }
+
+            @include tablet{
+                font-size: 1.5rem;
+                transition: font-size 1s;
+            }
+        }
+
+        a{
+            color: $blanco;
+        }
+
+        &:hover, &:hover a{
+            background-color: $blanco;
+            color: $negro;
+            cursor: pointer;
+        }
+
+        
+    }
+    
+}
+
+.documental{
+
+    .contenido-documental{
+        padding-bottom: 3rem;
+
+        @include tablet{
+            padding-bottom: 5rem;
+        }
+
+        video{
+            border: 2px solid $negro;
+            border-radius:2px;
+            max-width: 85%;
+            max-height: 80rem;
+        }
+    }
+    // height: 120rem;
+    background-image: url("../../img/noticias/fondo.jpeg");
+    background-size: cover;
+    margin-bottom: -1rem;
+    
+    padding-top: 2rem;
+    text-align: center;
+    color: $blanco;
+
+    h3 {
+        // margin-bottom: 1.1rem;
+    }
+
+    p{
+        color: $blanco;
+        padding: 1rem;
+        font-family: $fuenteTerceria;
+    }
+    
+    
+}
+
+.sponsors{
+    padding: 1rem;
+    text-align: center;
+    background: #1f2024;
+    color: $blanco;
+
+    h3 {
+        margin-bottom: 2rem;
+    }
+
+    .logos-sponsors{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        
+        img{
+            max-height: 15rem;
+            width: 15rem;
+            min-width: 10rem;
+            margin: 0 1rem 0 1rem;
+
+            opacity: 0.2;
+
+            &:hover{
+                opacity: 1;
+            }
+            
+        }
+
+        
+    }
+    
+}
+
+.noticias{
+
+    a{
+        color: $blanco;
+    }
+    
+    background: rgba(32, 78, 202, 0.7);
+    background-image: url("../../img/noticias/fondo.png");
+    background-size: contain;
+
+    // filter: grayscale(80%);
+
+    color: $blanco;
+    text-align: center;
+    padding: 2rem;
+
+    .noticias-secundarias{
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 120rem;
+
+        @include tablet{
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 3rem;
+            justify-content: space-between;
+            
+        }
+        
+
+
+        .noticia-secundaria{
+            margin: 3rem auto;
+            width: 100%;
+            // height: 10rem;
+            // background-color: red;
+            position: relative;
+            overflow: hidden;
+
+            &:nth-child(2),&:nth-child(3){
+                display:none;
+
+                @include tablet{
+                    display: grid;
+                }
+            }
+
+            @include telefono{
+                width: 100%;
+                height: auto;
+            }
+
+            @include tablet{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        
+    }
+
+    p{
+        color: $blanco;
+        // text-shadow: 0 0 1rem $negro;
+        z-index: 10;
+        padding: 1rem;
+        text-transform: uppercase;
+
+        // font-size: 1rem;
+        letter-spacing: 3px;
+
+        @include tablet{
+            font-size: 1.2rem;
+            letter-spacing: 3px;
+        }
+        @include desktop{
+            // font-family: $fuenteSecundaria;
+            font-size: 1.6rem;
+            letter-spacing: 3px;
+        }
+    }
+
+    .not-prin{
+        margin: 0 auto;
+        overflow: hidden;
+        max-width: 1200px;
+        width: 90%;
+    }
+
+    .noticia-principal{
+        position: relative;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        .bloque-texto{
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+        }
+
+        a{
+            color: $blanco;
+        }
+
+        &:hover img{
+            transform: scale(1.1);
+            transition: transform 1s;
+        }
+    }
+
+    .noticia-secundaria{
+        .bloque-texto{
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            max-width: 1200px;
+            width: 100%;
+            height: auto;
+            
+            @include tablet{
+                height: auto;
+            }
+        }
+
+        &:hover img{
+            transform: scale(1.3);
+            transition: transform 1s;
+        }
+    }
+
+    .imagen-noticia-principal{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 120rem;
+        overflow: hidden;
+    }
+
+    .titulo-noticia-principal{
+        font-size: 1rem;
+        padding: 1rem;
+        text-transform: uppercase;
+
+        @include tablet{
+            padding: 1rem;
+            font-size: 2.8rem;
+        }
+
+        @include desktop{
+            padding: 0;
+            font-size: 3.4rem;
+        }
+    }
+    .descripcion-noticia-principal{
+        font-size: 1.8rem;
+        padding: 0 0.5rem 1rem 0.5rem;
+        display: none;
+        font-family: $fuenteTerceria;
+
+        @include tablet{
+            display: block;
+        }
+    }
+
+
+
+    .imagen-noticia-secundaria{
+        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        
+        img {
+            width: 100%;
+            max-width: 55rem;
+        }
+    }
+
+    .titulo-noticia-secundaria{
+        font-size: 1rem;
+        padding-top: .8rem;
+        text-transform: uppercase;
+        padding: 1rem;
+        
+
+        @include tablet{
+            display: block;
+            font-size: 1rem;
+        }
+
+        b{
+            font-size: 1.2rem;
+        }
+    }
+    .descripcion-noticia-secundaria{
+        font-size: 1.2rem;
+        padding: 0 0.5rem 1rem 0.5rem;
+        display: none;
+        font-family: $fuenteTerceria;
+
+        @include desktop{
+            display: block;
+        }
+        
+    }
+
+}
+
+
+.shop{
+    text-align: center;
+    background: linear-gradient(to right $gris, $blanco, $gris);
+    background-image: url('../../img/shop/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    h3{
+        color:$blanco;
+    }
+   
+
+    p{
+        color: $blanco;
+        text-shadow: 0 0 1rem #0f0f0f;
+        z-index: 10;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+    }
+
+    .productos-superior{
+        display: flex;
+        gap: .4rem;
+        justify-content: space-evenly;
+
+        
+    }
+
+    .producto-principal{
+
+        line-height:0;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            
+        }
+
+    }
+
+    .productos-secundarios{
+        line-height:0;
+        margin: 0;
+        display: grid;
+        column-gap: .6rem;
+        grid-template-areas: "buzo4 buzo3"
+                             "buzo2 buzo2";
+        img{
+            width: 100%;
+            height: auto;
+        }
+
+        .buzo2{
+            grid-area: buzo2;
+            display: inline-block;
+            padding-top: .2rem;
+        }
+        .buzo3{
+            grid-area: buzo3;
+            display: inline-block;
+        }
+        .buzo4{
+            grid-area: buzo4;
+            display: inline-block;
+            
+        }
+    }
+
+    .productos-slider{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 4rem auto 0 auto;
+
+        &::before{
+            padding-left: -5rem;
+            background-color: $azul;
+            border-radius: 10px;
+            z-index: 100;
+            opacity: 80%;
+            padding: 1.4rem;
+            content: "<";
+            font-size: 2.8rem;
+            color: $blanco;
+            cursor: pointer;
+        }
+
+        &::after{
+            padding-right: -5rem;
+            background-color: $azul;
+            opacity: 80%;
+            border-radius: 10px;
+            padding: 1.4rem;
+            z-index: 100;
+            content: ">";
+            font-size: 2.8rem;
+            color: $blanco;
+            cursor: pointer;
+            }
+    }
+
+    .producto-slider{
+        background: linear-gradient(to right, rgb(233, 233, 233), rgb(179, 179, 179), rgb(235, 235, 235));
+        max-height: 40rem;
+        max-width: 30%;
+        z-index: 10;
+        
+        -webkit-box-shadow: 7px 11px 18px 2px rgba(0,0,0,0.51);
+        -moz-box-shadow: 7px 11px 18px 2px rgba(0,0,0,0.51);
+        box-shadow: 7px 11px 18px 2px rgba(0,0,0,0.51);
+        position: relative;
+
+        img{
+            
+            max-height: 20rem;
+
+            @include break3{
+                max-height: 40rem;
+            }
+            
+
+            &:hover{
+                z-index: 100;
+            }
+        }
+
+        .bloque-texto{
+            position: absolute;
+            bottom: 0;
+            background-color: $azul;
+            width: 100%;
+            color: $blanco;
+            padding:1rem;
+
+            .nombre{
+                font-size: 1.7rem;
+                padding:1rem;
+                text-transform: uppercase;
+
+                display:none;
+
+                @include break3{
+                    display: block;
+                }
+
+            }
+        }
+
+        &:hover{
+            -webkit-box-shadow: 0px 6px  21px 4px rgba(0,0,0,0.94);
+            -moz-box-shadow: 0px 6px  21px 4px rgba(0,0,0,0.94);
+            box-shadow: 0px 6px 21px 4px rgba(0,0,0,0.94);
+            position: relative;
+            
+
+            -webkit-transform:scale(1.05);
+            -moz-transform:scale(1.05);
+            -ms-transform:scale(1.05);
+            -o-transform:scale(1.05);
+            transform:scale(1.05);
+
+            transition: transform .5s;
+        }
+
+        &:nth-child(2),&:nth-child(3){
+            display: none;
+
+            @include tablet{
+                display:block;
+            }
+        }
+    }
+
+}
+
+.equipos{
+    text-align: center;
+    justify-content: center;
+    background-color: $fondoOscuro;
+    color: $blanco;
+    padding: 1rem;
+
+    p{
+        color: $blanco;
+        padding-bottom: 2rem;
+    }
+
+
+    img{
+        width: 8rem;
+
+        @include tablet{
+            width: 10rem;
+        }
+    }
+    
+
+    .botones{
+        
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4rem;
+        row-gap: 2rem;
+        padding-bottom: 1rem;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 150rem;
+        width: 75%;
+
+        @include telefono{
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 7rem;
+            row-gap: 2rem;
+        }
+
+        @include tablet{
+            grid-template-columns: repeat(5, 1fr);
+            column-gap: 3rem;
+            row-gap: 2rem;
+        }
+
+        @include desktop{
+            column-gap: 13rem;
+            grid-template-columns: repeat(5, 1fr);
+            column-gap: 7rem;
+        }
+        
+
+    }
+
+    .img-teams{
+        text-align: center;
+        align-items: center;
+        background-color: $fondoOscuro2;
+        border-radius: 1rem;
+        padding: 1rem;
+
+        &:hover{
+            background-color: $celeste2;
+            transition: background-color .8s;
+        }
+    }
+
+}
+
+.calendario{
+    background-color: #001839;
+    padding: 2rem;
+    text-align: center;
+    justify-content: center;
+    color: $blanco;
+
+    p{
+        color: $blanco;
+    }
+    
+
+    .partida{
+        max-width: 120rem;
+        width: 95%;
+        margin: 3rem auto;
+        background-color: $fondoOscuro2;
+        display:grid;
+        grid-template-columns: 15% 1% 15% 49% 20%;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px;
+        padding: 1rem;
+
+        @include telefono{
+            padding: 3rem
+        }
+
+        .rival{
+            text-align: center;
+            text-transform: uppercase;            
+            font-size: .7rem;
+            letter-spacing: 3px;
+            color: $blanco;
+
+            @include telefono{
+                font-size: 1rem;
+            }
+
+            @include tablet{
+                text-align: left;
+                font-size: 1.5rem;
+            }
+
+            span{
+                color: #008ac1;
+            }
+
+        }
+
+        .fa-circle{
+            color: rgb(255, 71, 71);
+        }
+
+        .vivo{
+            span{
+                font-size: .7rem;
+                font-family: $fuenteSecundaria;
+                color: $blanco;
+                letter-spacing: 1px;
+
+                @include telefono{
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .logo-torneo{
+            text-align: center;
+        }
+
+        img{
+
+            width: 10rem;
+
+            @include telefono{
+                width: auto;
+                max-height: 10rem;
+            }
+            
+        }
+    }
+
+    .separacion-vert{
+        width: .5px;
+        height: 8rem;
+        background-color: $celeste;
+        opacity: 0.29;
+    }
+
+}
+
+.redes{
+    text-align: center;
+    
+    justify-content: center;
+    background-color: $fondoOscuro;
+    color: $blanco;
+    padding: 2rem;
+
+    span{
+        color: $borde1;
+    }
+
+    .contenido-redes{
+        margin: 0 auto;
+        display: flex;
+        max-width: 120rem;
+        width: 75%;
+        justify-content: space-between;
+
+
+        img{
+            width: 10rem;
+            &:hover{
+                opacity: .5;
+            }
+        }
+    }
+}
