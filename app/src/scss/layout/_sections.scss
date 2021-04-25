@@ -110,12 +110,26 @@ h3{
         video{
             border: 2px solid $negro;
             border-radius:2px;
-            max-width: 85%;
-            max-height: 80rem;
+            width: 40rem;
+            height: 25rem;
+        }
+
+        .videos{
+            
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+            max-width: 130rem;
+            margin: 0 auto;
+            margin-top: 3rem;
+        }
+
+        .video-documental{
+            color: white ;
         }
     }
     // height: 120rem;
-    background-image: url("../../img/noticias/fondo.jpeg");
+    background-image: url("../../img/shop/fondo.png");
     background-size: cover;
     margin-bottom: -1rem;
     
@@ -178,7 +192,7 @@ h3{
     }
     
     background: rgba(32, 78, 202, 0.7);
-    background-image: url("../../img/noticias/fondo.png");
+    background-image: url("../../img/shop/fondo2.png");
     background-size: contain;
 
     // filter: grayscale(80%);

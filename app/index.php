@@ -40,11 +40,38 @@
     <section class="documental">
         <div class="contenido-documental">
             <h3>Documental <b>Leviatan</b></h3>
-            <p>EPISODIO 1: #BeLeviatán</p>
-            <div class="video-documental">
-                <video controls muted controlsList="nodownload noremoteplayback">
-                    <source src="video/trailer.mp4" type="video/mp4">
-                </video>
+            <!-- <p>EPISODIO 1: #BeLeviatán</p> -->
+            <div class="videos">
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
     </section>

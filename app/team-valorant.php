@@ -69,11 +69,11 @@
                     </a>
                 </div>
             </div>
-            <div class="contenedor-teams roster__valorant--juego">
-                <div class="roster__valorant--game"><img src="img/teams/valorant/headcoach.png" alt="valorant logo"></div>
-                <div class="roster__valorant--separacion"><img src="img/teams/valorant/logoleviatan.png" alt="separacion logo"></div>
-                <div class="roster__valorant--rooster"><img src="img/teams/valorant/manager.png" alt="roster logo"></div>
-            </div>
+            <!-- <div class="contenedor-teams roster__valorant--staff">
+                <div class="roster__valorant--game"><img src="img/teams/valorant/headcoach.png" alt="head logo"></div>
+                <div class="roster__valorant--separacion"><img src="img/teams/valorant/logoleviatan.png" alt="leviatan logo"></div>
+                <div class="roster__valorant--rooster"><img src="img/teams/valorant/manager.png" alt="manager logo"></div>
+            </div> -->
         </div>
         
     </section>
@@ -84,56 +84,56 @@
         <h3>PRÓXIMAS <b>COMPETENCIAS</b></h3>
         <p>Podés alentarnos en las siguientes fechas:</p>
         <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
             <div class="separacion-vert"></div>
             <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
             <div class="rival"><b><span>MAR 2/3 - 21:00HS</span><br>VS River Plate Gaming</b></div>
             <div class="vivo"></div>
         </div>
         <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/csgo.png" alt="lol"></div>
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
             <div class="separacion-vert"></div>
             <div class="logo-torneo"><img src="img/competencias/unity-league.png" alt="liga-master"></div>
             <div class="rival"><b><span>MIE 3/3 - 21:00HS</span><br>VS Stone Esports</b></div>
             <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
         </div>
         <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
             <div class="separacion-vert"></div>
             <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
             <div class="rival"><b><span>JUE 4/3 - 23:00HS</span><br>VS Naguara</b></div>
             <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
         </div>
         <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
             <div class="separacion-vert"></div>
             <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
             <div class="rival"><b><span>VIE 5/3 - 23:50HS</span><br>VS Savage esports</b></div>
             <div class="vivo"></div>
         </div>
         <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
             <div class="separacion-vert"></div>
             <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
             <div class="rival"><b><span>MAR 2/3 - 21:00HS</span><br>VS River Plate Gaming</b></div>
             <div class="vivo"></div>
         </div>
         <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/csgo.png" alt="lol"></div>
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
             <div class="separacion-vert"></div>
             <div class="logo-torneo"><img src="img/competencias/unity-league.png" alt="liga-master"></div>
             <div class="rival"><b><span>MIE 3/3 - 21:00HS</span><br>VS Stone Esports</b></div>
             <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
         </div>
         <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
             <div class="separacion-vert"></div>
             <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
             <div class="rival"><b><span>JUE 4/3 - 23:00HS</span><br>VS Naguara</b></div>
             <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
         </div>
         <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
             <div class="separacion-vert"></div>
             <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
             <div class="rival"><b><span>VIE 5/3 - 23:50HS</span><br>VS Savage esports</b></div>
@@ -158,75 +158,52 @@
             ?>
             <section class="jugador__valorant jugador__valorant--1">
                 
-            <div class="jugador__render">
-                <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/KNZYrender.png" alt="knzy render" data-wow-delay="300ms">
-            </div>
+                <div class="jugador__render">
+                    <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/KNZYrender.png" alt="knzy render" data-wow-delay="300ms">
+                </div>
 
-            <!-- <div class="jugador-borde">
-                <div class="contenedor-jugador-derecha">
-
-                    <div class="info-jugador">
-                        <div class="datos">
-                            <div class="bandera"><img src="img/teams/pais/argentina.png" alt="argentina"></div>
-                            <div class="idNombrePoss">
-                                <div class="id">Sunblast</div>
-                                <div class="nombre">Juan Manuel Chapacu - <span>TOP</span></div>    
-                            </div>
-                            
-                            
+                <div class="jugador__valorant--cuadro wow animate__animated animate__fadeInDown" data-wow-delay="100ms">
+                    <div class="jugador__valorant--top border-bottom ">
+                        <div class="jugador__valorant--info border-right">
+                            <div class="jugador__valorant--id wow animate__animated animate__fadeInLeft" data-wow-delay="250ms"><img src="img/teams/valorant/Bullz.png" alt=""></div>
+                            <div class="jugador__valorant--nombre wow animate__animated animate__fadeInLeft" data-wow-delay="400ms"">Mauricio Cancinos</div>
+                            <div class="jugador__valorant--nacionalidad wow animate__animated animate__fadeInLeft" data-wow-delay="500ms">Argentina</div>
                         </div>
-                        <div class="separacion"></div>
-                        <div class="estadisticas">
-                            <div class="texto"><b>Temporada</b></div>
-
-                            <div class="texto__temporada">34/28/75 - 3,9 KDA</div>
-                        </div>
-                        <div class="separacion"></div>
-                        <div class="campeones">
-                            <div class="texto"><b>Campeones más usados</b></div>
-                            <div class="campeones__grid">
-                                <div class="campeon">
-                                    <img src="img/teams/champs/Gnar.png" alt="gnar">
-                                    <div class="campeon__datos">
-                                    <div><span>Gnar</span></div>
-                                        <div>6 veces jugado</div>
-                                        <div>100% WR</div>
-                                        <div>17/2/37
-                                        </div>
-                                    
-                                    </div>
-                                </div>
-                                <div class="campeon">
-                                    <img src="img/teams/champs/Renekton.png" alt="renekton">
-                                    <div class="campeon__datos">
-                                        <div><span>Renekton</span></div>
-                                        <div>6 veces jugado</div>
-                                        <div>100% WR</div>
-                                        <div>17/2/37
-                                        </div>
-                                    
-                                    </div>
-                                </div>
-                                
-                                <div class="campeon">
-                                    <img src="img/teams/champs/Akali.png" alt="akali">
-                                    <div class="campeon__datos">
-                                        <div><span>Akali</span></div>
-                                        <div>3 veces jugado</div>
-                                        <div>33.33% WR</div>
-                                        <div>7/7/7
-                                        </div>
-                                    
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
+                        <div class="jugador__valorant--camiseta wow animate__animated animate__fadeInUp" data-wow-delay="300ms">
+                            <img src="img/teams/valorant/camisetaBULLZ.png" alt="">
                         </div>
                     </div>
-                
-
+                    <div class="jugador__valorant--bottom">
+                        
+                        <div class="jugador__valorant--stats">
+                            <div class="jugador__valorant--temporada wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+                                Temporada
+                            </div>
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="450ms">65/16/57 - 1,09KD</div>
+                        </div>
+                        <div class="jugador__valorant--pjs">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="300ms" src="img/teams/valorant/pjs/752e67e280084e4cbeab1405386dd076.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms" src="img/teams/valorant/pjs/yoru.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms" src="img/teams/valorant/pjs/sage.png" alt="">
+                        </div>
+                    </div>      
+                    
+                    <!-- <div class="jugador__valorant--rrss">
+                        
+                        <div class="jugador__valorant--stats">
+                            <div class="jugador__valorant--temporada wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+                                Temporada
+                            </div>
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="450ms">65/16/57 - 1,09KD</div>
+                        </div>
+                        <div class="jugador__valorant--pjs">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="300ms" src="img/teams/valorant/pjs/752e67e280084e4cbeab1405386dd076.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms" src="img/teams/valorant/pjs/yoru.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms" src="img/teams/valorant/pjs/sage.png" alt="">
+                        </div>
+                    </div>      -->
+                    
                 </div>
-            </div> -->
 
             </section>
             <?php
@@ -238,6 +215,32 @@
                     <div class="jugador__render">
                         <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/BULLZrender.png" alt="knzy render" data-wow-delay="300ms">
                     </div>
+
+                    <div class="jugador__valorant--cuadro wow animate__animated animate__fadeInDown" data-wow-delay="100ms">
+                    <div class="jugador__valorant--top border-bottom ">
+                        <div class="jugador__valorant--info border-right">
+                            <div class="jugador__valorant--id wow animate__animated animate__fadeInLeft" data-wow-delay="250ms"><img src="img/teams/valorant/Bullz.png" alt=""></div>
+                            <div class="jugador__valorant--nombre wow animate__animated animate__fadeInLeft" data-wow-delay="400ms"">Mauricio Cancinos</div>
+                            <div class="jugador__valorant--nacionalidad wow animate__animated animate__fadeInLeft" data-wow-delay="500ms">Argentina</div>
+                        </div>
+                        <div class="jugador__valorant--camiseta wow animate__animated animate__fadeInUp" data-wow-delay="300ms">
+                            <img src="img/teams/valorant/camisetaBULLZ.png" alt="">
+                        </div>
+                    </div>
+                    <div class="jugador__valorant--bottom">
+                        
+                        <div class="jugador__valorant--stats">
+                            <div class="jugador__valorant--temporada wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+                                Temporada
+                            </div>
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="450ms">65/16/57 - 1,09KD</div>
+                        </div>
+                        <div class="jugador__valorant--pjs">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="300ms" src="img/teams/valorant/pjs/752e67e280084e4cbeab1405386dd076.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms" src="img/teams/valorant/pjs/yoru.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms" src="img/teams/valorant/pjs/sage.png" alt="">
+                        </div>
+                    </div>  
                         
                 </section>
                 <?php
@@ -250,6 +253,32 @@
                         <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/SAFIROrender.png" alt="knzy render" data-wow-delay="300ms">
                     </div>
 
+                    <div class="jugador__valorant--cuadro wow animate__animated animate__fadeInDown" data-wow-delay="100ms">
+                    <div class="jugador__valorant--top border-bottom ">
+                        <div class="jugador__valorant--info border-right">
+                            <div class="jugador__valorant--id wow animate__animated animate__fadeInLeft" data-wow-delay="250ms"><img src="img/teams/valorant/Bullz.png" alt=""></div>
+                            <div class="jugador__valorant--nombre wow animate__animated animate__fadeInLeft" data-wow-delay="400ms"">Mauricio Cancinos</div>
+                            <div class="jugador__valorant--nacionalidad wow animate__animated animate__fadeInLeft" data-wow-delay="500ms">Argentina</div>
+                        </div>
+                        <div class="jugador__valorant--camiseta wow animate__animated animate__fadeInUp" data-wow-delay="300ms">
+                            <img src="img/teams/valorant/camisetaBULLZ.png" alt="">
+                        </div>
+                    </div>
+                    <div class="jugador__valorant--bottom">
+                        
+                        <div class="jugador__valorant--stats">
+                            <div class="jugador__valorant--temporada wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+                                Temporada
+                            </div>
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="450ms">65/16/57 - 1,09KD</div>
+                        </div>
+                        <div class="jugador__valorant--pjs">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="300ms" src="img/teams/valorant/pjs/752e67e280084e4cbeab1405386dd076.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms" src="img/teams/valorant/pjs/yoru.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms" src="img/teams/valorant/pjs/sage.png" alt="">
+                        </div>
+                    </div>  
+
                 </section>
                 <?php
             break;
@@ -261,6 +290,32 @@
                     <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/KATAXrender.png" alt="knzy render" data-wow-delay="300ms">
                 </div>
 
+                <div class="jugador__valorant--cuadro wow animate__animated animate__fadeInDown" data-wow-delay="100ms">
+                    <div class="jugador__valorant--top border-bottom ">
+                        <div class="jugador__valorant--info border-right">
+                            <div class="jugador__valorant--id wow animate__animated animate__fadeInLeft" data-wow-delay="250ms"><img src="img/teams/valorant/Bullz.png" alt=""></div>
+                            <div class="jugador__valorant--nombre wow animate__animated animate__fadeInLeft" data-wow-delay="400ms"">Mauricio Cancinos</div>
+                            <div class="jugador__valorant--nacionalidad wow animate__animated animate__fadeInLeft" data-wow-delay="500ms">Argentina</div>
+                        </div>
+                        <div class="jugador__valorant--camiseta wow animate__animated animate__fadeInUp" data-wow-delay="300ms">
+                            <img src="img/teams/valorant/camisetaBULLZ.png" alt="">
+                        </div>
+                    </div>
+                    <div class="jugador__valorant--bottom">
+                        
+                        <div class="jugador__valorant--stats">
+                            <div class="jugador__valorant--temporada wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+                                Temporada
+                            </div>
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="450ms">65/16/57 - 1,09KD</div>
+                        </div>
+                        <div class="jugador__valorant--pjs">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="300ms" src="img/teams/valorant/pjs/752e67e280084e4cbeab1405386dd076.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms" src="img/teams/valorant/pjs/yoru.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms" src="img/teams/valorant/pjs/sage.png" alt="">
+                        </div>
+                    </div>  
+
                 </section>
                 <?php
             break;
@@ -271,6 +326,32 @@
                     <div class="jugador__render">
                         <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/KARDASHrender.png" alt="knzy render" data-wow-delay="300ms">
                     </div>
+
+                    <div class="jugador__valorant--cuadro wow animate__animated animate__fadeInDown" data-wow-delay="100ms">
+                    <div class="jugador__valorant--top border-bottom ">
+                        <div class="jugador__valorant--info border-right">
+                            <div class="jugador__valorant--id wow animate__animated animate__fadeInLeft" data-wow-delay="250ms"><img src="img/teams/valorant/Bullz.png" alt=""></div>
+                            <div class="jugador__valorant--nombre wow animate__animated animate__fadeInLeft" data-wow-delay="400ms"">Mauricio Cancinos</div>
+                            <div class="jugador__valorant--nacionalidad wow animate__animated animate__fadeInLeft" data-wow-delay="500ms">Argentina</div>
+                        </div>
+                        <div class="jugador__valorant--camiseta wow animate__animated animate__fadeInUp" data-wow-delay="300ms">
+                            <img src="img/teams/valorant/camisetaBULLZ.png" alt="">
+                        </div>
+                    </div>
+                    <div class="jugador__valorant--bottom">
+                        
+                        <div class="jugador__valorant--stats">
+                            <div class="jugador__valorant--temporada wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+                                Temporada
+                            </div>
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="450ms">65/16/57 - 1,09KD</div>
+                        </div>
+                        <div class="jugador__valorant--pjs">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="300ms" src="img/teams/valorant/pjs/752e67e280084e4cbeab1405386dd076.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms" src="img/teams/valorant/pjs/yoru.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms" src="img/teams/valorant/pjs/sage.png" alt="">
+                        </div>
+                    </div>  
                     
                 </section>
             <?php
