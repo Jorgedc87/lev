@@ -69,11 +69,11 @@
                     </a>
                 </div>
             </div>
-            <!-- <div class="contenedor-teams roster__valorant--staff">
+            <div class="contenedor-teams roster__valorant--staff">
                 <div class="roster__valorant--game"><img src="img/teams/valorant/headcoach.png" alt="head logo"></div>
                 <div class="roster__valorant--separacion"><img src="img/teams/valorant/logoleviatan.png" alt="leviatan logo"></div>
                 <div class="roster__valorant--rooster"><img src="img/teams/valorant/manager.png" alt="manager logo"></div>
-            </div> -->
+            </div>
         </div>
         
     </section>

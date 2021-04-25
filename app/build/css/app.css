@@ -1914,7 +1914,6 @@ h3 {
   color: white;
   justify-content: center;
   margin: 0 auto;
-  height: calc(100vh - 67px);
 }
 
 .roster .roster__valorant .roster__valorant--jugador a {
@@ -1922,8 +1921,12 @@ h3 {
   color: whitesmoke;
 }
 
+.roster .roster__valorant .roster__valorant--jugador img {
+  filter: grayscale(100%);
+}
+
 .roster .roster__valorant .roster__valorant--jugador:hover img {
-  filter: grayscale(70%);
+  filter: grayscale(0%);
   transition: filter .6s;
 }
 
