@@ -1792,31 +1792,39 @@ h3 {
 }
 
 .jugador__valorant--1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
   background-image: url("../../img/teams/valorant/fondoKNZY.png");
-  background-position: center;
-  height: calc(100vh - 67px);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
 
 .jugador__valorant--2 {
   background-image: url("../../img/teams/valorant/fondoBULLZ.png");
-  background-position: center;
+  background-size: cover;
+  background-position: center center;
   height: calc(100vh - 67px);
 }
 
 .jugador__valorant--3 {
   background-image: url("../../img/teams/valorant/fondoSAFIRO.png");
+  background-size: cover;
   background-position: center;
   height: calc(100vh - 67px);
 }
 
 .jugador__valorant--4 {
   background-image: url("../../img/teams/valorant/fondoKATAX.png");
+  background-size: cover;
   background-position: center;
   height: calc(100vh - 67px);
 }
 
 .jugador__valorant--5 {
   background-image: url("../../img/teams/valorant/fondoKARDASH.png");
+  background-size: cover;
   background-position: center;
   height: calc(100vh - 67px);
 }
@@ -1825,9 +1833,9 @@ h3 {
   min-width: 100%;
   min-height: 100vh;
   background-color: black;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   margin: 0 auto;
   padding: 2rem;
   overflow: hidden;
@@ -1848,14 +1856,14 @@ h3 {
     min-height: 100vh;
     background-attachment: scroll;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 }
 
 @media (min-width: 1450px) {
   .jugador__valorant {
     min-height: 100vh;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
   }
 }
@@ -1864,7 +1872,7 @@ h3 {
   position: absolute;
   bottom: 0;
   left: 10%;
-  width: 15%;
+  width: 30rem;
 }
 
 .team-lol {
