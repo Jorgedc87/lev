@@ -22,357 +22,207 @@
         <div class="nav-prin"><?php include('includes/side-menu.php')?></div>
     </header>
 
-    <section class="">
-        <div class="">
-            <img src="img/teams/Players-Top.jpg" alt="" width="100%">
+    <?php
+    if(!isset($_GET['jugador'])){
+        ?>
+        <section class="roster">
+        <div class="roster__valorant">
+            <div class="contenedor-teams roster__valorant--juego">
+                <div class="roster__valorant--game"><img src="img/teams/valorant/valorantlogo.png" alt="valorant logo"></div>
+                <div class="roster__valorant--separacion"><img src="img/teams/valorant/separacion.png" alt="separacion logo"></div>
+                <div class="roster__valorant--rooster"><img src="img/teams/valorant/roster.png" alt="roster logo"></div>
+            </div>
+            <div class="contenedor-teams roster__valorant--jugadores">
+                <div class="roster__valorant--jugador">
+                    <a href="team-valorant.php?jugador=1">
+                    <img src="img/teams/valorant/face1.png" alt="jugador logo">
+                    <div class="id__jugador"><b>KNZY</b></div>
+                    <div class="nombre__jugador">SOVA IGL</div>
+                    </a>
+                </div>
+                <div class="roster__valorant--jugador">
+                    <a href="team-valorant.php?jugador=2">
+                    <img src="img/teams/valorant/face2.png" alt="jugador logo">
+                    <div class="id__jugador"><b>BULLZ</b></div>
+                    <div class="nombre__jugador">CYPHER</div>
+                    </a>        
+                </div>
+                <div class="roster__valorant--jugador">
+                    <a href="team-valorant.php?jugador=3">
+                    <img src="img/teams/valorant/face3.png" alt="jugador logo">
+                    <div class="id__jugador"><b>SAFIRO</b></div>
+                    <div class="nombre__jugador">JETT</div>
+                    </a>        
+                </div>
+                <div class="roster__valorant--jugador">
+                    <a href="team-valorant.php?jugador=4"> 
+                    <img src="img/teams/valorant/face4.png" alt="jugador logo">
+                    <div class="id__jugador"><b>KATAX</b></div>
+                    <div class="nombre__jugador">REYNA</div>
+                    </a>          
+                </div>
+                <div class="roster__valorant--jugador">
+                    <a href="team-valorant.php?jugador=5">
+                    <img src="img/teams/valorant/face5.png" alt="jugador logo">
+                    <div class="id__jugador"><b>KARDASH</b></div>
+                    <div class="nombre__jugador">BRIMSTONE</div>
+                    </a>
+                </div>
+            </div>
+            <div class="contenedor-teams roster__valorant--juego">
+                <div class="roster__valorant--game"><img src="img/teams/valorant/headcoach.png" alt="valorant logo"></div>
+                <div class="roster__valorant--separacion"><img src="img/teams/valorant/logoleviatan.png" alt="separacion logo"></div>
+                <div class="roster__valorant--rooster"><img src="img/teams/valorant/manager.png" alt="roster logo"></div>
+            </div>
         </div>
         
     </section>
+    <?php
+    }
+    
+    ?>
     
 
-    <div class="separacion"></div>
+    <!-- <div class="separacion"></div> -->
 
-    <section class="jugador jugador-1">
+    <?php
 
-        <div class="jugador-borde">
-            <div class="contenedor-jugador-derecha">
+    if(isset($_GET['jugador'])){
+        $jugador = $_GET['jugador'];
+        switch($jugador){
+            case 1:
 
-                <div class="info-jugador">
-                    <div class="datos">
-                        <div class="bandera"><img src="img/teams/pais/argentina.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">Sunblast</div>
-                            <div class="nombre">Juan Manuel Chapacu - <span>TOP</span></div>    
-                        </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">34/28/75 - 3,9 KDA</div>
-                    </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Gnar.png" alt="gnar">
-                                <div class="campeon__datos">
-                                <div><span>Gnar</span></div>
-                                    <div>6 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>17/2/37
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Renekton.png" alt="renekton">
-                                <div class="campeon__datos">
-                                    <div><span>Renekton</span></div>
-                                    <div>6 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>17/2/37
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="campeon">
-                                <img src="img/teams/champs/Akali.png" alt="akali">
-                                <div class="campeon__datos">
-                                    <div><span>Akali</span></div>
-                                    <div>3 veces jugado</div>
-                                    <div>33.33% WR</div>
-                                    <div>7/7/7
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-
+            ?>
+            <section class="jugador__valorant jugador__valorant--1">
+                
+            <div class="jugador__render">
+                <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/KNZYrender.png" alt="knzy render" data-wow-delay="300ms">
             </div>
-        </div>
-        
-    </section>
 
-    <div class="separacion"></div>
+            <!-- <div class="jugador-borde">
+                <div class="contenedor-jugador-derecha">
 
-    <section class="jugador jugador-2">
-
-        <div class="contenedor-jugador-izquierda">
-            <div class="info-jugador">
-                <div class="datos">
-                        <div class="bandera"><img src="img/teams/pais/br.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">LUSKKA</div>
-                            <div class="nombre">Lucas Felipe Rentechen - <span>ADC</span></div>    
-                        </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">28/20/110 - 6,9 KDA</div>
-                    </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Kaisa.png" alt="Kaisa">
-                                <div class="campeon__datos">
-                                <div><span>Kaisa</span></div>
-                                    <div>6 veces jugado</div>
-                                    <div>50% WR</div>
-                                    <div>22/7/26
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Xayah.png" alt="Xayah">
-                                <div class="campeon__datos">
-                                    <div><span>Xayah</span></div>
-                                    <div>3 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>25/3/19
-                                    </div>
-                                
-                                </div>
+                    <div class="info-jugador">
+                        <div class="datos">
+                            <div class="bandera"><img src="img/teams/pais/argentina.png" alt="argentina"></div>
+                            <div class="idNombrePoss">
+                                <div class="id">Sunblast</div>
+                                <div class="nombre">Juan Manuel Chapacu - <span>TOP</span></div>    
                             </div>
                             
-                            <div class="campeon">
-                                <img src="img/teams/champs/MissFortune.png" alt="MissFortune">
-                                <div class="campeon__datos">
-                                    <div><span>Miss Fortune</span></div>
-                                    <div>2 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>11/2/7
-                                    </div>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <div class="separacion"></div>
-
-    <section class="jugador jugador-3">
-
-        <div class="contenedor-jugador-derecha">
-
-        <div class="info-jugador">
-                    <div class="datos">
-                        <div class="bandera"><img src="img/teams/pais/br.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">BRUCER</div>
-                            <div class="nombre">Bruno Pereira de Souza - <span>MID</span></div>    
-                        </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">28/20/110 - 6,9 KDA</div>
-                    </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Viktor.png" alt="Viktor">
-                                <div class="campeon__datos">
-                                <div><span>Viktor</span></div>
-                                    <div>4 veces jugado</div>
-                                    <div>75% WR</div>
-                                    <div>16/6/29
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Galio.png" alt="Galio">
-                                <div class="campeon__datos">
-                                    <div><span>Galio</span></div>
-                                    <div>4 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>7/3/46
-                                    </div>
-                                
-                                </div>
-                            </div>
                             
-                            <div class="campeon">
-                                <img src="img/teams/champs/Azir.png" alt="Azir">
-                                <div class="campeon__datos">
-                                    <div><span>Azir</span></div>
-                                    <div>3 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>4/1/7
+                        </div>
+                        <div class="separacion"></div>
+                        <div class="estadisticas">
+                            <div class="texto"><b>Temporada</b></div>
+
+                            <div class="texto__temporada">34/28/75 - 3,9 KDA</div>
+                        </div>
+                        <div class="separacion"></div>
+                        <div class="campeones">
+                            <div class="texto"><b>Campeones más usados</b></div>
+                            <div class="campeones__grid">
+                                <div class="campeon">
+                                    <img src="img/teams/champs/Gnar.png" alt="gnar">
+                                    <div class="campeon__datos">
+                                    <div><span>Gnar</span></div>
+                                        <div>6 veces jugado</div>
+                                        <div>100% WR</div>
+                                        <div>17/2/37
+                                        </div>
+                                    
                                     </div>
-                                
                                 </div>
-                            </div>
+                                <div class="campeon">
+                                    <img src="img/teams/champs/Renekton.png" alt="renekton">
+                                    <div class="campeon__datos">
+                                        <div><span>Renekton</span></div>
+                                        <div>6 veces jugado</div>
+                                        <div>100% WR</div>
+                                        <div>17/2/37
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                
+                                <div class="campeon">
+                                    <img src="img/teams/champs/Akali.png" alt="akali">
+                                    <div class="campeon__datos">
+                                        <div><span>Akali</span></div>
+                                        <div>3 veces jugado</div>
+                                        <div>33.33% WR</div>
+                                        <div>7/7/7
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                
+
                 </div>
-            
-        </div>
-        
-    </section>
+            </div> -->
 
-    <div class="separacion"></div>
+            </section>
+            <?php
+            break;
+            case 2:
+                ?>
+                <section class="jugador__valorant jugador__valorant--2">
 
-    <section class="jugador jugador-4">
-
-        <div class="contenedor-jugador-izquierda">
-            <div class="info-jugador">
-                <div class="datos">
-            
-                        <div class="bandera"><img src="img/teams/pais/argentina.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">Shmebu</div>
-                            <div class="nombre">Agustin tomas valetti - <span>Support</span></div>    
-                        </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">12/29/131 - 4,9 KDA</div>
+                    <div class="jugador__render">
+                        <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/BULLZrender.png" alt="knzy render" data-wow-delay="300ms">
                     </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Rakan.png" alt="RAKAN">
-                                <div class="campeon__datos">
-                                <div><span>Rakan</span></div>
-                                    <div>3 veces jugado</div>
-                                    <div>66,67% WR</div>
-                                    <div>1/8/37
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Seraphine.png" alt="Seraphine">
-                                <div class="campeon__datos">
-                                    <div><span>Seraphine</span></div>
-                                    <div>2 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>1/0/19
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="campeon">
-                                <img src="img/teams/champs/Nautilus.png" alt="Nautilus">
-                                <div class="campeon__datos">
-                                    <div><span>Nautilus</span></div>
-                                    <div>2 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>4/0/13
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            </div>
-                        </div>
+                        
+                </section>
+                <?php
+            break;
+            case 3:
+                ?>
+                <section class="jugador__valorant jugador__valorant--3">
+
+                    <div class="jugador__render">
+                        <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/SAFIROrender.png" alt="knzy render" data-wow-delay="300ms">
                     </div>
+
+                </section>
+                <?php
+            break;
+            case 4:
+                ?>
+                <section class="jugador__valorant jugador__valorant--4">
+
+                <div class="jugador__render">
+                    <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/KATAXrender.png" alt="knzy render" data-wow-delay="300ms">
                 </div>
-            </div>
-        </div>
-        
-    </section>
 
-    <div class="separacion"></div>
-
-    <section class="jugador jugador-5">
-        <div class="contenedor-jugador-derecha">
-            <div class="info-jugador">
-                <div class="datos">
-                        <div class="bandera"><img src="img/teams/pais/argentina.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">KING</div>
-                            <div class="nombre">Tomás Ignacio Bordón - <span>JUNGLER</span></div>    
-                        </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">49/36/73 - 3,4 KDA</div>
+                </section>
+                <?php
+            break;
+            case 5:
+                ?>
+                <section class="jugador__valorant jugador__valorant--5">
+                    
+                    <div class="jugador__render">
+                        <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/KARDASHrender.png" alt="knzy render" data-wow-delay="300ms">
                     </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Olaf.png" alt="Olaf">
-                                <div class="campeon__datos">
-                                <div><span>Olaf</span></div>
-                                    <div>6 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>22/9/24
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Hecarim.png" alt="Hecarim">
-                                <div class="campeon__datos">
-                                    <div><span>Hecarim</span></div>
-                                    <div>4 veces jugado</div>
-                                    <div>75% WR</div>
-                                    <div>12/12/34
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="campeon">
-                                <img src="img/teams/champs/Kindred.png" alt="Kindred">
-                                <div class="campeon__datos">
-                                    <div><span>Kindred</span></div>
-                                    <div>1 veces jugado</div>
-                                    <div>0% WR</div>
-                                    <div>0/5/4
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </section>
+                    
+                </section>
+            <?php
+            break;
+        }
+    }
+    ?>
+
+    <!-- <div class="separacion"></div> -->
+
+    
+
+    <!-- <div class="separacion"></div> -->
+
+    <!-- <div class="separacion"></div> -->
 
     <div class="separacion"></div>
 
@@ -381,7 +231,7 @@
     <?php include('includes/redes-sociales.php');?>
 
     <!-- REDES - FIN-->
-    
+
     <footer class="footer">
         <?php include('includes/footer.php');?>
     </footer>

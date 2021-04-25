@@ -9,10 +9,164 @@
     margin: 0 auto;
     text-align: center;
     vertical-align: middle;
-
-    
-    
 }
+
+.roster{
+    background-image: url('../../img/teams/valorant/fondo.png');
+    background-size: cover;
+    // background-repeat:round;
+    background-position:center;
+    height: calc(100vh - 67px);
+
+    color: white;
+
+    .roster__valorant{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10rem;
+        width: 95px;
+        margin: 0 auto; 
+        padding-top: 5rem;
+        justify-content:space-around;
+        vertical-align: middle;
+
+        img {
+            max-width: 20rem;
+            margin-bottom: 2rem;
+        }
+
+        .roster__valorant--juego{
+            display:flex;
+            column-gap: 5rem;
+            
+            justify-content:space-evenly;
+            align-items: center;
+            margin: 0 auto;
+            
+        }
+        .roster__valorant--jugadores{
+            display:grid;
+            grid-template-columns: repeat(5, 1fr);
+            justify-content: space-between;
+            gap: 10rem;
+            row-gap: 3rem;
+            color: white;
+        }
+
+        .roster__valorant--jugador{
+            display:grid;
+            grid-template-columns: repeat(1, 1fr);
+            color: white;
+            justify-content: center;
+
+            a{
+                text-decoration: none;
+                color:whitesmoke;
+            }
+
+            &:hover{
+                img{
+                    filter:grayscale(70%);
+                    transition: filter .6s;
+                }
+                
+            }
+        }
+    }
+
+    .id__jugador{
+        font-size: 3.5rem;
+        background: -webkit-linear-gradient(#68b7fd, #4c6cf2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight:bold;
+        text-align: center;
+    }
+    .nombre__jugador{
+        
+        font-size: smaller;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+.jugador__valorant--1{
+    background-image: url('../../img/teams/valorant/fondoKNZY.png');
+    // background-size: cover;
+    background-position:center;
+    height: calc(100vh - 67px);
+}
+.jugador__valorant--2{
+    background-image: url('../../img/teams/valorant/fondoBULLZ.png');
+    // background-size: cover;
+    background-position:center;
+    height: calc(100vh - 67px);
+}
+.jugador__valorant--3{
+    background-image: url('../../img/teams/valorant/fondoSAFIRO.png');
+    // background-size: cover;
+    background-position:center;
+    height: calc(100vh - 67px);
+}
+.jugador__valorant--4{
+    background-image: url('../../img/teams/valorant/fondoKATAX.png');
+    // background-size: cover;
+    background-position:center;
+    height: calc(100vh - 67px);
+}
+.jugador__valorant--5{
+    background-image: url('../../img/teams/valorant/fondoKARDASH.png');
+    // background-size: cover;
+    background-position:center;
+    height: calc(100vh - 67px);
+}
+
+.jugador__valorant{
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: contain;
+    margin: 0 auto;
+    padding: 2rem;
+    overflow: hidden;
+
+    @include tablet{
+        background-attachment: scroll;
+    }
+
+    @include desktop{
+        min-height: 100vh;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: contain;
+    }
+
+    @include big-desktop{
+        min-height: 100vh;
+        background-size: contain;
+        background-position: center center;
+    }  
+
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+
+    position: relative;
+
+    .jugador__render{
+        
+        img{
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+            width: 15%;
+            
+        }
+    }
+}
+
 .team-lol{
     background-image: url('../../img/teams/Players-Top.jpg');
     background-attachment: fixed;
@@ -70,10 +224,7 @@
     width: 40px;
     height: 40px;
     background-color: #fff;
-    
-    .jugador-borde{
-        
-    }
+
 
     .contenedor-jugador-derecha{
         border: .1rem solid $blanco;
