@@ -6,44 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/revolution/navigation.css">
-    <link rel="stylesheet" href="../css/revolution/settings.css">
-    <link rel="stylesheet" href="../build/css/app.css">
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/revolution/navigation.css">
+    <link rel="stylesheet" href="css/revolution/settings.css">
+    <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="css/animate.css">
     
     
     <title>Leviatan eSports</title>
 </head>
-
 <body>
-
+    
     <header class="header-nav">
-        
-        <div class="contenido-header">
-            <div class="logo"><a href="index.php"><img src="../img/logo.png" alt="logo leviatan" class="logo-principal"><img src="../img/leviatan.png" alt="leviatan"></a></div>
-
-            <div class="nav-prin"><?php include('../includes/menu_top.php')?></div>
-            
-            <div class="menu-toggle"><i class="fas fa-bars" id="icon"></i></div>
-
-            <div class="nav-rrss">
-                
-            <a href="https://twitter.com/leviatangg"><img src="../img/social/twitter.png" alt=""></a>
-            <a href="https://www.instagram.com/leviatangg"><img src="../img/social/instagram.png" alt=""></a>
-            <a href="https://www.twitch.tv/LeviatanLIVE"><img src="../img/social/twitch.png" alt=""></a>
-            </div>
-            
-            <div class="login-top"><a href="#">Login</a></div>
-        </div>
-        <div class="nav-prin"><?php include('../includes/side-menu.php')?></div>
+        <div class="nav-prin"><?php include('includes/menu-top.php')?></div>
+        <div class="nav-prin"><?php include('includes/side-menu.php')?></div>
     </header>
 
+    <div class="separacion"></div>
 
-
-
-
-
+    <section class="sponsors wow">
+        <div class="logos-sponsors">
+            <img src="img/sponsors/cultura-geek.png" alt="cultura geek" class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms">
+            <img src="img/sponsors/aftech2.png" alt="aftech" class="wow animate__animated animate__fadeInUp" data-wow-delay="700ms">
+            <img src="img/sponsors/iRobot-sponsor.png" alt="iRobot" class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+        </div>
+    </section>
 
     <div class="separacion"></div>
         
@@ -78,7 +65,5 @@
             })
         })
     </script>
-
 </body>
-
 </html>

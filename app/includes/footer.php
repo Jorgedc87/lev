@@ -8,11 +8,11 @@
         <div class="footer-leviatan footer-content">
             <ul>
                 <li><h4>Mapa del Sitio</h4></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Media</a></li>
-                <li><a href="#">Sponsors</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="inicio.php">Inicio</a></li>
+                <li><a href="noticias.php">Noticias</a></li>
+                <li><a href="galeria.php">Galería</a></li>
+                <li><a href="creadores.php">Creadores</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
                 
             </ul>
         </div>
@@ -21,10 +21,10 @@
         <div class="footer-leviatan footer-content division-der">
             <ul>
                 <li><h4>eSports Leviatan </h4></li>
-                <li><a href="team-lol.php">League of legends</a></li>
-                <li><a href="#">Valorant</a></li>
-                <li><a href="#">CS GO</a></li>
-                <li><a href="#">Free Fire</a></li>
+                <li><a href="team-lol.php">League of Legends</a></li>
+                <li><a href="team-valorant.php">Valorant</a></li>
+                <li><a href="team-csgo.php">CS GO</a></li>
+                <li><a href="team-freefire.php">Free Fire</a></li>
                 <li><a href="#">Staff</a></li>
                 <!-- <li><a href="#"></a></li> -->
             </ul>

@@ -17,7 +17,7 @@
                     </li>
                     <li><a href="noticias.php">Noticias</a></li>
                     <li><a href="creadores.php">Creadores</a></li>
-                    <li><a href="creadores.php">Galería</a></li>
+                    <li><a href="galeria.php">Galería</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
                 </ul>
             </nav>
