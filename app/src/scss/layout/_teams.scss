@@ -26,6 +26,68 @@
     }
 }
 
+.jugador__inner{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    z-index: 9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+
+    .rounded{
+        width: 156px;
+        height: 156px;
+    }
+
+    figure{
+        margin: 0 42px 0 54px;
+        
+    }
+
+    img{
+        width: 12rem;
+        top: 0;
+        margin-top: -4.2rem;
+
+        
+    }
+
+
+    ul{
+        list-style-type: none;
+        color: rgb(101, 7, 252);
+    }
+
+    span{
+        color:rgb(255, 255, 255);
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+
+        img{
+            margin-left: 2rem;
+            margin-top: 0;
+        }
+    }
+
+    .jugador__detalle{
+        padding: 1rem;
+        border-radius: 21px;
+    }
+}
+
+.flag{
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333em;
+    line-height: 1em;
+}
+
 .jugadores__contenedor{
     margin-top: 10rem;
     width: 95%;
@@ -131,16 +193,21 @@
         ul{
             display: flex;
             padding: 0;
-            margin: 0;
+            margin: 0 auto;
             list-style-type: none;;
         }
     
         li{
-            padding: 16px 40px 16px 0;
-            margin: 0 40px 0 0;
+            padding: 16px 0 16px 0;
+            margin: 0 auto;
+
+            img{
+                width: 10rem;
+                border-radius: 50%;
+            }
         }
 
-        width: 500px;
+        max-width: 500px;
         -webkit-justify-content: flex-end;
         justify-content: flex-end;
         margin-left: auto;
@@ -148,6 +215,7 @@
         .stats{
             display: -webkit-flex;
             display: flex;
+            gap: 3rem;
             -webkit-flex-direction: row;
             flex-direction: row;
             -webkit-align-items: center;
@@ -178,15 +246,7 @@
             }
         }
 
-        li:not(:last-child)::after{
-            content: '';
-            width: 2px;
-            height: 50px;
-            background-color: #333;
-            position: absolute;
-            bottom: -4px;
-            right: 0;
-        }
+        
     }
 
     .col{

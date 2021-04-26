@@ -16,6 +16,7 @@ body{
     font-family: $fuentePrincipal;
     font-size: 1rem;
     letter-spacing: 3px;
+    background: #09112b;
 
     @include tablet{
         font-size: 1.4rem;

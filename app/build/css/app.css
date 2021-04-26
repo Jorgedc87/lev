@@ -379,6 +379,7 @@ body {
   font-family: "Microgramma", sans-serif !important;
   font-size: 1rem;
   letter-spacing: 3px;
+  background: #09112b;
 }
 
 @media (min-width: 769px) {
@@ -1761,6 +1762,64 @@ h3 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.jugador__inner {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  z-index: 9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.jugador__inner .rounded {
+  width: 156px;
+  height: 156px;
+}
+
+.jugador__inner figure {
+  margin: 0 42px 0 54px;
+}
+
+.jugador__inner img {
+  width: 12rem;
+  top: 0;
+  margin-top: -4.2rem;
+}
+
+.jugador__inner ul {
+  list-style-type: none;
+  color: #6507fc;
+}
+
+.jugador__inner span {
+  color: white;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.jugador__inner span img {
+  margin-left: 2rem;
+  margin-top: 0;
+}
+
+.jugador__inner .jugador__detalle {
+  padding: 1rem;
+  border-radius: 21px;
+}
+
+.flag {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333em;
+  line-height: 1em;
+}
+
 .jugadores__contenedor {
   margin-top: 10rem;
   width: 95%;
@@ -1861,7 +1920,7 @@ h3 {
 }
 
 .jugador__bottom .col-der {
-  width: 500px;
+  max-width: 500px;
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
   margin-left: auto;
@@ -1870,18 +1929,24 @@ h3 {
 .jugador__bottom .col-der ul {
   display: flex;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   list-style-type: none;
 }
 
 .jugador__bottom .col-der li {
-  padding: 16px 40px 16px 0;
-  margin: 0 40px 0 0;
+  padding: 16px 0 16px 0;
+  margin: 0 auto;
+}
+
+.jugador__bottom .col-der li img {
+  width: 10rem;
+  border-radius: 50%;
 }
 
 .jugador__bottom .col-der .stats {
   display: -webkit-flex;
   display: flex;
+  gap: 3rem;
   -webkit-flex-direction: row;
   flex-direction: row;
   -webkit-align-items: center;
@@ -1910,16 +1975,6 @@ h3 {
   font-weight: 700;
   color: #fff;
   margin: 0 auto;
-}
-
-.jugador__bottom .col-der li:not(:last-child)::after {
-  content: '';
-  width: 2px;
-  height: 50px;
-  background-color: #333;
-  position: absolute;
-  bottom: -4px;
-  right: 0;
 }
 
 .jugador__bottom .col {
@@ -2420,7 +2475,6 @@ h3 {
   background-image: url("../../img/teams/valorant/fondo.png");
   background-size: cover;
   background-position: center;
-  height: calc(100vh - 67px);
   color: white;
 }
 
@@ -2637,38 +2691,38 @@ h3 {
 }
 
 .jugador__valorant--1 {
+  background-image: url("../../img/teams/valorant/fondoKNZY2.png");
   position: relative;
-  background-image: url("../../img/teams/valorant/fondoKNZY.png");
   background-size: cover;
   min-height: 50rem;
 }
 
 .jugador__valorant--2 {
-  background-image: url("../../img/teams/valorant/fondoBULLZ.png");
+  background-image: url("../../img/teams/valorant/fondoBULLZ2.png");
+  position: relative;
   background-size: cover;
-  background-position: center center;
-  height: calc(100vh - 67px);
+  min-height: 50rem;
 }
 
 .jugador__valorant--3 {
-  background-image: url("../../img/teams/valorant/fondoSAFIRO.png");
+  background-image: url("../../img/teams/valorant/fondoSAFIRO2.png");
+  position: relative;
   background-size: cover;
-  background-position: center;
-  height: calc(100vh - 67px);
+  min-height: 50rem;
 }
 
 .jugador__valorant--4 {
-  background-image: url("../../img/teams/valorant/fondoKATAX.png");
+  background-image: url("../../img/teams/valorant/fondoKATAX2.png");
+  position: relative;
   background-size: cover;
-  background-position: center;
-  height: calc(100vh - 67px);
+  min-height: 50rem;
 }
 
 .jugador__valorant--5 {
-  background-image: url("../../img/teams/valorant/fondoKARDASH.png");
+  background-image: url("../../img/teams/valorant/fondoKARDASH2.png");
+  position: relative;
   background-size: cover;
-  background-position: center;
-  height: calc(100vh - 67px);
+  min-height: 50rem;
 }
 
 .jugadores__valorant {

@@ -10,8 +10,7 @@
     background-size: cover;
     // background-repeat:round;
     background-position:center;
-    height: calc(100vh - 67px);
-
+    // height: calc(100vh - 67px);
     color: white;
 
     .roster__valorant{
@@ -240,36 +239,34 @@
 }
 
 .jugador__valorant--1{
-    position: relative;
-    background-image: url('../../img/teams/valorant/fondoKNZY.png');
-    // background-attachment: fixed;
+    background-image: url('../../img/teams/valorant/fondoKNZY2.png');
+    position: relative;    
     background-size: cover;
-    // background-position:center center;
     min-height: 50rem;
 }
 .jugador__valorant--2{
-    background-image: url('../../img/teams/valorant/fondoBULLZ.png');
+    background-image: url('../../img/teams/valorant/fondoBULLZ2.png');
+    position: relative;    
     background-size: cover;
-    background-position:center center;
-    height: calc(100vh - 67px);
+    min-height: 50rem;
 }
 .jugador__valorant--3{
-    background-image: url('../../img/teams/valorant/fondoSAFIRO.png');
+    background-image: url('../../img/teams/valorant/fondoSAFIRO2.png');
+    position: relative;    
     background-size: cover;
-    background-position:center;
-    height: calc(100vh - 67px);
+    min-height: 50rem;
 }
 .jugador__valorant--4{
-    background-image: url('../../img/teams/valorant/fondoKATAX.png');
+    background-image: url('../../img/teams/valorant/fondoKATAX2.png');
+    position: relative;    
     background-size: cover;
-    background-position:center;
-    height: calc(100vh - 67px);
+    min-height: 50rem;
 }
 .jugador__valorant--5{
-    background-image: url('../../img/teams/valorant/fondoKARDASH.png');
+    background-image: url('../../img/teams/valorant/fondoKARDASH2.png');
+    position: relative;    
     background-size: cover;
-    background-position:center;
-    height: calc(100vh - 67px);
+    min-height: 50rem;
 }
 
 .jugadores__valorant{
