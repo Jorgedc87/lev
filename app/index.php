@@ -21,6 +21,7 @@
         <div class="nav-prin"><?php include('includes/menu-top.php')?></div>
         <div class="nav-prin"><?php include('includes/side-menu.php')?></div>
     </header>
+    <div class="prueba"></div>
 
     <section class="principal">
         <div class="imgOverlay">

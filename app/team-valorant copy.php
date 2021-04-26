@@ -21,7 +21,6 @@
         <div class="nav-prin"><?php include('includes/menu-top.php')?></div>
         <div class="nav-prin"><?php include('includes/side-menu.php')?></div>
     </header>
-    
 
     <?php
     if(!isset($_GET['jugador'])){
@@ -152,84 +151,67 @@
     <?php
 
     if(isset($_GET['jugador'])){
-        ?>
-            <div class="fondo-team fondo-valorant"></div>
-        <?php
         $jugador = $_GET['jugador'];
         switch($jugador){
             case 1:
 
             ?>
-            <section class="jugadores__valorant">
-                <div class="jugadores__contenedor">
-                    <div class="inner-header">
-                        <div class="jugador__inner jugador__valorant--1">asd</div>
-                    </div>
-                    <div class="inner-body">
-                        <div class="jugador__top">
-                            <div class="col col-izq detalle__izq">
-                                <ul>
-                                    <li>
-                                        <span class="label">Equipo Actual</span>
-                                        <span class="name">Leviatan</span>
-                                    </li>
-                                    <li>
-                                        <span class="label">Nombre</span>
-                                        <span class="name">Jorge Calderón</span>
-                                    </li>
-                                    <li>
-                                        <span class="label">Rol</span>
-                                        <span class="name">SMOKE</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="jugador__bottom">
-                            <div class="col col-izq textarea">
-                                <div class="text-head">
-                                    <h4>Player Bio</h4>
-                                    <ul class="jugador__rrss">
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i class="fab fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+            <section class="jugadores__valorant jugador__valorant--1">
+                <div class="jugador__valorant jugador__valorant--1"">
 
-                                <div class="scroll-wrapper scroll-outer" style="position: relative">
-                                    <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
-                                </div>
-                            </div>
-                            <div class="col col-der">
-                                <ul class="stats">
-                                    <li>
-                                    <i class="icon" style="background-image: url('http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/1.png');"></i>
-                                    <h5>Deaths</h5>
-                                    <span>723</span>
-                                    </li>
-                                    <li>
-                                    <i class="icon" style="background-image: url('http://themes.pixiesquad.com/pixiefreak/twisting-nether/wp-content/uploads/2018/10/1.png');"></i>
-                                    <h5>Deaths</h5>
-                                    <span>723</span>
-                                    </li>
-                                </ul>
-                            </div>
+
+                </div>
+                <div class="jugador__valorant "">
+safd
+                </div>
+                
+                <div class="jugador__render">
+                    <img class="animate__animated animate__fadeInLeft wow" src="img/teams/valorant/KNZYrender.png" alt="knzy render" data-wow-delay="300ms">
+                </div>
+
+                <div class="jugador__valorant--cuadro wow animate__animated animate__fadeInDown" data-wow-delay="100ms">
+                    <div class="jugador__valorant--top border-bottom ">
+                        <div class="jugador__valorant--info border-right">
+                            <div class="jugador__valorant--id wow animate__animated animate__fadeInLeft" data-wow-delay="250ms"><img src="img/teams/valorant/Bullz.png" alt=""></div>
+                            <div class="jugador__valorant--nombre wow animate__animated animate__fadeInLeft" data-wow-delay="400ms"">Mauricio Cancinos</div>
+                            <div class="jugador__valorant--nacionalidad wow animate__animated animate__fadeInLeft" data-wow-delay="500ms">Argentina</div>
+                        </div>
+                        <div class="jugador__valorant--camiseta wow animate__animated animate__fadeInUp" data-wow-delay="300ms">
+                            <img src="img/teams/valorant/camisetaBULLZ.png" alt="">
                         </div>
                     </div>
+                    <div class="jugador__valorant--bottom">
+                        
+                        <div class="jugador__valorant--stats">
+                            <div class="jugador__valorant--temporada wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+                                Temporada
+                            </div>
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="450ms">65/16/57 - 1,09KD</div>
+                        </div>
+                        <div class="jugador__valorant--pjs">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="300ms" src="img/teams/valorant/pjs/752e67e280084e4cbeab1405386dd076.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms" src="img/teams/valorant/pjs/yoru.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms" src="img/teams/valorant/pjs/sage.png" alt="">
+                        </div>
+                    </div>      
+                    
+                    <!-- <div class="jugador__valorant--rrss">
+                        
+                        <div class="jugador__valorant--stats">
+                            <div class="jugador__valorant--temporada wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+                                Temporada
+                            </div>
+                            <div class="wow animate__animated animate__fadeInUp" data-wow-delay="450ms">65/16/57 - 1,09KD</div>
+                        </div>
+                        <div class="jugador__valorant--pjs">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="300ms" src="img/teams/valorant/pjs/752e67e280084e4cbeab1405386dd076.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms" src="img/teams/valorant/pjs/yoru.png" alt="">
+                            <img class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms" src="img/teams/valorant/pjs/sage.png" alt="">
+                        </div>
+                    </div>      -->
                     
                 </div>
-                asdfsafda
+
             </section>
             <?php
             break;
