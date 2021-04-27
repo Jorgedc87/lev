@@ -67,53 +67,77 @@
 
             <div class="noticias-secundarias">
                 <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-2-Media-Day.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                            <b>NOTICIA</b>
-                        </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
-                        </div>
-                        <div class="fecha-noticia-secundaria">
-                            27 de Abril, 2021
-                        </div>
-                    </div></a> 
+                    <a href="#">
+                        <div class="fondo__noticia1">
+                            <div class="bloque-texto">
+                                <div class="titulo-noticia-secundaria">
+                                    <b>NOTICIA</b>
+                                </div>
+                                <div class="descripcion-noticia-secundaria">
+                                    Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                                </div>
+                                <div class="fecha-noticia-secundaria">
+                                    27 de Abril, 2021
+                                </div>
+                            </div>
+                        </div> 
+                    </a>                   
                 </div>
                 <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-2-Media-Day.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                            <b>¡CÁMARAS, ACCIÓN!</b>
+                    <a href="#">
+                        <div class="fondo__noticia2">
+                            <div class="bloque-texto">
+                                <div class="titulo-noticia-secundaria">
+                                    <b>RUMOR</b>
+                                </div>
+                                <div class="descripcion-noticia-secundaria">
+                                    Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                                </div>
+                                <div class="fecha-noticia-secundaria">
+                                    26 de Abril, 2021
+                                </div>
+                            </div>
                         </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
-                        </div>
-                    </div></a> 
+                    </a>
                 </div>
                 <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-3-Valorant-Challengers.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                        <b>A  UN PASO DE LAS MASTERS</b>
+                    <a href="#">
+                        <div class="fondo__noticia3">
+                            <div class="bloque-texto">
+                                <div class="titulo-noticia-secundaria">
+                                <b>NOTICIA</b>
+                                </div>
+                                <div class="descripcion-noticia-secundaria">
+                                    Caímos 0-2 ante MetaGaming y nos quedamos a un paso del objetivo.
+                                </div>
+                                <div class="fecha-noticia-secundaria">
+                                    24 de Abril, 2021
+                                </div>
+                            </div>
                         </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Caímos 0-2 ante MetaGaming y nos quedamos a un paso del objetivo.
-                        </div>
-                    </div></a>        
+                    </a>    
                 </div>
                 <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-4-LOL.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                        <b>VICTORIA CLÁSICA</b>
+                    <a href="#">
+                        <div class="fondo__noticia4">
+                            <div class="bloque-texto">
+                                <div class="titulo-noticia-secundaria">
+                                <b>GAMING</b>
+                                </div>
+                                <div class="descripcion-noticia-secundaria">
+                                    Nuestro equipo de LoL se llevó otro triunfo ante Boca Juniors en la Liga Master Flow.
+                                </div>
+                                <div class="fecha-noticia-secundaria">
+                                    23 de Abril, 2021
+                                </div>
+                            </div> 
                         </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Nuestro equipo de LoL se llevó otro triunfo ante Boca Juniors en la Liga Master Flow.
-                        </div>
-                    </div> </a> 
+                    </a>
                 </div>
+                
+                
             </div>
+            <div class="vermas"><a href="noticias.php">Ver más ></a></div>
             
         </div>
     </section>
@@ -121,42 +145,30 @@
     <div class="separacion"></div>
 
     <section class="documental">
-        <div class="contenido-documental">
-            <h3>Documental <b>Leviatan</b></h3>
-            <!-- <p>EPISODIO 1: #BeLeviatán</p> -->
-            <div class="videos">
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
+        <div class="imgOverlay">
+            <div class="cuadro">
+                <div class="logo__lev">
+                    <img src="img/documental/textLEVIATÁN.png" alt="">
                 </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
+                <div class="episodio__lev">
+                    <span>Ya disponible</span>
+                    <p>Capitulo 2. Road to Glory</p>
                 </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
+                <div class="descripcion__lev">
+                    <p>El equipo Leviatán obtiene la Copa LVP Master Flow en su primer bla bla bla bla #BeLeviatan</p> 
                 </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
+                
+                <div class="reproducir__lev">
+                    <a href="#"><p><b>Reproducir</b></p></a>
                 </div>
             </div>
+
         </div>
+        <div class="imgPrincipal">
+            <video controlsList="nodownload noremoteplayback" autoplay muted loop>
+                    <source src="video/leviatan-intro.mp4" type="video/mp4">
+            </video>
+        </div>        
     </section>
 
     <div class="separacion"></div>

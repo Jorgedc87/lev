@@ -956,48 +956,123 @@ h3 {
 }
 
 .documental {
-  background-image: url("../../img/shop/fondo.png");
-  background-size: cover;
-  margin-bottom: -1rem;
-  padding-top: 2rem;
-  text-align: center;
-  color: #f7f7f7;
+  position: relative;
 }
 
-.documental .contenido-documental {
-  padding-bottom: 3rem;
-}
-
-@media (min-width: 769px) {
-  .documental .contenido-documental {
-    padding-bottom: 5rem;
+@media (min-width: 1000px) {
+  .documental {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
   }
 }
 
-.documental .contenido-documental video {
-  border: 2px solid #0f0f0f;
-  border-radius: 2px;
-  width: 40rem;
-  height: 25rem;
+@media (min-width: 1522px) {
+  .documental {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
 }
 
-.documental .contenido-documental .videos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
-  max-width: 130rem;
+.documental .imgPrincipal {
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-bottom: -1rem;
 }
 
-.documental .contenido-documental .video-documental {
+.documental .imgOverlay {
+  position: absolute;
+  display: flex;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  align-items: center;
+  overflow: hidden;
+}
+
+.documental video {
+  position: relative;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (min-width: 769px) {
+  .documental video {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 110%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .documental video {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1450px) {
+  .documental video {
+    margin: 0 auto;
+    width: 340rem;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.documental .cuadro {
+  padding: 20rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 4rem;
+  width: 100rem;
+}
+
+.documental .cuadro .episodio__lev {
+  text-transform: uppercase;
+  font-family: "Microgramma D", sans-serif !important;
+}
+
+.documental .cuadro .episodio__lev span {
+  color: #62b1ca;
+  font-size: 5rem;
+}
+
+.documental .cuadro .episodio__lev p {
   color: white;
+  padding-top: 0;
 }
 
-.documental p {
-  color: #f7f7f7;
-  padding: 1rem;
-  font-family: "Helvetica", sans-serif !important;
+.documental .cuadro .descripcion__lev p {
+  color: #ebebeb;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding-top: 0;
+}
+
+.documental .cuadro .reproducir__lev {
+  display: flex;
+}
+
+.documental .cuadro .reproducir__lev p {
+  background: linear-gradient(144deg, #2c60a2 0%, #5eb9d0 100%);
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: "Microgramma D", sans-serif !important;
+}
+
+.documental .cuadro .reproducir__lev p:hover {
+  filter: saturate(4);
+  transition: filter .5s;
 }
 
 .sponsors {
@@ -1071,6 +1146,12 @@ h3 {
 
 .noticias a {
   color: #f7f7f7;
+}
+
+.noticias .vermas {
+  padding-bottom: 5rem;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .noticias .noticias-secundarias {
@@ -1169,6 +1250,62 @@ h3 {
 .noticias .noticia-principal:hover img {
   transform: scale(1.1);
   transition: transform 1s;
+}
+
+.noticias .noticia-secundaria .fondo__noticia1 {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../../img/noticias/Noticia-1.jpg");
+}
+
+.noticias .noticia-secundaria .fondo__noticia1:hover {
+  filter: grayscale(0.8);
+  transition: filter .4s;
+}
+
+.noticias .noticia-secundaria .fondo__noticia2 {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../../img/noticias/Noticia-2-Media-Day.jpg");
+}
+
+.noticias .noticia-secundaria .fondo__noticia2:hover {
+  filter: grayscale(0.8);
+  transition: filter .4s;
+}
+
+.noticias .noticia-secundaria .fondo__noticia3 {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../../img/noticias/Noticia-3-Valorant-Challengers.jpg");
+}
+
+.noticias .noticia-secundaria .fondo__noticia3:hover {
+  filter: grayscale(0.8);
+  transition: filter .4s;
+}
+
+.noticias .noticia-secundaria .fondo__noticia4 {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../../img/noticias/Noticia-4-LOL.jpg");
+}
+
+.noticias .noticia-secundaria .fondo__noticia4:hover {
+  filter: grayscale(0.8);
+  transition: filter .4s;
 }
 
 .noticias .noticia-secundaria .bloque-texto {
@@ -1281,6 +1418,8 @@ h3 {
   font-size: 1.3rem;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #c5c5c5;
 }
 
 @media (min-width: 1200px) {

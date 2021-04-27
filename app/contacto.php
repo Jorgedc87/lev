@@ -24,13 +24,7 @@
 
     
 
-    <section class="sponsors wow">
-        <div class="logos-sponsors">
-            <img src="img/sponsors/cultura-geek.png" alt="cultura geek" class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms">
-            <img src="img/sponsors/aftech2.png" alt="aftech" class="wow animate__animated animate__fadeInUp" data-wow-delay="700ms">
-            <img src="img/sponsors/iRobot-sponsor.png" alt="iRobot" class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
-        </div>
-    </section>
+ 
 
     
 
