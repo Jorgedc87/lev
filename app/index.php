@@ -38,47 +38,6 @@
 
     <div class="separacion"></div>
 
-    <section class="documental">
-        <div class="contenido-documental">
-            <h3>Documental <b>Leviatan</b></h3>
-            <!-- <p>EPISODIO 1: #BeLeviatán</p> -->
-            <div class="videos">
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="video-documental">
-                    <video controls muted controlsList="nodownload noremoteplayback">
-                        <source src="video/trailer.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="separacion"></div>
-
     <section class="sponsors wow">
         <div class="logos-sponsors">
             <img src="img/sponsors/cultura-geek.png" alt="cultura geek" class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms">
@@ -146,6 +105,47 @@
                 </div>
             </div>
             
+        </div>
+    </section>
+
+    <div class="separacion"></div>
+
+    <section class="documental">
+        <div class="contenido-documental">
+            <h3>Documental <b>Leviatan</b></h3>
+            <!-- <p>EPISODIO 1: #BeLeviatán</p> -->
+            <div class="videos">
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="video-documental">
+                    <video controls muted controlsList="nodownload noremoteplayback">
+                        <source src="video/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
         </div>
     </section>
 

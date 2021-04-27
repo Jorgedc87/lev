@@ -165,16 +165,16 @@
                     <div class="inner-header">
                         <div class="jugador__inner jugador__valorant--1">
                             <figure class="rounded">
-                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
                             </figure>
                             <div class="jugador__detalle">
-                                <span>
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
                                     Jorge Calderón
-                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem">
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
                                 </span>
                                 
                                 <ul>
-                                    <li style="margin-left: -2rem">
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
                                         ganstaAHH87
                                     </li>
                                 </ul>
@@ -186,16 +186,16 @@
                             <div class="col col-izq detalle__izq">
                                 <ul>
                                     <li>
-                                        <span class="label">Equipo Actual</span>
-                                        <span class="name">Leviatan</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
                                     </li>
                                     <li>
-                                        <span class="label">edad</span>
-                                        <span class="name">31</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
                                     </li>
                                     <li>
-                                        <span class="label">Rol</span>
-                                        <span class="name">SMOKE</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
                                     </li>
                                 </ul>
                             </div>
@@ -203,38 +203,38 @@
                         <div class="jugador__bottom">
                             <div class="col col-izq textarea">
                                 <div class="text-head">
-                                    <h4>Player Bio</h4>
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
                                     <ul class="jugador__rrss">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
                                                 <i class="fab fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
                                                 <i class="fab fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="scroll-wrapper scroll-outer" style="position: relative">
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
                                     <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
                                 </div>
                             </div>
                             <div class="col col-der">
                                 <ul class="stats">
                                     <li>
-                                    <img src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
                                     
                                     </li>
                                     <li>
-                                    <img src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
                                     </li>
                                     <!-- <li>
                                     <img src="img/teams/valorant/pjs/astra.png" alt="astra">
@@ -252,18 +252,18 @@
                 <section class="jugadores__valorant">
                 <div class="jugadores__contenedor">
                     <div class="inner-header">
-                        <div class="jugador__inner jugador__valorant--2">
+                        <div class="jugador__inner jugador__valorant--1">
                             <figure class="rounded">
-                                <img src="img/teams/valorant/BULLZrender.png" alt="bullz render">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
                             </figure>
                             <div class="jugador__detalle">
-                                <span>
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
                                     Jorge Calderón
-                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem">
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
                                 </span>
                                 
                                 <ul>
-                                    <li style="margin-left: -2rem">
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
                                         ganstaAHH87
                                     </li>
                                 </ul>
@@ -275,16 +275,16 @@
                             <div class="col col-izq detalle__izq">
                                 <ul>
                                     <li>
-                                        <span class="label">Equipo Actual</span>
-                                        <span class="name">Leviatan</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
                                     </li>
                                     <li>
-                                        <span class="label">edad</span>
-                                        <span class="name">31</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
                                     </li>
                                     <li>
-                                        <span class="label">Rol</span>
-                                        <span class="name">SMOKE</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
                                     </li>
                                 </ul>
                             </div>
@@ -292,38 +292,38 @@
                         <div class="jugador__bottom">
                             <div class="col col-izq textarea">
                                 <div class="text-head">
-                                    <h4>Player Bio</h4>
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
                                     <ul class="jugador__rrss">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
                                                 <i class="fab fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
                                                 <i class="fab fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="scroll-wrapper scroll-outer" style="position: relative">
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
                                     <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
                                 </div>
                             </div>
                             <div class="col col-der">
                                 <ul class="stats">
                                     <li>
-                                    <img src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
                                     
                                     </li>
                                     <li>
-                                    <img src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
                                     </li>
                                     <!-- <li>
                                     <img src="img/teams/valorant/pjs/astra.png" alt="astra">
@@ -341,18 +341,18 @@
                 <section class="jugadores__valorant">
                 <div class="jugadores__contenedor">
                     <div class="inner-header">
-                        <div class="jugador__inner jugador__valorant--3">
+                        <div class="jugador__inner jugador__valorant--1">
                             <figure class="rounded">
-                                <img src="img/teams/valorant/SAFIROrender.png" alt="safiro render">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
                             </figure>
                             <div class="jugador__detalle">
-                                <span>
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
                                     Jorge Calderón
-                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem">
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
                                 </span>
                                 
                                 <ul>
-                                    <li style="margin-left: -2rem">
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
                                         ganstaAHH87
                                     </li>
                                 </ul>
@@ -364,16 +364,16 @@
                             <div class="col col-izq detalle__izq">
                                 <ul>
                                     <li>
-                                        <span class="label">Equipo Actual</span>
-                                        <span class="name">Leviatan</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
                                     </li>
                                     <li>
-                                        <span class="label">edad</span>
-                                        <span class="name">31</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
                                     </li>
                                     <li>
-                                        <span class="label">Rol</span>
-                                        <span class="name">SMOKE</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
                                     </li>
                                 </ul>
                             </div>
@@ -381,38 +381,38 @@
                         <div class="jugador__bottom">
                             <div class="col col-izq textarea">
                                 <div class="text-head">
-                                    <h4>Player Bio</h4>
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
                                     <ul class="jugador__rrss">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
                                                 <i class="fab fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
                                                 <i class="fab fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="scroll-wrapper scroll-outer" style="position: relative">
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
                                     <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
                                 </div>
                             </div>
                             <div class="col col-der">
                                 <ul class="stats">
                                     <li>
-                                    <img src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
                                     
                                     </li>
                                     <li>
-                                    <img src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
                                     </li>
                                     <!-- <li>
                                     <img src="img/teams/valorant/pjs/astra.png" alt="astra">
@@ -430,18 +430,18 @@
                 <section class="jugadores__valorant">
                 <div class="jugadores__contenedor">
                     <div class="inner-header">
-                        <div class="jugador__inner jugador__valorant--4">
+                        <div class="jugador__inner jugador__valorant--1">
                             <figure class="rounded">
-                                <img src="img/teams/valorant/KATAXrender.png" alt="katax render">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
                             </figure>
                             <div class="jugador__detalle">
-                                <span>
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
                                     Jorge Calderón
-                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem">
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
                                 </span>
                                 
                                 <ul>
-                                    <li style="margin-left: -2rem">
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
                                         ganstaAHH87
                                     </li>
                                 </ul>
@@ -453,16 +453,16 @@
                             <div class="col col-izq detalle__izq">
                                 <ul>
                                     <li>
-                                        <span class="label">Equipo Actual</span>
-                                        <span class="name">Leviatan</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
                                     </li>
                                     <li>
-                                        <span class="label">edad</span>
-                                        <span class="name">31</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
                                     </li>
                                     <li>
-                                        <span class="label">Rol</span>
-                                        <span class="name">SMOKE</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
                                     </li>
                                 </ul>
                             </div>
@@ -470,38 +470,38 @@
                         <div class="jugador__bottom">
                             <div class="col col-izq textarea">
                                 <div class="text-head">
-                                    <h4>Player Bio</h4>
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
                                     <ul class="jugador__rrss">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
                                                 <i class="fab fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
                                                 <i class="fab fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="scroll-wrapper scroll-outer" style="position: relative">
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
                                     <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
                                 </div>
                             </div>
                             <div class="col col-der">
                                 <ul class="stats">
                                     <li>
-                                    <img src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
                                     
                                     </li>
                                     <li>
-                                    <img src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
                                     </li>
                                     <!-- <li>
                                     <img src="img/teams/valorant/pjs/astra.png" alt="astra">
@@ -519,18 +519,18 @@
                 <section class="jugadores__valorant">
                 <div class="jugadores__contenedor">
                     <div class="inner-header">
-                        <div class="jugador__inner jugador__valorant--5">
+                        <div class="jugador__inner jugador__valorant--1">
                             <figure class="rounded">
-                                <img src="img/teams/valorant/KARDASHrender.png" alt="KARDASH render">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
                             </figure>
                             <div class="jugador__detalle">
-                                <span>
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
                                     Jorge Calderón
-                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem">
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
                                 </span>
                                 
                                 <ul>
-                                    <li style="margin-left: -2rem">
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
                                         ganstaAHH87
                                     </li>
                                 </ul>
@@ -542,16 +542,16 @@
                             <div class="col col-izq detalle__izq">
                                 <ul>
                                     <li>
-                                        <span class="label">Equipo Actual</span>
-                                        <span class="name">Leviatan</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
                                     </li>
                                     <li>
-                                        <span class="label">edad</span>
-                                        <span class="name">31</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
                                     </li>
                                     <li>
-                                        <span class="label">Rol</span>
-                                        <span class="name">SMOKE</span>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
                                     </li>
                                 </ul>
                             </div>
@@ -559,38 +559,38 @@
                         <div class="jugador__bottom">
                             <div class="col col-izq textarea">
                                 <div class="text-head">
-                                    <h4>Player Bio</h4>
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
                                     <ul class="jugador__rrss">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
                                                 <i class="fab fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
                                                 <i class="fab fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="scroll-wrapper scroll-outer" style="position: relative">
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
                                     <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
                                 </div>
                             </div>
                             <div class="col col-der">
                                 <ul class="stats">
                                     <li>
-                                    <img src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
                                     
                                     </li>
                                     <li>
-                                    <img src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
                                     </li>
                                     <!-- <li>
                                     <img src="img/teams/valorant/pjs/astra.png" alt="astra">

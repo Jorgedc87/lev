@@ -1775,7 +1775,7 @@ h3 {
 
 .jugador__inner .rounded {
   width: 156px;
-  height: 156px;
+  height: auto;
 }
 
 .jugador__inner figure {
@@ -1783,7 +1783,7 @@ h3 {
 }
 
 .jugador__inner img {
-  width: 12rem;
+  width: 42rem;
   top: 0;
   margin-top: -4.2rem;
 }
@@ -2017,6 +2017,10 @@ h3 {
   column-gap: 2rem;
 }
 
+.jugador__bottom .jugador__rrss .fab:hover {
+  transform: scale(1.5);
+}
+
 .jugador__bottom .jugador__rrss a {
   color: #fff;
   text-decoration: none;
@@ -2025,443 +2029,6 @@ h3 {
 
 .jugador__bottom .jugador__rrss:not(:last-child) {
   margin-right: 15px;
-}
-
-.team-lol {
-  background-image: url("../../img/teams/Players-Top.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
-  height: calc(100vh);
-  margin: auto;
-  display: block;
-}
-
-.team-lol p {
-  color: #e4b943;
-  font-size: 8rem;
-}
-
-.team-lol img {
-  width: 40rem;
-  margin: 0 auto;
-}
-
-.jugador {
-  min-width: 100%;
-  min-height: 100vh;
-  background-color: black;
-  background-attachment: scroll;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  padding: 2rem;
-  overflow: hidden;
-  width: 40px;
-  height: 40px;
-  background-color: #fff;
-}
-
-@media (min-width: 769px) {
-  .jugador {
-    background-attachment: fixed;
-  }
-}
-
-@media (min-width: 1200px) {
-  .jugador {
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
-@media (min-width: 1450px) {
-  .jugador {
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center center;
-  }
-}
-
-.jugador .contenedor-jugador-derecha {
-  border: 0.1rem solid #f7f7f7;
-  border-radius: .2rem;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.85);
-  margin: 1rem auto;
-  padding: 0 0;
-  position: relative;
-  max-height: 80%;
-  width: 95%;
-  max-width: 80rem;
-  color: #f7f7f7;
-}
-
-@media (min-width: 769px) {
-  .jugador .contenedor-jugador-derecha {
-    float: right;
-    margin: 3vh 10rem;
-    padding: 1rem 10rem;
-  }
-}
-
-@media (max-height: 693px) {
-  .jugador .contenedor-jugador-derecha {
-    margin: .5vh 10rem;
-  }
-}
-
-.jugador .contenedor-jugador-derecha .info-jugador {
-  margin: 0 auto;
-  padding: 2rem;
-  width: 90%;
-  display: block;
-}
-
-.jugador .contenedor-jugador-derecha .datos {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr;
-  column-gap: 1rem;
-  text-align: center;
-}
-
-.jugador .contenedor-jugador-derecha .datos .bandera {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.jugador .contenedor-jugador-derecha .datos .bandera img {
-  width: 2rem;
-}
-
-@media (min-width: 769px) {
-  .jugador .contenedor-jugador-derecha .datos .bandera img {
-    width: 5rem;
-  }
-}
-
-.jugador .contenedor-jugador-derecha .datos .id {
-  margin-bottom: .6rem;
-  color: #376bf6;
-  text-transform: uppercase;
-  font-family: "Microgramma D", sans-serif !important;
-  background: linear-gradient(to right, #24c9fe 0%, #005fc3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.jugador .contenedor-jugador-derecha .datos .separacion.vert {
-  padding: 10px;
-  background-color: #f7f7f7;
-}
-
-.jugador .contenedor-jugador-derecha .datos .nombre {
-  text-transform: uppercase;
-}
-
-.jugador .contenedor-jugador-derecha .datos .nombre span {
-  font-family: "Microgramma D", sans-serif !important;
-  background: linear-gradient(to right, #35ccff 0%, #005fc3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.jugador .contenedor-jugador-derecha .separacion {
-  margin: 1rem;
-}
-
-.jugador .contenedor-jugador-derecha .estadisticas {
-  text-align: center;
-}
-
-.jugador .contenedor-jugador-derecha .texto {
-  text-transform: uppercase;
-  padding: 2rem;
-}
-
-.jugador .contenedor-jugador-derecha .texto__temporada {
-  padding-bottom: 2rem;
-  color: #c7c7c7;
-}
-
-.jugador .contenedor-jugador-derecha .campeones {
-  text-align: center;
-}
-
-.jugador .contenedor-jugador-derecha .campeon {
-  display: grid;
-  justify-content: center;
-  row-gap: 1rem;
-  font-size: 1rem;
-}
-
-.jugador .contenedor-jugador-derecha .campeon .campeon__datos {
-  display: grid;
-  text-align: left;
-  font-size: 1.4rem;
-  letter-spacing: 1px;
-}
-
-.jugador .contenedor-jugador-derecha .campeones__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding-left: 2rem;
-  font-size: 1rem;
-  font-family: "Helvetica", sans-serif !important;
-}
-
-.jugador .contenedor-jugador-derecha .campeones__grid span {
-  font-family: "Microgramma D", sans-serif !important;
-  color: #0066f3;
-}
-
-.jugador .contenedor-jugador-izquierda {
-  border: 0.1rem solid #f7f7f7;
-  border-radius: .2rem;
-  padding: 1rem;
-  background-color: rgba(0, 0, 0, 0.85);
-  margin: 1rem auto;
-  padding: 0 0;
-  position: relative;
-  max-height: 80%;
-  width: 95%;
-  max-width: 80rem;
-  color: #f7f7f7;
-}
-
-@media (min-width: 769px) {
-  .jugador .contenedor-jugador-izquierda {
-    float: left;
-    margin: 3vh 10rem;
-    padding: 1rem 10rem;
-  }
-}
-
-@media (max-height: 693px) {
-  .jugador .contenedor-jugador-izquierda {
-    margin: .5vh 10rem;
-  }
-}
-
-.jugador .contenedor-jugador-izquierda .info-jugador {
-  margin: 0 auto;
-  padding: 2rem;
-  width: 90%;
-  display: block;
-}
-
-.jugador .contenedor-jugador-izquierda .datos {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  grid-template-columns: 1fr;
-  column-gap: 1rem;
-  text-align: center;
-}
-
-.jugador .contenedor-jugador-izquierda .datos .bandera {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.jugador .contenedor-jugador-izquierda .datos .bandera img {
-  width: 2rem;
-}
-
-@media (min-width: 769px) {
-  .jugador .contenedor-jugador-izquierda .datos .bandera img {
-    width: 5rem;
-  }
-}
-
-.jugador .contenedor-jugador-izquierda .datos .id {
-  margin-bottom: .6rem;
-  color: #376bf6;
-  text-transform: uppercase;
-  font-family: "Microgramma D", sans-serif !important;
-  background: linear-gradient(to right, #35ccff 0%, #005fc3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.jugador .contenedor-jugador-izquierda .datos .separacion.vert {
-  padding: 10px;
-  background-color: #f7f7f7;
-}
-
-.jugador .contenedor-jugador-izquierda .datos .nombre {
-  text-transform: uppercase;
-}
-
-.jugador .contenedor-jugador-izquierda .datos .nombre span {
-  font-family: "Microgramma D", sans-serif !important;
-  background: linear-gradient(to right, #35ccff 0%, #005fc3 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.jugador .contenedor-jugador-izquierda .separacion {
-  margin: 1rem;
-}
-
-.jugador .contenedor-jugador-izquierda .estadisticas {
-  text-align: center;
-}
-
-.jugador .contenedor-jugador-izquierda .texto {
-  text-transform: uppercase;
-  padding: 2rem;
-}
-
-.jugador .contenedor-jugador-izquierda .texto__temporada {
-  padding-bottom: 2rem;
-  color: #c7c7c7;
-}
-
-.jugador .contenedor-jugador-izquierda .campeones {
-  text-align: center;
-}
-
-.jugador .contenedor-jugador-izquierda .campeon {
-  display: grid;
-  justify-content: center;
-  row-gap: 1rem;
-  font-size: 1rem;
-}
-
-.jugador .contenedor-jugador-izquierda .campeon .campeon__datos {
-  display: grid;
-  text-align: left;
-  font-size: 1.4rem;
-  letter-spacing: 1px;
-}
-
-.jugador .contenedor-jugador-izquierda .campeones__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around;
-  margin: 0 auto;
-  font-family: "Helvetica", sans-serif !important;
-  font-size: 1rem;
-  padding-left: 2rem;
-}
-
-.jugador .contenedor-jugador-izquierda .campeones__grid span {
-  font-family: "Microgramma D", sans-serif !important;
-  color: #0066f3;
-}
-
-.jugador-1 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-image: url("../../img/teams/sunblastfondo-min.png");
-}
-
-@media (min-width: 769px) {
-  .jugador-1 {
-    background-image: url("../../img/teams/sunblastfondo.png");
-  }
-}
-
-@media (min-width: 1200px) {
-  .jugador-1 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-}
-
-@media (min-width: 1450px) {
-  .jugador-1 {
-    background-size: cover;
-    background-position: center center;
-  }
-}
-
-.jugador-3 {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-image: url("../../img/teams/brucerfondo-min.png");
-}
-
-@media (min-width: 769px) {
-  .jugador-3 {
-    background-image: url("../../img/teams/brucerfondo.png");
-  }
-}
-
-.jugador-2 {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-image: url("../../img/teams/luskkafondo-min.png");
-}
-
-@media (min-width: 769px) {
-  .jugador-2 {
-    background-image: url("../../img/teams/luskkafondo.png");
-  }
-}
-
-.jugador-4 {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-image: url("../../img/teams/shmebufondo-min.png");
-}
-
-@media (min-width: 769px) {
-  .jugador-4 {
-    background-image: url("../../img/teams/shmebufondo.png");
-  }
-}
-
-.jugador-5 {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-image: url("../../img/teams/kingfondo-min.png");
-}
-
-@media (min-width: 769px) {
-  .jugador-5 {
-    background-image: url("../../img/teams/kingfondo.png");
-  }
-}
-
-.contenedor-jugador-derecha img {
-  width: 5rem;
-}
-
-@media (min-width: 769px) {
-  .contenedor-jugador-derecha img {
-    width: 10rem;
-  }
-}
-
-.contenedor-jugador-izquierda img {
-  width: 5rem;
-}
-
-@media (min-width: 769px) {
-  .contenedor-jugador-izquierda img {
-    width: 10rem;
-  }
 }
 
 .fondo-valorant {
@@ -2685,6 +2252,430 @@ h3 {
 }
 
 .roster .nombre__jugador {
+  font-size: smaller;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jugador__valorant--1 {
+  background-image: url("../../img/teams/valorant/fondoKNZY2.png");
+  position: relative;
+  background-size: cover;
+  min-height: 50rem;
+}
+
+.jugador__valorant--2 {
+  background-image: url("../../img/teams/valorant/fondoBULLZ2.png");
+  position: relative;
+  background-size: cover;
+  min-height: 50rem;
+}
+
+.jugador__valorant--3 {
+  background-image: url("../../img/teams/valorant/fondoSAFIRO2.png");
+  position: relative;
+  background-size: cover;
+  min-height: 50rem;
+}
+
+.jugador__valorant--4 {
+  background-image: url("../../img/teams/valorant/fondoKATAX2.png");
+  position: relative;
+  background-size: cover;
+  min-height: 50rem;
+}
+
+.jugador__valorant--5 {
+  background-image: url("../../img/teams/valorant/fondoKARDASH2.png");
+  position: relative;
+  background-size: cover;
+  min-height: 50rem;
+}
+
+.jugadores__valorant {
+  background-color: #09112b;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.jugador__valorant {
+  min-width: 100%;
+  min-height: 50vh;
+  background-color: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 2rem;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+@media (min-width: 769px) {
+  .jugador__valorant {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jugador__valorant {
+    min-height: 50vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1450px) {
+  .jugador__valorant {
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+.jugador__valorant .jugador__render img {
+  position: absolute;
+  vertical-align: middle;
+  left: 10%;
+  width: 15rem;
+  transition: width .6s;
+}
+
+@media (min-width: 769px) {
+  .jugador__valorant .jugador__render img {
+    position: absolute;
+    left: 10%;
+    width: 20rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .jugador__valorant .jugador__render img {
+    position: absolute;
+    bottom: 20rem;
+    left: 10%;
+    width: 30rem;
+  }
+}
+
+.jugador__valorant--cuadro {
+  float: right;
+  position: absolute;
+  top: 12rem;
+  right: 12rem;
+  color: #8a8a8a;
+  width: 90rem;
+  background: rgba(63, 63, 63, 0.65);
+  -webkit-box-shadow: 6px 7px 14px -6px rgba(0, 0, 0, 0.79);
+  box-shadow: 6px 7px 14px -6px rgba(0, 0, 0, 0.79);
+  padding: 3rem;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--top {
+  display: grid;
+  grid-template-columns: 7fr 4fr;
+  column-gap: 3rem;
+  row-gap: 4rem;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--bottom {
+  display: grid;
+  grid-template-columns: 7fr 4fr;
+  padding: 4rem 2rem 2rem 2rem;
+  column-gap: 3rem;
+  row-gap: 4rem;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--pjs {
+  display: flex;
+  column-gap: 1rem;
+  margin: 0 auto;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--pjs img {
+  max-width: 8rem;
+  padding: .4rem;
+  transition: transform .4s;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--pjs img:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--camiseta {
+  margin: 0 auto;
+  max-height: 15rem;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--camiseta img {
+  max-height: 24rem;
+  margin-top: -9rem;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--camiseta img:hover {
+  filter: blur(1px);
+  cursor: pointer;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--id {
+  display: grid;
+  font-weight: bolder;
+  font-size: 6rem;
+  color: #252525;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--nombre {
+  display: grid;
+  font-weight: lighter;
+  font-size: 4rem;
+  color: #f0f0f0;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--nacionalidad {
+  display: grid;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #dadada;
+  padding-bottom: 2rem;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--stats {
+  margin: 0 auto;
+  color: #ffde83;
+}
+
+.jugador__valorant--cuadro .jugador__valorant--stats .jugador__valorant--temporada {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.fondo-valorant {
+  background-image: url("../../img/teams/valorant/fondo.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.roster-lol {
+  background-image: url("../../img/teams/lol-arg/ROSTERlol.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.roster-lol .roster__lol {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 13rem;
+  width: 95px;
+  margin: 0 auto;
+  padding-top: 5rem;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+
+@media (min-width: 860px) {
+  .roster-lol .roster__lol {
+    column-gap: 4rem;
+  }
+  .roster-lol .roster__lol img {
+    max-width: 12rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .roster-lol .roster__lol {
+    column-gap: 6rem;
+  }
+  .roster-lol .roster__lol img {
+    max-width: 15rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .roster-lol .roster__lol {
+    column-gap: 9rem;
+  }
+  .roster-lol .roster__lol img {
+    max-width: 20rem;
+  }
+}
+
+.roster-lol .roster__lol .roster__valorant--juego {
+  display: flex;
+  column-gap: 5rem;
+  max-width: 10rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.roster-lol .roster__lol .roster__valorant--juego img {
+  max-width: 13rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 860px) {
+  .roster-lol .roster__lol .roster__valorant--juego {
+    column-gap: 4rem;
+  }
+  .roster-lol .roster__lol .roster__valorant--juego img {
+    margin-bottom: 1rem;
+    max-width: 12rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .roster-lol .roster__lol .roster__valorant--juego {
+    column-gap: 6rem;
+  }
+  .roster-lol .roster__lol .roster__valorant--juego img {
+    max-width: 15rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .roster-lol .roster__lol .roster__valorant--juego {
+    column-gap: 9rem;
+  }
+  .roster-lol .roster__lol .roster__valorant--juego img {
+    max-width: 20rem;
+  }
+}
+
+.roster-lol .roster__lol .roster__valorant--staff {
+  display: flex;
+  column-gap: 5rem;
+  max-width: 10rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.roster-lol .roster__lol .roster__valorant--staff img {
+  max-width: 13rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 860px) {
+  .roster-lol .roster__lol .roster__valorant--staff {
+    column-gap: 4rem;
+  }
+  .roster-lol .roster__lol .roster__valorant--staff img {
+    margin-bottom: 1rem;
+    max-width: 12rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .roster-lol .roster__lol .roster__valorant--staff {
+    column-gap: 6rem;
+  }
+  .roster-lol .roster__lol .roster__valorant--staff img {
+    max-width: 15rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .roster-lol .roster__lol .roster__valorant--staff {
+    column-gap: 9rem;
+  }
+  .roster-lol .roster__lol .roster__valorant--staff img {
+    max-width: 20rem;
+  }
+}
+
+.roster-lol .roster__lol .roster__valorant--jugadores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  column-gap: 1rem;
+  row-gap: 3rem;
+  color: white;
+  transition: column-gap .6s;
+  transition: max-width .6s;
+  margin: 0 auto;
+}
+
+.roster-lol .roster__lol .roster__valorant--jugadores img {
+  max-width: 20rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 860px) {
+  .roster-lol .roster__lol .roster__valorant--jugadores {
+    column-gap: 4rem;
+    justify-content: space-around;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .roster-lol .roster__lol .roster__valorant--jugadores img {
+    max-width: 12rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .roster-lol .roster__lol .roster__valorant--jugadores {
+    column-gap: 6rem;
+    justify-content: space-around;
+  }
+  .roster-lol .roster__lol .roster__valorant--jugadores img {
+    max-width: 15rem;
+  }
+}
+
+@media (min-width: 1450px) {
+  .roster-lol .roster__lol .roster__valorant--jugadores {
+    column-gap: 9rem;
+  }
+  .roster-lol .roster__lol .roster__valorant--jugadores img {
+    max-width: 20rem;
+  }
+}
+
+.roster-lol .roster__lol .roster__valorant--jugador {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  color: white;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.roster-lol .roster__lol .roster__valorant--jugador a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.roster-lol .roster__lol .roster__valorant--jugador img {
+  filter: grayscale(100%);
+}
+
+.roster-lol .roster__lol .roster__valorant--jugador:hover img {
+  filter: grayscale(0%);
+  transition: filter .6s;
+}
+
+.roster-lol .id__jugador {
+  font-size: 1.5rem;
+  background: -webkit-linear-gradient(#68b7fd, #4c6cf2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 1450px) {
+  .roster-lol .id__jugador {
+    font-size: 2rem;
+  }
+}
+
+.roster-lol .nombre__jugador {
   font-size: smaller;
   font-weight: bold;
   text-align: center;
