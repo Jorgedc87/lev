@@ -49,7 +49,7 @@
     <div class="separacion"></div>
 
     <section class="noticias wow">
-        <div class="sponsors wow">
+        <div class="sponsors wow animate__animated animate__fadeInUp">
             <div class="logos-sponsors">
                 <img src="img/sponsors/cultura-geek.png" alt="cultura geek" class="wow animate__animated animate__fadeInUp img__sponsor" data-wow-delay="400ms">
                 <img src="img/teams/valorant/separacion.png" alt="separacion logo" class="img__sep">
@@ -155,7 +155,7 @@
                     <p>Capitulo 2. Road to Glory</p>
                 </div>
                 <div class="descripcion__lev">
-                    <p>El equipo Leviatán obtiene la Copa LVP Master Flow en su primer bla bla bla bla #BeLeviatan</p> 
+                    <p>Nuestro equipo de League of Legends tiene el último desafío: La final ante River Plate por la Liga Master Flow</p> 
                 </div>
                 
                 <div class="reproducir__lev">
