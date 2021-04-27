@@ -36,7 +36,7 @@
         </div>        
     </section>
 
-    <div class="separacion"></div>
+    <!-- <div class="separacion"></div>
 
     <section class="sponsors wow">
         <div class="logos-sponsors">
@@ -44,32 +44,42 @@
             <img src="img/sponsors/aftech2.png" alt="aftech" class="wow animate__animated animate__fadeInUp" data-wow-delay="700ms">
             <img src="img/sponsors/iRobot-sponsor.png" alt="iRobot" class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
         </div>
-    </section>
+    </section> -->
 
     <div class="separacion"></div>
 
     <section class="noticias wow">
+        <div class="sponsors wow">
+            <div class="logos-sponsors">
+                <img src="img/sponsors/cultura-geek.png" alt="cultura geek" class="wow animate__animated animate__fadeInUp img__sponsor" data-wow-delay="400ms">
+                <img src="img/teams/valorant/separacion.png" alt="separacion logo" class="img__sep">
+                <img src="img/sponsors/aftech2.png" alt="aftech" class="wow animate__animated animate__fadeInUp img__sponsor" data-wow-delay="700ms">
+                <img src="img/teams/valorant/separacion.png" alt="separacion logo" class="img__sep">
+                <img src="img/sponsors/iRobot-sponsor.png" alt="iRobot" class="wow animate__animated animate__fadeInUp img__sponsor" data-wow-delay="500ms">
+            </div>
+        </div>
         <div class="overlayNoticias"></div>
         <div class="contenido-noticias">
-            <h3>Últimas <b>noticias</b></h3>
-            <p>Conocé los últimos acontecimientos y novedades de Leviatan</p>
-
-            <div class="not-prin">
-                <div class="noticia-principal">
-                    <a href="#">
-                        <img src="img/noticias/Noticia-1.jpg" alt="" class="imagen-noticia-principal">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-principal">
-                        <b>BIENVENIDO MAHER</b>
-                        </div>
-                        <div class="descripcion-noticia-principal">
-                            Presentamos a nuestro nuevo streamer directamente desde Brasil.
-                        </div>
-                    </div>
-                    </a>
-                </div>
+            <div class="titulo__novedades">
+                <span>Novedades</span>
             </div>
+            <!-- <p>Conocé los últimos acontecimientos y novedades de Leviatan</p> -->
+
             <div class="noticias-secundarias">
+                <div class="noticia-secundaria">
+                    <a href="#"><img src="img/noticias/Noticia-2-Media-Day.jpg" alt="" class="imagen-noticia-secundaria">
+                    <div class="bloque-texto">
+                        <div class="titulo-noticia-secundaria">
+                            <b>NOTICIA</b>
+                        </div>
+                        <div class="descripcion-noticia-secundaria">
+                            Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                        </div>
+                        <div class="fecha-noticia-secundaria">
+                            27 de Abril, 2021
+                        </div>
+                    </div></a> 
+                </div>
                 <div class="noticia-secundaria">
                     <a href="#"><img src="img/noticias/Noticia-2-Media-Day.jpg" alt="" class="imagen-noticia-secundaria">
                     <div class="bloque-texto">
