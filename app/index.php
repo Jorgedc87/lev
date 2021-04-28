@@ -194,9 +194,9 @@
 
          <div class="imgOverlay">
          <!-- <img src="img/shop/shopIndex.jpg" alt=""> -->
-            <div class="cuadro">
-                <div class="producto__lev wow animate__animated animate__fadeInUp" data-wow-delay="300ms">
-                    <img src="img/shop/camisetaIndex.png" alt="">
+            <div class="contenedor__default cuadro">
+                <div class="producto__lev">
+                    <img class="wow animate__animated animate__fadeInUp" data-wow-delay="700ms" src="img/shop/camisetaIndex.png" alt="">
                 </div>
                 <div class="cuadro__comprar">
                     <div class="episodio__lev">
