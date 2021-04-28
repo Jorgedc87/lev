@@ -60,7 +60,7 @@
         </div>
         <div class="overlayNoticias"></div>
         <div class="contenido-noticias">
-            <div class="titulo__novedades">
+            <div class="titulos">
                 <span>Novedades</span>
             </div>
             <!-- <p>Conocé los últimos acontecimientos y novedades de Leviatan</p> -->
@@ -173,66 +173,55 @@
 
     <div class="separacion"></div>
 
-    <section class="shop wow">
-        <div class="contenedor shop">
-            <h3>Nuestra <b>Tienda</b></h3>
-            <p>Vestite como nosotros. #BeLeviatán</p>
-            <div class="productos-superior">
-                <div class="producto-principal buzo1">
-                <a href="#"><img src="img/shop/buzo1.png" alt="buzo1"></a>
-                </div>
-                <div class="productos-secundarios">
-                    <div class="producto-secundario buzo2">
-                    <a href="#"><img src="img/shop/buzo2.png" alt="buzo2"></a>
-                    </div>
-                    <div class="producto-secundario buzo4">
-                    <a href="#"><img src="img/shop/buzo4.png" alt="buzo4"></a>
-                    </div>
-                    <div class="producto-secundario buzo3">
-                    <a href="#"><img src="img/shop/buzo3.png" alt="buzo3"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="productos-slider">
-                <div class="producto-slider">
-                <a href="#"><img src="img/shop/LEV-Chomba.png" alt="chomba">
-                    <div class="bloque-texto">
-                        <div class="nombre">Chomba Leviatan</div>
-                        <div class="precio">$1300</div>
-                    </div></a>
-                </div>
-                <div class="producto-slider">
-                    <a href="#"><img src="img/shop/LEV-Jacket_Front.png" alt="jacket" class="zoomimg">
-                    <div class="bloque-texto">
-                        <div class="nombre">Jacket Leviatan</div>
-                        <div class="precio">$1800</div>
-                    </div></a>
-                </div>
-                <div class="producto-slider">
-                <a href="#"><img src="img/shop/LEV-Jersey_Front.png" alt="jersey">
-                    <div class="bloque-texto">
-                        <div class="nombre">Jersey Leviatan</div>
-                        <div class="precio">$1000</div>
-                    </div></a>
-                </div>
-            </div>
+    <section class="equipos contenedor__default">
+        <div class="titulos">
+            <span>Equipos</span>
+        </div>
+
+        <div class="botones">
+            <div class="">asd</div>
+            <div class="">asd</div>
+            <div class="">asd</div>
+            <div class="">asd</div>
+            <div class="">asd</div>
+            <div class="">asd</div>
         </div>
     </section>
 
     <div class="separacion"></div>
 
-    <section class="equipos">
-        <h3>esports <b>Leviatán</b></h3>
-        <p>Conocé a nuestra familia.</p>
+    <section class="shop wow">
 
-        <div class="botones">
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="500ms"><a href="team-freefire.php"><img src="img/Juegos LEVIATAN/freefire.png" alt="free fire logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="550ms"><a href="team-csgo.php"><img src="img/Juegos LEVIATAN/csgo.png" alt="csgo logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="450ms"><a href="team-lol.php"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="550ms"><a href="team-valorant.php"><img src="img/Juegos LEVIATAN/valorant.png" alt="valorant logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="350ms"><a href="#"><img src="img/Juegos LEVIATAN/staff.png" alt="staff logo" class="img-teams"></a></div>
+         <div class="imgOverlay">
+         <!-- <img src="img/shop/shopIndex.jpg" alt=""> -->
+            <div class="cuadro">
+                <div class="producto__lev wow animate__animated animate__fadeInUp" data-wow-delay="300ms">
+                    <img src="img/shop/camisetaIndex.png" alt="">
+                </div>
+                <div class="cuadro__comprar">
+                    <div class="episodio__lev">
+                        <div class="cuadro__producto">
+                            <span class="wow animate__animated animate__fadeInRight" data-wow-delay="200ms">JERSEY</span>
+                            <span class="wow animate__animated animate__fadeInRight" data-wow-delay="250ms">Pro Gaming</span>
+                        </div>
+                    </div>
+                    <div class="descripcion__lev wow animate__animated animate__fadeInRight" data-wow-delay="300ms">
+                        <p>Ya disponible en la tienda. <br> Lleva la piel de Leviatan</p> 
+                    </div>
+                    <div class="comprar__lev">
+                        <a href="#"><p class="wow animate__animated animate__fadeInRight" data-wow-delay="500ms"><b>Comprar YA</b></p></a>
+                        <img src="img/shop/tarjetas_credito.png" alt="" class="wow animate__animated animate__fadeInRight" data-wow-delay="600ms">
+                        <span class="wow animate__animated animate__fadeInRight" data-wow-delay="700ms">* Envío gratis</span>
+                    </div>
+                    
+                </div
+            </div>
+
         </div>
+        
     </section>
+
+    
 
     <div class="separacion"></div>
 
