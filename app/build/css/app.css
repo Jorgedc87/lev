@@ -1069,7 +1069,7 @@ h3 {
 }
 
 .documental .cuadro .reproducir__lev p {
-  background: linear-gradient(144deg, #2c60a2 0%, #5eb9d0 100%);
+  background: linear-gradient(144deg, #0470DC 0%, #13F1FC 100%);
   border-radius: 1rem;
   padding: 2rem;
   font-size: 2rem;
@@ -1078,7 +1078,8 @@ h3 {
 }
 
 .documental .cuadro .reproducir__lev p:hover {
-  filter: saturate(4);
+  background: linear-gradient(144deg, #2c60a2 0%, #5eb9d0 100%);
+  filter: invert(100%);
   transition: filter .5s;
 }
 
@@ -1620,7 +1621,8 @@ h3 {
 }
 
 .shop .imgOverlay .cuadro .comprar__lev p:hover {
-  filter: saturate(4);
+  background: linear-gradient(144deg, #2c60a2 0%, #5eb9d0 100%);
+  filter: invert(100%);
   transition: filter .5s;
 }
 

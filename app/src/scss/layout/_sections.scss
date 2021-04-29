@@ -203,7 +203,7 @@ h3{
             display:flex;
 
             p{
-                background: linear-gradient(144deg, rgba(44,96,162,1) 0%, rgba(94,185,208,1) 100%);
+                background: linear-gradient(144deg, #0470DC 0%, #13F1FC 100%);
                 border-radius: 1rem;
                 padding: 2rem;
                 font-size: 2rem;
@@ -213,7 +213,8 @@ h3{
                 
 
                 &:hover{
-                    filter:saturate(4);
+                    background: linear-gradient(144deg, rgba(44,96,162,1) 0%, rgba(94,185,208,1) 100%);
+                    filter:invert(100%);
                     transition: filter .5s;
                 }
             }
@@ -752,7 +753,8 @@ h3{
                         // padding-top: 0;
         
                         &:hover{
-                            filter:saturate(4);
+                            background: linear-gradient(144deg, rgba(44,96,162,1) 0%, rgba(94,185,208,1) 100%);
+                            filter:invert(100%);
                             transition: filter .5s;
                         }
                     }

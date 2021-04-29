@@ -66,7 +66,7 @@
             <!-- <p>Conocé los últimos acontecimientos y novedades de Leviatan</p> -->
 
             <div class="noticias-secundarias">
-                <div class="noticia-secundaria">
+                <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="600ms">
                     <a href="#">
                         <div class="fondo__noticia1">
                             <div class="bloque-texto">
@@ -83,7 +83,7 @@
                         </div> 
                     </a>                   
                 </div>
-                <div class="noticia-secundaria">
+                <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="500ms">
                     <a href="#">
                         <div class="fondo__noticia2">
                             <div class="bloque-texto">
@@ -100,7 +100,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="noticia-secundaria">
+                <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="400ms">
                     <a href="#">
                         <div class="fondo__noticia3">
                             <div class="bloque-texto">
@@ -117,7 +117,7 @@
                         </div>
                     </a>    
                 </div>
-                <div class="noticia-secundaria">
+                <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="300ms">
                     <a href="#">
                         <div class="fondo__noticia4">
                             <div class="bloque-texto">
@@ -179,10 +179,10 @@
         </div>
 
         <div class="botones">
-            <div class="boton__equipo"><a href="team-lol.php"><img src="img/LOL.jpg" alt="lol"></a></div>
-            <div class="boton__equipo"><a href="team-csgo.php"><img src="img/CSGO.jpg" alt="csgo"></a></div>
-            <div class="boton__equipo"><a href="team-valorant.php"><img src="img/VAL.jpg" alt="valorant"></a></div>
-            <div class="boton__equipo"><a href="#"><img src="img/R6.jpg" alt="rainbow six"></a></div>
+            <div class="boton__equipo animate__animated animate__fadeInLeft wow" data-wow-delay="200ms"><a href="team-lol.php"><img src="img/LOL.jpg" alt="lol"></a></div>
+            <div class="boton__equipo animate__animated animate__fadeInRight wow" data-wow-delay="300ms"><a href="team-csgo.php"><img src="img/CSGO.jpg" alt="csgo"></a></div>
+            <div class="boton__equipo animate__animated animate__fadeInLeft wow" data-wow-delay="400ms"><a href="team-valorant.php"><img src="img/VAL.jpg" alt="valorant"></a></div>
+            <div class="boton__equipo animate__animated animate__fadeInRight wow" data-wow-delay="500ms"><a href="#"><img src="img/R6.jpg" alt="rainbow six"></a></div>
         </div>
     </section>
 
