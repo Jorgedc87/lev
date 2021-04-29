@@ -179,12 +179,10 @@
         </div>
 
         <div class="botones">
-            <div class="">asd</div>
-            <div class="">asd</div>
-            <div class="">asd</div>
-            <div class="">asd</div>
-            <div class="">asd</div>
-            <div class="">asd</div>
+            <div class="boton__equipo"><a href="team-lol.php"><img src="img/LOL.jpg" alt="lol"></a></div>
+            <div class="boton__equipo"><a href="team-csgo.php"><img src="img/CSGO.jpg" alt="csgo"></a></div>
+            <div class="boton__equipo"><a href="team-valorant.php"><img src="img/VAL.jpg" alt="valorant"></a></div>
+            <div class="boton__equipo"><a href="#"><img src="img/R6.jpg" alt="rainbow six"></a></div>
         </div>
     </section>
 

@@ -1003,7 +1003,7 @@ h3 {
 
 .documental video {
   position: relative;
-  height: auto;
+  height: 100%;
   width: 100%;
   overflow: hidden;
 }
@@ -1628,28 +1628,43 @@ h3 {
   text-align: center;
   justify-content: center;
   color: #f7f7f7;
-  padding-top: 5rem;
-}
-
-.equipos p {
-  color: #f7f7f7;
-  padding-bottom: 2rem;
-}
-
-.equipos img {
-  width: 8rem;
-}
-
-@media (min-width: 769px) {
-  .equipos img {
-    width: 10rem;
-  }
+  padding: 5rem 0 5rem 0;
 }
 
 .equipos .botones {
   padding-top: 5rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.equipos .botones .boton__equipo {
+  border: 3px solid #262952;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: border-image 1.5s;
+}
+
+.equipos .botones .boton__equipo:hover {
+  position: relative;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to bottom right, #475276, #09112b, #09112b, #09112b, #1fa7c8) 1;
+  border-radius: 5px;
+}
+
+.equipos .botones .boton__equipo:hover::after {
+  position: absolute;
+  border-radius: 5px;
+}
+
+.equipos .botones img {
+  filter: grayscale(0.9);
+}
+
+.equipos .botones img:hover {
+  filter: grayscale(0);
+  transition: filter 1s;
 }
 
 .equipos .img-teams {

@@ -138,7 +138,8 @@ h3{
 
     video{
         position: relative;
-        height: auto;
+        
+        height: 100%;
         width: 100%;
         overflow: hidden;
 
@@ -209,6 +210,7 @@ h3{
                 font-weight: 900;
                 font-family: $fuenteSecundaria;
                 // padding-top: 0;
+                
 
                 &:hover{
                     filter:saturate(4);
@@ -768,21 +770,8 @@ h3{
     justify-content: center;
     // background-color: $fondoOscuro;
     color: $blanco;
-    padding-top: 5rem;
+    padding: 5rem 0 5rem 0;
 
-    p{
-        color: $blanco;
-        padding-bottom: 2rem;
-    }
-
-
-    img{
-        width: 8rem;
-
-        @include tablet{
-            width: 10rem;
-        }
-    }
     
 
     .botones{
@@ -790,6 +779,41 @@ h3{
         padding-top: 5rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
+
+        .boton__equipo{
+            border: 3px solid #262952;
+            border-radius: 2px;
+            overflow: hidden;
+            transition: border-image 1.5s;
+            
+
+            &:hover{
+                position: relative;
+                border: 3px solid transparent;
+                border-image: linear-gradient(to bottom right, #475276,#09112b,#09112b,#09112b, #1fa7c8) 1;
+                border-radius: 5px;
+
+                &::after{
+                    position: absolute;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        img{
+            
+            filter: grayscale(.9);
+            
+            
+
+            &:hover{
+                filter: grayscale(0);
+                transition: filter 1s;
+            }
+        }
+        
 
     }
 
