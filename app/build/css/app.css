@@ -487,7 +487,7 @@ h4 {
 }
 
 .separacion {
-  height: .2rem;
+  height: .4rem;
   background: linear-gradient(to right, #03b7ff, #376bf6);
 }
 
@@ -1598,6 +1598,68 @@ h3 {
   display: grid;
   row-gap: 1rem;
   justify-content: flex-end;
+}
+
+.shop .imgOverlay .cuadro .comprar__lev button {
+  background: #333;
+  color: #ccc;
+  width: 200px;
+  height: 60px;
+  border: 0;
+  font-size: 18px;
+  border-radius: 4px;
+  font-family: 'Raleway', sans-serif;
+  transition: .6s;
+  overflow: hidden;
+}
+
+.shop .imgOverlay .cuadro .comprar__lev button:focus {
+  outline: 0;
+}
+
+.shop .imgOverlay .cuadro .comprar__lev button:before {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  width: 60px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: .5;
+  filter: blur(30px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+
+.shop .imgOverlay .cuadro .comprar__lev button:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  width: 30px;
+  height: 100%;
+  left: 30px;
+  top: 0;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100px) skewX(-15deg);
+}
+
+.shop .imgOverlay .cuadro .comprar__lev button:hover {
+  background: #338033;
+  cursor: pointer;
+}
+
+.shop .imgOverlay .cuadro .comprar__lev button:hover:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  transition: .7s;
+}
+
+.shop .imgOverlay .cuadro .comprar__lev button:hover:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: .7s;
 }
 
 .shop .imgOverlay .cuadro .comprar__lev img {
