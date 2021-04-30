@@ -21,82 +21,55 @@
         <div class="nav-prin"><?php include('includes/menu-top.php')?></div>
         <div class="nav-prin"><?php include('includes/side-menu.php')?></div>
     </header>
-
-    <section class="">
-        <div class="">
-            <img src="img/teams/Players-Top.jpg" alt="" width="100%">
-        </div>
-        
-    </section>
     
 
-    <div class="separacion"></div>
-
-    <section class="jugador jugador-1">
-
-        <div class="jugador-borde">
-            <div class="contenedor-jugador-derecha">
-
-                <div class="info-jugador">
-                    <div class="datos">
-                        <div class="bandera"><img src="img/teams/pais/argentina.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">Sunblast</div>
-                            <div class="nombre">Juan Manuel Chapacu - <span>TOP</span></div>    
-                        </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">34/28/75 - 3,9 KDA</div>
-                    </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Gnar.png" alt="gnar">
-                                <div class="campeon__datos">
-                                <div><span>Gnar</span></div>
-                                    <div>6 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>17/2/37
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Renekton.png" alt="renekton">
-                                <div class="campeon__datos">
-                                    <div><span>Renekton</span></div>
-                                    <div>6 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>17/2/37
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="campeon">
-                                <img src="img/teams/champs/Akali.png" alt="akali">
-                                <div class="campeon__datos">
-                                    <div><span>Akali</span></div>
-                                    <div>3 veces jugado</div>
-                                    <div>33.33% WR</div>
-                                    <div>7/7/7
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
+    <?php
+    if(!isset($_GET['jugador'])){
+        ?>
+        <section class="roster__go">
+        <div class="roster__valorant">
+            <div class="contenedor-teams roster__valorant--juego">
+                <div class="roster__csgo--game"><img src="img/teams/csgo/csgo.png" alt="csgo logo"></div>
+                <div class="roster__csgo--separacion"><img src="img/teams/valorant/separacion.png" alt="separacion logo"></div>
+                <div class="roster__csgo--rooster"><img src="img/teams/valorant/roster.png" alt="roster logo"></div>
+            </div>
+            <div class="contenedor-teams roster__valorant--jugadores">
+                <div class="roster__valorant--jugador">
+                    <a href="team-csgo.php?jugador=1">
+                    <img src="img/teams/valorant/face1.png" alt="jugador logo">
+                    <div class="id__jugador"><b>SH1PZ</b></div>
+                    </a>
                 </div>
-            
-
+                <div class="roster__valorant--jugador">
+                    <a href="team-csgo.php?jugador=2">
+                    <img src="img/teams/valorant/face2.png" alt="jugador logo">
+                    <div class="id__jugador"><b>LENCI</b></div>
+                    </a>        
+                </div>
+                <div class="roster__valorant--jugador">
+                    <a href="team-csgo.php?jugador=3">
+                    <img src="img/teams/valorant/face3.png" alt="jugador logo">
+                    <div class="id__jugador"><b>182</b></div>
+                    </a>        
+                </div>
+                <div class="roster__valorant--jugador">
+                    <a href="team-csgo.php?jugador=4"> 
+                    <img src="img/teams/valorant/face4.png" alt="jugador logo">
+                    <div class="id__jugador"><b>SHORT</b></div>
+                    </a>          
+                </div>
+                <div class="roster__valorant--jugador">
+                    <a href="team-csgo.php?jugador=5">
+                    <img src="img/teams/valorant/face5.png" alt="jugador logo">
+                    <div class="id__jugador"><b>L1N</b></div>
+                    <!-- <div class="nombre__jugador">BRIMSTONE</div> -->
+                    </a>
+                </div>
+            </div>
+            <div class="contenedor-teams roster__valorant--staff">
+                <div class="roster__valorant--game"><img src="img/teams/csgo/head.png" alt="head logo"></div>
+                <div class="roster__valorant--separacion"><img src="img/teams/valorant/logoleviatan.png" alt="leviatan logo"></div>
+                <div class="roster__valorant--rooster"><img src="img/teams/csgo/manager.png" alt="manager logo"></div>
             </div>
         </div>
         
@@ -104,275 +77,539 @@
 
     <div class="separacion"></div>
 
-    <section class="jugador jugador-2">
+    <section class="calendario">
+        <h3>PRÓXIMAS <b>COMPETENCIAS</b></h3>
+        <p>Podés alentarnos en las siguientes fechas:</p>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>MAR 2/3 - 21:00HS</span><br>VS River Plate Gaming</b></div>
+            <div class="vivo"></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/unity-league.png" alt="liga-master"></div>
+            <div class="rival"><b><span>MIE 3/3 - 21:00HS</span><br>VS Stone Esports</b></div>
+            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>JUE 4/3 - 23:00HS</span><br>VS Naguara</b></div>
+            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>VIE 5/3 - 23:50HS</span><br>VS Savage esports</b></div>
+            <div class="vivo"></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>MAR 2/3 - 21:00HS</span><br>VS River Plate Gaming</b></div>
+            <div class="vivo"></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/unity-league.png" alt="liga-master"></div>
+            <div class="rival"><b><span>MIE 3/3 - 21:00HS</span><br>VS Stone Esports</b></div>
+            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>JUE 4/3 - 23:00HS</span><br>VS Naguara</b></div>
+            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
+        </div>
+        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
+            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/valorant.png" alt="lol"></div>
+            <div class="separacion-vert"></div>
+            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
+            <div class="rival"><b><span>VIE 5/3 - 23:50HS</span><br>VS Savage esports</b></div>
+            <div class="vivo"></div>
+        </div>
+    </section>
+    <?php
+    }
+    
+    ?>
+    
 
-        <div class="contenedor-jugador-izquierda">
-            <div class="info-jugador">
-                <div class="datos">
-                        <div class="bandera"><img src="img/teams/pais/br.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">LUSKKA</div>
-                            <div class="nombre">Lucas Felipe Rentechen - <span>ADC</span></div>    
+    <!-- <div class="separacion"></div> -->
+
+    <?php
+
+    if(isset($_GET['jugador'])){
+        ?>
+            <div class="fondo-team fondo-valorant"></div>
+        <?php
+        $jugador = $_GET['jugador'];
+        switch($jugador){
+            case 1:
+
+            ?>
+            <section class="jugadores__valorant">
+                <div class="jugadores__contenedor">
+                    <div class="inner-header">
+                        <div class="jugador__inner jugador__valorant--1">
+                            <figure class="rounded">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
+                            </figure>
+                            <div class="jugador__detalle">
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
+                                    Jorge Calderón
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
+                                </span>
+                                
+                                <ul>
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
+                                        ganstaAHH87
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">28/20/110 - 6,9 KDA</div>
                     </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Kaisa.png" alt="Kaisa">
-                                <div class="campeon__datos">
-                                <div><span>Kaisa</span></div>
-                                    <div>6 veces jugado</div>
-                                    <div>50% WR</div>
-                                    <div>22/7/26
-                                    </div>
-                                
+                    <div class="inner-body">
+                        <div class="jugador__top">
+                            <div class="col col-izq detalle__izq">
+                                <ul>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="jugador__bottom">
+                            <div class="col col-izq textarea">
+                                <div class="text-head">
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
+                                    <ul class="jugador__rrss">
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
+                                    <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
                                 </div>
                             </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Xayah.png" alt="Xayah">
-                                <div class="campeon__datos">
-                                    <div><span>Xayah</span></div>
-                                    <div>3 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>25/3/19
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="campeon">
-                                <img src="img/teams/champs/MissFortune.png" alt="MissFortune">
-                                <div class="campeon__datos">
-                                    <div><span>Miss Fortune</span></div>
-                                    <div>2 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>11/2/7
-                                    </div>
-                                
-                                </div>
+                            <div class="col col-der">
+                                <ul class="stats">
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    
+                                    </li>
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    </li>
+                                    <!-- <li>
+                                    <img src="img/teams/valorant/pjs/astra.png" alt="astra">
+                                    </li> -->
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <div class="separacion"></div>
-
-    <section class="jugador jugador-3">
-
-        <div class="contenedor-jugador-derecha">
-
-        <div class="info-jugador">
-                    <div class="datos">
-                        <div class="bandera"><img src="img/teams/pais/br.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">BRUCER</div>
-                            <div class="nombre">Bruno Pereira de Souza - <span>MID</span></div>    
-                        </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">28/20/110 - 6,9 KDA</div>
-                    </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Viktor.png" alt="Viktor">
-                                <div class="campeon__datos">
-                                <div><span>Viktor</span></div>
-                                    <div>4 veces jugado</div>
-                                    <div>75% WR</div>
-                                    <div>16/6/29
-                                    </div>
+            </section>
+            <?php
+            break;
+            case 2:
+                ?>
+                <section class="jugadores__valorant">
+                <div class="jugadores__contenedor">
+                    <div class="inner-header">
+                        <div class="jugador__inner jugador__valorant--1">
+                            <figure class="rounded">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
+                            </figure>
+                            <div class="jugador__detalle">
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
+                                    Jorge Calderón
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
+                                </span>
                                 
-                                </div>
-                            </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Galio.png" alt="Galio">
-                                <div class="campeon__datos">
-                                    <div><span>Galio</span></div>
-                                    <div>4 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>7/3/46
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="campeon">
-                                <img src="img/teams/champs/Azir.png" alt="Azir">
-                                <div class="campeon__datos">
-                                    <div><span>Azir</span></div>
-                                    <div>3 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>4/1/7
-                                    </div>
-                                
-                                </div>
-                            </div>
+                                <ul>
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
+                                        ganstaAHH87
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-            
-        </div>
-        
-    </section>
-
-    <div class="separacion"></div>
-
-    <section class="jugador jugador-4">
-
-        <div class="contenedor-jugador-izquierda">
-            <div class="info-jugador">
-                <div class="datos">
-            
-                        <div class="bandera"><img src="img/teams/pais/argentina.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">Shmebu</div>
-                            <div class="nombre">Agustin tomas valetti - <span>Support</span></div>    
+                    <div class="inner-body">
+                        <div class="jugador__top">
+                            <div class="col col-izq detalle__izq">
+                                <ul>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
+                        <div class="jugador__bottom">
+                            <div class="col col-izq textarea">
+                                <div class="text-head">
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
+                                    <ul class="jugador__rrss">
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
 
-                        <div class="texto__temporada">12/29/131 - 4,9 KDA</div>
-                    </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Rakan.png" alt="RAKAN">
-                                <div class="campeon__datos">
-                                <div><span>Rakan</span></div>
-                                    <div>3 veces jugado</div>
-                                    <div>66,67% WR</div>
-                                    <div>1/8/37
-                                    </div>
-                                
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
+                                    <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
                                 </div>
                             </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Seraphine.png" alt="Seraphine">
-                                <div class="campeon__datos">
-                                    <div><span>Seraphine</span></div>
-                                    <div>2 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>1/0/19
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="campeon">
-                                <img src="img/teams/champs/Nautilus.png" alt="Nautilus">
-                                <div class="campeon__datos">
-                                    <div><span>Nautilus</span></div>
-                                    <div>2 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>4/0/13
-                                    </div>
-                                
-                                </div>
-                            </div>
+                            <div class="col col-der">
+                                <ul class="stats">
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    
+                                    </li>
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    </li>
+                                    <!-- <li>
+                                    <img src="img/teams/valorant/pjs/astra.png" alt="astra">
+                                    </li> -->
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <div class="separacion"></div>
-
-    <section class="jugador jugador-5">
-        <div class="contenedor-jugador-derecha">
-            <div class="info-jugador">
-                <div class="datos">
-                        <div class="bandera"><img src="img/teams/pais/argentina.png" alt="argentina"></div>
-                        <div class="idNombrePoss">
-                            <div class="id">KING</div>
-                            <div class="nombre">Tomás Ignacio Bordón - <span>JUNGLER</span></div>    
+            </section>
+                <?php
+            break;
+            case 3:
+                ?>
+                <section class="jugadores__valorant">
+                <div class="jugadores__contenedor">
+                    <div class="inner-header">
+                        <div class="jugador__inner jugador__valorant--1">
+                            <figure class="rounded">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
+                            </figure>
+                            <div class="jugador__detalle">
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
+                                    Jorge Calderón
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
+                                </span>
+                                
+                                <ul>
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
+                                        ganstaAHH87
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        
-                        
-                     </div>
-                     <div class="separacion"></div>
-                    <div class="estadisticas">
-                        <div class="texto"><b>Temporada</b></div>
-
-                        <div class="texto__temporada">49/36/73 - 3,4 KDA</div>
                     </div>
-                    <div class="separacion"></div>
-                    <div class="campeones">
-                        <div class="texto"><b>Campeones más usados</b></div>
-                        <div class="campeones__grid">
-                            <div class="campeon">
-                                <img src="img/teams/champs/Olaf.png" alt="Olaf">
-                                <div class="campeon__datos">
-                                <div><span>Olaf</span></div>
-                                    <div>6 veces jugado</div>
-                                    <div>100% WR</div>
-                                    <div>22/9/24
-                                    </div>
-                                
+                    <div class="inner-body">
+                        <div class="jugador__top">
+                            <div class="col col-izq detalle__izq">
+                                <ul>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="jugador__bottom">
+                            <div class="col col-izq textarea">
+                                <div class="text-head">
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
+                                    <ul class="jugador__rrss">
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
+                                    <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
                                 </div>
                             </div>
-                            <div class="campeon">
-                                <img src="img/teams/champs/Hecarim.png" alt="Hecarim">
-                                <div class="campeon__datos">
-                                    <div><span>Hecarim</span></div>
-                                    <div>4 veces jugado</div>
-                                    <div>75% WR</div>
-                                    <div>12/12/34
-                                    </div>
-                                
-                                </div>
-                            </div>
-                            
-                            <div class="campeon">
-                                <img src="img/teams/champs/Kindred.png" alt="Kindred">
-                                <div class="campeon__datos">
-                                    <div><span>Kindred</span></div>
-                                    <div>1 veces jugado</div>
-                                    <div>0% WR</div>
-                                    <div>0/5/4
-                                    </div>
-                                
-                                </div>
-                            </div>
+                            <div class="col col-der">
+                                <ul class="stats">
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    
+                                    </li>
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    </li>
+                                    <!-- <li>
+                                    <img src="img/teams/valorant/pjs/astra.png" alt="astra">
+                                    </li> -->
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-    </section>
+            </section>
+                <?php
+            break;
+            case 4:
+                ?>
+                <section class="jugadores__valorant">
+                <div class="jugadores__contenedor">
+                    <div class="inner-header">
+                        <div class="jugador__inner jugador__valorant--1">
+                            <figure class="rounded">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
+                            </figure>
+                            <div class="jugador__detalle">
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
+                                    Jorge Calderón
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
+                                </span>
+                                
+                                <ul>
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
+                                        ganstaAHH87
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-body">
+                        <div class="jugador__top">
+                            <div class="col col-izq detalle__izq">
+                                <ul>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="jugador__bottom">
+                            <div class="col col-izq textarea">
+                                <div class="text-head">
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
+                                    <ul class="jugador__rrss">
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
+                                    <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
+                                </div>
+                            </div>
+                            <div class="col col-der">
+                                <ul class="stats">
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    
+                                    </li>
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    </li>
+                                    <!-- <li>
+                                    <img src="img/teams/valorant/pjs/astra.png" alt="astra">
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                <?php
+            break;
+            case 5:
+                ?>
+                <section class="jugadores__valorant">
+                <div class="jugadores__contenedor">
+                    <div class="inner-header">
+                        <div class="jugador__inner jugador__valorant--1">
+                            <figure class="rounded">
+                                <img src="img/teams/valorant/KNZYrender.png" alt="knzy render" class="animate__animated animate__fadeInLeft wow" data-wow-delay="350ms">
+                            </figure>
+                            <div class="jugador__detalle">
+                                <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
+                                    Jorge Calderón
+                                    <img src="img/teams/pais/argentina.png" alt="argentina bandera" style="width: 3rem; height: 1.8rem" class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms">
+                                </span>
+                                
+                                <ul>
+                                    <li style="margin-left: -2rem" class="animate__animated animate__fadeInUp wow" data-wow-delay="450ms">
+                                        ganstaAHH87
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-body">
+                        <div class="jugador__top">
+                            <div class="col col-izq detalle__izq">
+                                <ul>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="250ms">Equipo Actual</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="300ms">Leviatan</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="350ms">edad</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="400ms">31</span>
+                                    </li>
+                                    <li>
+                                        <span class="label animate__animated animate__fadeInUp wow" data-wow-delay="450ms">Rol</span>
+                                        <span class="name animate__animated animate__fadeInUp wow" data-wow-delay="500ms">SMOKE</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="jugador__bottom">
+                            <div class="col col-izq textarea">
+                                <div class="text-head">
+                                    <h4 class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">Player Bio</h4>
+                                    <ul class="jugador__rrss">
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="400ms">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="450ms">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.facebook.com/" target="_blank" class="animate__animated animate__fadeInDown wow" data-wow-delay="500ms">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="scroll-wrapper scroll-outer animate__animated animate__fadeInDown wow" data-wow-delay="550ms"" style="position: relative">
+                                    <p>Prior to major incidents in the Overwatch League, there were known cases of controversial acts. His account was suspended twice for violating Blizzard's Terms Of Use.</p>
+                                </div>
+                            </div>
+                            <div class="col col-der">
+                                <ul class="stats">
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="350ms" src="img/teams/valorant/pjs/brimstone.png" alt="brimstone">
+                                    
+                                    </li>
+                                    <li>
+                                    <img class="animate__animated animate__fadeInRight wow" data-wow-delay="450ms" src="img/teams/valorant/pjs/omen.png" alt="omen">
+                                    </li>
+                                    <!-- <li>
+                                    <img src="img/teams/valorant/pjs/astra.png" alt="astra">
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <?php
+            break;
+        }
+    }
+    ?>
+
+    <!-- <div class="separacion"></div> -->
+
+    
+
+    <!-- <div class="separacion"></div> -->
+
+    <!-- <div class="separacion"></div>-->
 
     <div class="separacion"></div>
 
@@ -381,7 +618,7 @@
     <?php include('includes/redes-sociales.php');?>
 
     <!-- REDES - FIN-->
-    
+
     <footer class="footer">
         <?php include('includes/footer.php');?>
     </footer>

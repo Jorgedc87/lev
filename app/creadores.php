@@ -22,204 +22,242 @@
         <div class="nav-prin"><?php include('includes/side-menu.php')?></div>
     </header>
 
-    <section class="principal">
-        <div class="imgOverlay">
-            <div class="titulo">
-                <a href="#"><h4>#BeLeviatán</h4></a>
+    <?php
+
+    if(isset($_GET['creador'])){
+        $creador = $_GET['creador'];
+        ?>
+            <div class="fondo-creadores">
+                <?php
+                    switch($creador){
+                        case 1:
+                            ?>
+                                <div class="creador">Maher</div>
+
+                                <div class="separacion"></div>
+                            <?php
+                            break;
+                        case 2:
+                            ?>
+                                <div class="creador">dani biondi</div>
+
+                                <div class="separacion"></div>
+                            <?php
+                            break;
+                        case 3:
+                            ?>
+                                <div class="creador">maanuhd</div>
+
+                                <div class="separacion"></div>
+                            <?php
+                            break;
+                    }
+                ?>
             </div>
-        </div>
-        <div class="imgPrincipal">
-            <video controlsList="nodownload noremoteplayback" autoplay muted loop>
-                    <source src="video/leviatan-intro.mp4" type="video/mp4">
-            </video>
-        </div>        
-    </section>
+        <?php
+        
 
-    <div class="separacion"></div>
+        switch($creador){
 
-    <section class="documental">
-        <div class="contenido-documental">
-            <h3>Documental <b>Leviatan</b></h3>
-            <p>EPISODIO 1: #BeLeviatán</p>
-            <div class="video-documental">
-                <video controls muted controlsList="nodownload noremoteplayback">
-                    <source src="video/trailer.mp4" type="video/mp4">
-                </video>
-            </div>
-        </div>
-    </section>
-
-    <!-- <div class="separacion"></div>
-
-    <section class="sponsors wow">
-        <div class="logos-sponsors">
-            <img src="img/sponsors/cultura-geek.png" alt="cultura geek" class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms">
-            <img src="img/sponsors/aftech2.png" alt="aftech" class="wow animate__animated animate__fadeInUp" data-wow-delay="700ms">
-            <img src="img/sponsors/iRobot-sponsor.png" alt="iRobot" class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
-        </div>
-    </section> -->
-
-    <div class="separacion"></div>
-
-    <section class="noticias wow">
-        <div class="overlayNoticias"></div>
-        <div class="contenido-noticias">
-            <h3>Últimas <b>noticias</b></h3>
-            <p>Conocé los últimos acontecimientos y novedades de Leviatan</p>
-
-            <div class="not-prin">
-                <div class="noticia-principal">
-                    <a href="#">
-                        <img src="img/noticias/Noticia-1.jpg" alt="" class="imagen-noticia-principal">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-principal">
-                        <b>BIENVENIDO MAHER</b>
+            case 1:
+                ?>
+                <section class="creadores">
+                    <div class="creadores__contenedor">
+                        <div class="columna-img padding-top">
+                            <img src="img/creadores/pruebaimg1.jpg" alt="prueba imagen">
                         </div>
-                        <div class="descripcion-noticia-principal">
-                            Presentamos a nuestro nuevo streamer directamente desde Brasil.
+                        <div class="columna-texto padding-top">
+                            <div class="creadores__titulo">
+                                José 'Maher' Perez
+                            </div>
+                            <div class="creadores__copete">
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit tellus penatibus et justo, vel leo sapien sed parturient cubilia pulvinar rhoncus dui netus posuere, commodo curabitur duis quisque est primis nisi habitasse sollicitudin cum."
+                            </div>
+                            <div class="creadores__texto">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis lectus sem risus vel habitasse viverra, libero pellentesque elementum magnis dictumst duis conubia velit scelerisque per aliquam odio litora. Gravida quisque nisl purus laoreet per nec lobortis montes class nibh in eget suspendisse, massa nam odio pharetra habitasse arcu eros mi risus cum justo. Dui libero enim sollicitudin nec fusce felis euismod nisl curabitur aenean, tincidunt vitae consequat pulvinar suscipit morbi quam purus hendrerit dapibus, duis cursus id rhoncus volutpat vulputate a vel tempus. Id donec gravida magnis dictumst porttitor quisque venenatis dictum parturient molestie montes, imperdiet erat nisl maecenas ut cras vehicula volutpat tincidunt aliquam.
+                            <br><br>
+                            Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.
+                            </div>
+                        </div>
+                        <div class="columna-texto padding-top">
+                            
+                            <div class="creadores__texto">
+                            <h5>Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.</h5>
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis lectus sem risus vel habitasse viverra, libero pellentesque elementum magnis dictumst duis conubia velit scelerisque per aliquam odio litora. Gravida quisque nisl purus laoreet per nec lobortis montes class nibh in eget suspendisse, massa nam odio pharetra habitasse arcu eros mi risus cum justo. Dui libero enim sollicitudin nec fusce felis euismod nisl curabitur aenean, tincidunt vitae consequat pulvinar suscipit morbi quam purus hendrerit dapibus, duis cursus id rhoncus volutpat vulputate a vel tempus. Id donec gravida magnis dictumst porttitor quisque venenatis dictum parturient molestie montes, imperdiet erat nisl maecenas ut cras vehicula volutpat tincidunt aliquam.
+
+
+                            </div>
+                        </div>
+                        <div class="columna-img padding-top">
+                            <img src="img/creadores/pruebaimg1.jpg" alt="prueba imagen">
                         </div>
                     </div>
-                    </a>
-                </div>
-            </div>
-            <div class="noticias-secundarias">
-                <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-2-Media-Day.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                            <b>¡CÁMARAS, ACCIÓN!</b>
-                        </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
-                        </div>
-                    </div></a> 
-                </div>
-                <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-3-Valorant-Challengers.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                        <b>A  UN PASO DE LAS MASTERS</b>
-                        </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Caímos 0-2 ante MetaGaming y nos quedamos a un paso del objetivo.
-                        </div>
-                    </div></a>        
-                </div>
-                <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-4-LOL.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                        <b>VICTORIA CLÁSICA</b>
-                        </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Nuestro equipo de LoL se llevó otro triunfo ante Boca Juniors en la Liga Master Flow.
-                        </div>
-                    </div> </a> 
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
-    <div class="separacion"></div>
-
-    <section class="shop wow">
-        <div class="contenedor shop">
-            <h3>Nuestra <b>Tienda</b></h3>
-            <p>Vestite como nosotros. #BeLeviatán</p>
-            <div class="productos-superior">
-                <div class="producto-principal buzo1">
-                <a href="#"><img src="img/shop/buzo1.png" alt="buzo1"></a>
-                </div>
-                <div class="productos-secundarios">
-                    <div class="producto-secundario buzo2">
-                    <a href="#"><img src="img/shop/buzo2.png" alt="buzo2"></a>
+                </section>
+                <div class="separacion"></div>
+                <div class="separador-creadores">
+                    <div class="creador">
+                        <div class="">Creador</div>
                     </div>
-                    <div class="producto-secundario buzo4">
-                    <a href="#"><img src="img/shop/buzo4.png" alt="buzo4"></a>
+
+                </div>
+                <div class="separacion"></div>
+                <section class="creadores">
+                    
+                <div class="creadores__contenedor2">
+                        <div class="columna-texto padding-top">
+                            <div class="creadores__titulo">
+                                LOREM IPSUM
+                            </div>
+                            
+                            <div class="creadores__texto">
+                            <h5>Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.</h5>
+                            </div>
+                        </div>
+                        
+                        <div class="columna-img padding-bottom">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YrlRcRC-Kr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <div class="producto-secundario buzo3">
-                    <a href="#"><img src="img/shop/buzo3.png" alt="buzo3"></a>
+                </section>
+
+                <?php
+                break;
+            case 2:
+                ?>
+                <section class="creadores">
+                    <div class="creadores__contenedor">
+                        <div class="columna-img padding-top">
+                            <img src="img/creadores/pruebaimg1.jpg" alt="prueba imagen">
+                        </div>
+                        <div class="columna-texto padding-top">
+                            <div class="creadores__titulo">
+                                Daniel Biondi
+                            </div>
+                            <div class="creadores__copete">
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit tellus penatibus et justo, vel leo sapien sed parturient cubilia pulvinar rhoncus dui netus posuere, commodo curabitur duis quisque est primis nisi habitasse sollicitudin cum."
+                            </div>
+                            <div class="creadores__texto">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis lectus sem risus vel habitasse viverra, libero pellentesque elementum magnis dictumst duis conubia velit scelerisque per aliquam odio litora. Gravida quisque nisl purus laoreet per nec lobortis montes class nibh in eget suspendisse, massa nam odio pharetra habitasse arcu eros mi risus cum justo. Dui libero enim sollicitudin nec fusce felis euismod nisl curabitur aenean, tincidunt vitae consequat pulvinar suscipit morbi quam purus hendrerit dapibus, duis cursus id rhoncus volutpat vulputate a vel tempus. Id donec gravida magnis dictumst porttitor quisque venenatis dictum parturient molestie montes, imperdiet erat nisl maecenas ut cras vehicula volutpat tincidunt aliquam.
+                            <br><br>
+                            Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.
+                            </div>
+                        </div>
+                        <div class="columna-texto padding-top">
+                            
+                            <div class="creadores__texto">
+                            <h5>Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.</h5>
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis lectus sem risus vel habitasse viverra, libero pellentesque elementum magnis dictumst duis conubia velit scelerisque per aliquam odio litora. Gravida quisque nisl purus laoreet per nec lobortis montes class nibh in eget suspendisse, massa nam odio pharetra habitasse arcu eros mi risus cum justo. Dui libero enim sollicitudin nec fusce felis euismod nisl curabitur aenean, tincidunt vitae consequat pulvinar suscipit morbi quam purus hendrerit dapibus, duis cursus id rhoncus volutpat vulputate a vel tempus. Id donec gravida magnis dictumst porttitor quisque venenatis dictum parturient molestie montes, imperdiet erat nisl maecenas ut cras vehicula volutpat tincidunt aliquam.
+
+
+                            </div>
+                        </div>
+                        <div class="columna-img padding-top">
+                            <img src="img/creadores/pruebaimg1.jpg" alt="prueba imagen">
+                        </div>
                     </div>
+                </section>
+                <div class="separacion"></div>
+                <div class="separador-creadores">
+                    <div class="creador">
+                        <div class="">Creador</div>
+                    </div>
+
                 </div>
-            </div>
-            <div class="productos-slider">
-                <div class="producto-slider">
-                <a href="#"><img src="img/shop/LEV-Chomba.png" alt="chomba">
-                    <div class="bloque-texto">
-                        <div class="nombre">Chomba Leviatan</div>
-                        <div class="precio">$1300</div>
-                    </div></a>
+                <div class="separacion"></div>
+                <section class="creadores">
+                    
+                <div class="creadores__contenedor2">
+                        <div class="columna-texto padding-top">
+                            <div class="creadores__titulo">
+                                LOREM IPSUM
+                            </div>
+                            
+                            <div class="creadores__texto">
+                            <h5>Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.</h5>
+                            </div>
+                        </div>
+                        
+                        <div class="columna-img padding-bottom">
+                            <iframe src="https://www.youtube.com/embed/YrlRcRC-Kr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
+
+                <?php
+                break;
+            case 3:
+                ?>
+                <section class="creadores">
+                    <div class="creadores__contenedor">
+                        <div class="columna-img padding-top">
+                            <img src="img/creadores/pruebaimg1.jpg" alt="prueba imagen">
+                        </div>
+                        <div class="columna-texto padding-top">
+                            <div class="creadores__titulo">
+                                Manuel 'Manuuhd' Rodriguez
+                            </div>
+                            <div class="creadores__copete">
+                            "Lorem ipsum dolor sit amet consectetur adipiscing elit tellus penatibus et justo, vel leo sapien sed parturient cubilia pulvinar rhoncus dui netus posuere, commodo curabitur duis quisque est primis nisi habitasse sollicitudin cum."
+                            </div>
+                            <div class="creadores__texto">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis lectus sem risus vel habitasse viverra, libero pellentesque elementum magnis dictumst duis conubia velit scelerisque per aliquam odio litora. Gravida quisque nisl purus laoreet per nec lobortis montes class nibh in eget suspendisse, massa nam odio pharetra habitasse arcu eros mi risus cum justo. Dui libero enim sollicitudin nec fusce felis euismod nisl curabitur aenean, tincidunt vitae consequat pulvinar suscipit morbi quam purus hendrerit dapibus, duis cursus id rhoncus volutpat vulputate a vel tempus. Id donec gravida magnis dictumst porttitor quisque venenatis dictum parturient molestie montes, imperdiet erat nisl maecenas ut cras vehicula volutpat tincidunt aliquam.
+                            <br><br>
+                            Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.
+                            </div>
+                        </div>
+                        <div class="columna-texto padding-top">
+                            
+                            <div class="creadores__texto">
+                            <h5>Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.</h5>
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis lectus sem risus vel habitasse viverra, libero pellentesque elementum magnis dictumst duis conubia velit scelerisque per aliquam odio litora. Gravida quisque nisl purus laoreet per nec lobortis montes class nibh in eget suspendisse, massa nam odio pharetra habitasse arcu eros mi risus cum justo. Dui libero enim sollicitudin nec fusce felis euismod nisl curabitur aenean, tincidunt vitae consequat pulvinar suscipit morbi quam purus hendrerit dapibus, duis cursus id rhoncus volutpat vulputate a vel tempus. Id donec gravida magnis dictumst porttitor quisque venenatis dictum parturient molestie montes, imperdiet erat nisl maecenas ut cras vehicula volutpat tincidunt aliquam.
+
+
+                            </div>
+                        </div>
+                        <div class="columna-img padding-top">
+                            <img src="img/creadores/pruebaimg1.jpg" alt="prueba imagen">
+                        </div>
+                    </div>
+                </section>
+                <div class="separacion"></div>
+                <div class="separador-creadores">
+                    <div class="creador">
+                        <div class="">Creador</div>
+                    </div>
+
                 </div>
-                <div class="producto-slider">
-                    <a href="#"><img src="img/shop/LEV-Jacket_Front.png" alt="jacket" class="zoomimg">
-                    <div class="bloque-texto">
-                        <div class="nombre">Jacket Leviatan</div>
-                        <div class="precio">$1800</div>
-                    </div></a>
-                </div>
-                <div class="producto-slider">
-                <a href="#"><img src="img/shop/LEV-Jersey_Front.png" alt="jersey">
-                    <div class="bloque-texto">
-                        <div class="nombre">Jersey Leviatan</div>
-                        <div class="precio">$1000</div>
-                    </div></a>
-                </div>
-            </div>
-        </div>
-    </section>
+                <div class="separacion"></div>
+                <section class="creadores">
+                    
+                <div class="creadores__contenedor2">
+                        <div class="columna-texto padding-top">
+                            <div class="creadores__titulo">
+                                LOREM IPSUM
+                            </div>
+                            
+                            <div class="creadores__texto">
+                            <h5>Massa praesent potenti quisque nibh sem congue volutpat facilisis rhoncus, semper faucibus augue in elementum fermentum ornare. Ultrices dis etiam faucibus leo accumsan sem imperdiet orci ullamcorper himenaeos, cursus egestas montes aenean justo cum sagittis mus curae dictum senectus.</h5>
+                            </div>
+                        </div>
+                        
+                        <div class="columna-img padding-bottom">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YrlRcRC-Kr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
 
-    <div class="separacion"></div>
+                <?php
+                break;
 
-    <section class="equipos">
-        <h3>esports <b>Leviatán</b></h3>
-        <p>Conocé a nuestra familia.</p>
 
-        <div class="botones">
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="500ms"><a href="#"><img src="img/Juegos LEVIATAN/freefire.png" alt="free fire logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="550ms"><a href="#"><img src="img/Juegos LEVIATAN/csgo.png" alt="csgo logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="450ms"><a href="team-lol.php"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="550ms"><a href="#"><img src="img/Juegos LEVIATAN/valorant.png" alt="valorant logo" class="img-teams"></a></div>
-            <div class="imgs wow animate__animated animate__bounceIn" data-wow-delay="350ms"><a href="#"><img src="img/Juegos LEVIATAN/staff.png" alt="staff logo" class="img-teams"></a></div>
-        </div>
-    </section>
+        }
+    }
+    ?>
 
-    <div class="separacion"></div>
-
-    <section class="calendario">
-        <h3>PRÓXIMAS <b>COMPETENCIAS</b></h3>
-        <p>Podés alentarnos en las siguientes fechas:</p>
-        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
-            <div class="separacion-vert"></div>
-            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
-            <div class="rival"><b><span>MAR 2/3 - 21:00HS</span><br>VS River Plate Gaming</b></div>
-            <div class="vivo"></div>
-        </div>
-        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/csgo.png" alt="lol"></div>
-            <div class="separacion-vert"></div>
-            <div class="logo-torneo"><img src="img/competencias/unity-league.png" alt="liga-master"></div>
-            <div class="rival"><b><span>MIE 3/3 - 21:00HS</span><br>VS Stone Esports</b></div>
-            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
-        </div>
-        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
-            <div class="separacion-vert"></div>
-            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
-            <div class="rival"><b><span>JUE 4/3 - 23:00HS</span><br>VS Naguara</b></div>
-            <div class="vivo"><i class="fas fa-circle"></i> <span>EN VIVO</span></div>
-        </div>
-        <div class="partida wow animate__animated animate__fadeInLeft" data-wow-delay="350ms"">
-            <div class="logo-juego pad-3"><img src="img/Juegos LEVIATAN/lol-btn.png" alt="lol"></div>
-            <div class="separacion-vert"></div>
-            <div class="logo-torneo"><img src="img/competencias/liga-master.png" alt="liga-master"></div>
-            <div class="rival"><b><span>VIE 5/3 - 23:50HS</span><br>VS Savage esports</b></div>
-            <div class="vivo"></div>
-        </div>
-    </section>
-
-    <div class="separacion"></div>
+<div class="separacion"></div>
         
     <!-- REDES - INICIO-->
 

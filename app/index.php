@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/revolution/settings.css">
     <link rel="stylesheet" href="build/css/app.css">
     <link rel="stylesheet" href="css/animate.css">
-    
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <title>Leviatan eSports</title>
 </head>
 <body>
@@ -166,7 +166,7 @@
         </div>
         <div class="imgPrincipal">
             <video controlsList="nodownload noremoteplayback" autoplay muted loop>
-                    <source src="video/leviatan-intro.mp4" type="video/mp4">
+                    <source src="video/preview-doc.mp4" type="video/mp4">
             </video>
         </div>        
     </section>
@@ -272,6 +272,24 @@
         src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous">
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
     </script>
     <script src="js/wow.min.js"></script>
     <script>

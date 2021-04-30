@@ -227,6 +227,21 @@
             color: $naranja;
         }
     }
+    .a1 {
+        display:block;
+        font-size: 1rem;
+        transition: font-size .5s;
+        color: $blanco;
+        text-transform: uppercase;
+        padding: 1.2rem;
+        line-height: 3.5;
+        font-family: $fuentePrincipal;
+        font-weight: bold;
+        text-shadow: 0 0 1px #ffffff;
+        &:hover{
+            color: $naranja;
+        }
+    }
 
     ul {
         list-style: none;
@@ -247,7 +262,7 @@
         z-index: 10;
         a{
             color: $blanco;   
-            padding: 01.3rem;
+            padding: .8rem 1.3rem .8rem 1.3rem;
             
             &.active, &:hover{
                 color:$naranja;
@@ -262,6 +277,7 @@
             border-radius: 3px;
 
             filter: grayscale(100);
+            transition: filter .5s;
             
         }
 
