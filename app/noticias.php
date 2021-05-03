@@ -33,31 +33,31 @@
 
             <div class="noticias-secundarias">
                 <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="600ms">
-                    <a href="noticia.php">
+                    <a href="noticia-1.php">
                         <div class="fondo__noticia1">
                             <div class="bloque-texto">
                                 <div class="titulo-noticia-secundaria">
-                                    <b>NOTICIA</b>
+                                    <b>GAMING</b>
                                 </div>
                                 <div class="descripcion-noticia-secundaria">
-                                    Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                                San Lorenzo venció a River Plate Games es el campeón de la Liga Master Flow.
                                 </div>
                                 <div class="fecha-noticia-secundaria">
-                                    27 de Abril, 2021
+                                    03 de Mayo, 2021
                                 </div>
                             </div>
                         </div> 
                     </a>                   
                 </div>
                 <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="500ms">
-                    <a href="noticia.php">
+                    <a href="noticia-2.php">
                         <div class="fondo__noticia2">
                             <div class="bloque-texto">
                                 <div class="titulo-noticia-secundaria">
-                                    <b>RUMOR</b>
+                                    <b>NOTICIA</b>
                                 </div>
                                 <div class="descripcion-noticia-secundaria">
-                                    Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                                Leviatán Esports y Coscu Army son los últimos semifinalistas de la Unity League Flow
                                 </div>
                                 <div class="fecha-noticia-secundaria">
                                     26 de Abril, 2021
@@ -67,7 +67,7 @@
                     </a>
                 </div>
                 <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="400ms">
-                    <a href="noticia.php">
+                    <a href="noticia-3.php">
                         <div class="fondo__noticia3">
                             <div class="bloque-texto">
                                 <div class="titulo-noticia-secundaria">
@@ -84,7 +84,7 @@
                     </a>    
                 </div>
                 <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="300ms">
-                    <a href="noticia.php">
+                    <a href="noticia-4.php">
                         <div class="fondo__noticia4">
                             <div class="bloque-texto">
                                 <div class="titulo-noticia-secundaria">
@@ -94,7 +94,7 @@
                                     Nuestro equipo de LoL se llevó otro triunfo ante Boca Juniors en la Liga Master Flow.
                                 </div>
                                 <div class="fecha-noticia-secundaria">
-                                    23 de Abril, 2021
+                                    02 de Mayo, 2021
                                 </div>
                             </div> 
                         </div>
@@ -103,20 +103,10 @@
                 
                 
             </div>
-            <div class="vermas"><a href="noticias.php">Ver más ></a></div>
+            <div class="lista_noticias"><a href="#">< 1 2 3 .. 13 ></a></div>
             
         </div>
     </section>
-
-    <div class="separacion"></div>
-
-    <!-- <section class="sponsors wow">
-        <div class="logos-sponsors">
-            <img src="img/sponsors/cultura-geek.png" alt="cultura geek" class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms">
-            <img src="img/sponsors/aftech2.png" alt="aftech" class="wow animate__animated animate__fadeInUp" data-wow-delay="700ms">
-            <img src="img/sponsors/iRobot-sponsor.png" alt="iRobot" class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
-        </div>
-    </section> -->
 
     <div class="separacion"></div>
         

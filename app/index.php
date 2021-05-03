@@ -67,31 +67,31 @@
 
             <div class="noticias-secundarias">
                 <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="600ms">
-                    <a href="#">
+                    <a href="noticia-1.php">
                         <div class="fondo__noticia1">
                             <div class="bloque-texto">
                                 <div class="titulo-noticia-secundaria">
-                                    <b>NOTICIA</b>
+                                    <b>GAMING</b>
                                 </div>
                                 <div class="descripcion-noticia-secundaria">
-                                    Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                                San Lorenzo venció a River Plate Games es el campeón de la Liga Master Flow.
                                 </div>
                                 <div class="fecha-noticia-secundaria">
-                                    27 de Abril, 2021
+                                    03 de Mayo, 2021
                                 </div>
                             </div>
                         </div> 
                     </a>                   
                 </div>
                 <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="500ms">
-                    <a href="#">
+                    <a href="noticia-2.php">
                         <div class="fondo__noticia2">
                             <div class="bloque-texto">
                                 <div class="titulo-noticia-secundaria">
-                                    <b>RUMOR</b>
+                                    <b>NOTICIA</b>
                                 </div>
                                 <div class="descripcion-noticia-secundaria">
-                                    Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                                Leviatán Esports y Coscu Army son los últimos semifinalistas de la Unity League Flow
                                 </div>
                                 <div class="fecha-noticia-secundaria">
                                     26 de Abril, 2021
