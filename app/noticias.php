@@ -23,61 +23,87 @@
     </header>
 
     <section class="noticias wow">
+       
         <div class="overlayNoticias"></div>
         <div class="contenido-noticias">
-            <h3>Todas las <b>noticias</b></h3>
-            <p>Conocé los últimos acontecimientos y novedades de Leviatan</p>
+            <div class="titulos">
+                <span>Novedades</span>
+            </div>
+            <!-- <p>Conocé los últimos acontecimientos y novedades de Leviatan</p> -->
 
-            <div class="not-prin">
-                <div class="noticia-principal">
-                    <a href="#">
-                        <img src="img/noticias/Noticia-1.jpg" alt="" class="imagen-noticia-principal">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-principal">
-                        <b>BIENVENIDO MAHER</b>
+            <div class="noticias-secundarias">
+                <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="600ms">
+                    <a href="noticia.php">
+                        <div class="fondo__noticia1">
+                            <div class="bloque-texto">
+                                <div class="titulo-noticia-secundaria">
+                                    <b>NOTICIA</b>
+                                </div>
+                                <div class="descripcion-noticia-secundaria">
+                                    Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                                </div>
+                                <div class="fecha-noticia-secundaria">
+                                    27 de Abril, 2021
+                                </div>
+                            </div>
+                        </div> 
+                    </a>                   
+                </div>
+                <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="500ms">
+                    <a href="noticia.php">
+                        <div class="fondo__noticia2">
+                            <div class="bloque-texto">
+                                <div class="titulo-noticia-secundaria">
+                                    <b>RUMOR</b>
+                                </div>
+                                <div class="descripcion-noticia-secundaria">
+                                    Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
+                                </div>
+                                <div class="fecha-noticia-secundaria">
+                                    26 de Abril, 2021
+                                </div>
+                            </div>
                         </div>
-                        <div class="descripcion-noticia-principal">
-                            Presentamos a nuestro nuevo streamer directamente desde Brasil.
-                        </div>
-                    </div>
                     </a>
                 </div>
+                <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="400ms">
+                    <a href="noticia.php">
+                        <div class="fondo__noticia3">
+                            <div class="bloque-texto">
+                                <div class="titulo-noticia-secundaria">
+                                <b>NOTICIA</b>
+                                </div>
+                                <div class="descripcion-noticia-secundaria">
+                                    Caímos 0-2 ante MetaGaming y nos quedamos a un paso del objetivo.
+                                </div>
+                                <div class="fecha-noticia-secundaria">
+                                    24 de Abril, 2021
+                                </div>
+                            </div>
+                        </div>
+                    </a>    
+                </div>
+                <div class="noticia-secundaria animate__animated animate__fadeInLeft wow" data-wow-delay="300ms">
+                    <a href="noticia.php">
+                        <div class="fondo__noticia4">
+                            <div class="bloque-texto">
+                                <div class="titulo-noticia-secundaria">
+                                <b>GAMING</b>
+                                </div>
+                                <div class="descripcion-noticia-secundaria">
+                                    Nuestro equipo de LoL se llevó otro triunfo ante Boca Juniors en la Liga Master Flow.
+                                </div>
+                                <div class="fecha-noticia-secundaria">
+                                    23 de Abril, 2021
+                                </div>
+                            </div> 
+                        </div>
+                    </a>
+                </div>
+                
+                
             </div>
-            <div class="noticias-secundarias">
-                <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-2-Media-Day.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                            <b>¡CÁMARAS, ACCIÓN!</b>
-                        </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Nuestros roster de LoL, Valorant, CS:GO y Staff tuvieron su Media Day.
-                        </div>
-                    </div></a> 
-                </div>
-                <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-3-Valorant-Challengers.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                        <b>A  UN PASO DE LAS MASTERS</b>
-                        </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Caímos 0-2 ante MetaGaming y nos quedamos a un paso del objetivo.
-                        </div>
-                    </div></a>        
-                </div>
-                <div class="noticia-secundaria">
-                    <a href="#"><img src="img/noticias/Noticia-4-LOL.jpg" alt="" class="imagen-noticia-secundaria">
-                    <div class="bloque-texto">
-                        <div class="titulo-noticia-secundaria">
-                        <b>VICTORIA CLÁSICA</b>
-                        </div>
-                        <div class="descripcion-noticia-secundaria">
-                            Nuestro equipo de LoL se llevó otro triunfo ante Boca Juniors en la Liga Master Flow.
-                        </div>
-                    </div> </a> 
-                </div>
-            </div>
+            <div class="vermas"><a href="noticias.php">Ver más ></a></div>
             
         </div>
     </section>

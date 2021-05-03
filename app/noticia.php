@@ -22,13 +22,37 @@
         <div class="nav-prin"><?php include('includes/side-menu.php')?></div>
     </header>
 
-    <!-- <section class="sponsors wow">
-        <div class="logos-sponsors">
-            <img src="img/sponsors/cultura-geek.png" alt="cultura geek" class="wow animate__animated animate__fadeInUp" data-wow-delay="400ms">
-            <img src="img/sponsors/aftech2.png" alt="aftech" class="wow animate__animated animate__fadeInUp" data-wow-delay="700ms">
-            <img src="img/sponsors/iRobot-sponsor.png" alt="iRobot" class="wow animate__animated animate__fadeInUp" data-wow-delay="500ms">
+    <div class="fondo-noticia">    
+    </div>
+
+    <section class="noticia__contenedor">
+        
+        <div class="noticia">
+            <div class="imagen__noticia">
+                
+            </div>
         </div>
-    </section> -->
+        <div class="contenido__noticia">
+            <div class="noticia__titulo">
+                <h1>Bienvenido Maher</h1>
+            </div>
+            <div class="noticia__autor">
+                Por Gobbero (03/05/2021)
+            </div>
+            <div class="noticia__copete">
+                Lorem cillum mollit nostrud est sint consequat occaecat sunt commodo ut. Dolor fugiat ex labore incididunt. Nostrud tempor eiusmod deserunt id aliquip laboris veniam commodo ullamco fugiat aute fugiat. 
+            </div>
+            <div class="noticia__texto">
+                Esse pariatur esse minim Lorem reprehenderit laboris minim ex. Commodo cillum labore reprehenderit dolore ex enim velit. Minim in et incididunt fugiat fugiat officia nulla aute incididunt culpa Lorem laboris. Anim magna incididunt Lorem qui pariatur excepteur ad eu aliqua adipisicing tempor reprehenderit.
+               <br><br>
+                Proident excepteur Lorem sint do nulla commodo labore aute nisi elit. Quis amet cupidatat ut Lorem dolore fugiat fugiat duis ad deserunt duis consectetur. Et et velit magna voluptate aliquip laboris anim eiusmod non eiusmod exercitation. Deserunt duis dolor enim do irure sit minim laborum quis reprehenderit. Dolor proident officia dolore commodo ut proident.
+                <br><br>
+                Eiusmod irure velit id esse. Amet culpa non esse adipisicing adipisicing labore aliqua do labore id culpa minim commodo. Ullamco magna esse ea nisi non velit. Esse tempor et id ex eu eiusmod anim aliqua laboris labore dolor. Velit laboris ipsum ea officia elit magna excepteur.
+            </div>
+            
+        </div>
+    
+    </section>
 
     <div class="separacion"></div>
         
