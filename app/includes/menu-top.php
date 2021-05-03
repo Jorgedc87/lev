@@ -14,7 +14,7 @@
                             <li><img src="img/valorant-icon.png" alt="valorant" class="middle"><a href="team-valorant.php" class="middle"> Valorant</a></li>
                             <li><img src="img/csgo-icon.png" alt="valorant" class="middle"><a href="team-csgo.php" class="middle">CS GO</a></li>
                             <li><img src="img/freefire-icon.png" alt="valorant" class="middle"><a href="team-freefire.php" class="middle">Free Fire</a></li>
-                            <li><img src="img/R6icon.png" alt="valorant" class="middle"><a href="team-r6.php" class="middle">Rainbow Six</a></li>
+                            <li><img src="img/R6ICON.png" alt="valorant" class="middle"><a href="team-r6.php" class="middle">Rainbow Six</a></li>
                             <li><img src="img/WRicon.png" alt="valorant" class="middle"><a href="team-wildrift.php" class="middle">LoL - Wild Rift</a></li>
                         </ul>
                     </li>
