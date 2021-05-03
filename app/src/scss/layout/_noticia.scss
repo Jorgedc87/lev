@@ -40,7 +40,7 @@
     }
     
     .imagen__noticia{
-        background-image: url(../../img/noticias/Noticia-1.jpg);
+        background-image: url(../../img/noticias/noticia-1/banner-noticia1.jpg);
         position: relative;
         background-size: cover;
         min-height: 50rem;
@@ -73,7 +73,20 @@
         }
 
         .noticia__texto{
+            display: contents;
             
+            img{
+                margin: 0 auto;
+                text-align: center;
+                width: 80rem;
+                border: 3px solid #202042;
+            }
+
+            p{
+                color: $blanco;
+                text-transform:none;
+                margin: 0 auto;
+            }
         }
     }
     

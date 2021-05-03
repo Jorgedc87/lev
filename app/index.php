@@ -183,6 +183,8 @@
             <div class="boton__equipo animate__animated animate__fadeInRight wow" data-wow-delay="300ms"><a href="team-csgo.php"><img src="img/CSGO.jpg" alt="csgo"></a></div>
             <div class="boton__equipo animate__animated animate__fadeInLeft wow" data-wow-delay="400ms"><a href="team-valorant.php"><img src="img/VAL.jpg" alt="valorant"></a></div>
             <div class="boton__equipo animate__animated animate__fadeInRight wow" data-wow-delay="500ms"><a href="#"><img src="img/R6.jpg" alt="rainbow six"></a></div>
+            <div class="boton__equipo animate__animated animate__fadeInRight wow" data-wow-delay="600ms"><a href="#"><img src="img/LOL-WILD-RIFT.jpg" alt="wildrift"></a></div>
+            <div class="boton__equipo animate__animated animate__fadeInRight wow" data-wow-delay="700ms"><a href="#"><img src="img/FREEFIRE.jpg" alt="FREEFIRE"></a></div>
         </div>
     </section>
 
