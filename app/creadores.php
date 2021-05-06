@@ -132,7 +132,7 @@
                         </div>
                         <div class="columna-texto padding-top">
                             <div class="creadores__titulo">
-                                Daniel Biondi
+                                Daniela Biondi
                             </div>
                             <div class="creadores__copete">
                             "Lorem ipsum dolor sit amet consectetur adipiscing elit tellus penatibus et justo, vel leo sapien sed parturient cubilia pulvinar rhoncus dui netus posuere, commodo curabitur duis quisque est primis nisi habitasse sollicitudin cum."
