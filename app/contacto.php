@@ -22,9 +22,40 @@
         <div class="nav-prin"><?php include('includes/side-menu.php')?></div>
     </header>
 
-    
+    <div class="fondo-contacto">
+        
+    </div>
 
- 
+    <section class="contacto">
+        <div class="contactos__contenedor">
+            <div class="inner-header">
+                <div class="contacto__inner imagen__contacto">
+                    
+                    <div class="jugador__detalle">
+                        <span class="animate__animated animate__fadeInDown wow" data-wow-delay="350ms">
+                            Contactate con nosotros
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-body">
+                <div class="recuadro__superior">
+                    <div class="texto__superior">
+                        Envíanos tus dudas, nuestro equipo se pondrá en contacto con vos lo más pronto posible.
+                    </div>
+                </div>
+                <div class="recuadro__inferior">
+                    <label for="">Nombre</label> 
+                    <input type="text" placeholder="Nombre">
+                    <label for="">E-mail</label> 
+                    <input type="email" placeholder="Correo Electronico">
+                    <label for="">Mensaje</label> 
+                    <textarea rows="10"></textarea>
+                    <button class="enviar">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
 

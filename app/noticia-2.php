@@ -51,7 +51,7 @@
 
                 <img src="img/noticias/noticia-2/img2-noticia2.jpeg" alt="">
 
-                <p>La Unity League Flow llega de la mano de su main sponsor Flow. Las jornadas se desarrollarán los lunes y martes a partir de las 18:00hs, y en cada una se disputarán 5 juegos por día. Las transmisiones se podrán ver por el canal 601 de Flow y por el canal oficial de Twitch y Youtube de la Liga de Videojuegos Profesional.</p>
+                <p><b>La Unity League Flow</b> llega de la mano de su main sponsor <b>Flow</b>. Las jornadas se desarrollarán los lunes y martes a partir de las 18:00hs, y en cada una se disputarán 5 juegos por día. Las transmisiones se podrán ver por el canal 601 de Flow y por el canal oficial de Twitch y Youtube de la Liga de Videojuegos Profesional.</p>
 
                 
             </div>
