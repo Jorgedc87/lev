@@ -93,23 +93,29 @@
         padding-top: 2rem;
 
         input{
+            padding: 1rem;
             height: 3.5rem;
         }
 
+        textarea{
+            padding: 1rem
+        }
+
         .enviar {
-            background-color:#6d8ecc;
+            background-color:#032563;
             border-radius:5px;
             display:inline-block;
             cursor:pointer;
-            color:#ffffff;
-            font-family:Arial;
+            color:#fafafa;
+            font-family:$fuenteSecundaria;
             font-size:17px;
             padding:11px 31px;
             text-decoration:none;
-            text-shadow:10px 5px 16px #2f6627;
+            
 
             &:hover {
-                background-color:#6667a1;
+                background-color:#05399b;
+                transition: background-color 1s;
             }
 
             &:active {
