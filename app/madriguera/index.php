@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<title>Popeye I Next Level Coming Soon</title>
-		<meta name="description" content="Popeye is a responsive HTML5 coming soon template by Hencework." />
-		<meta name="keywords" content="Popeye, responsive coming soon template, under construction template, multipurpose, responsive template, html5 template, themeforest.net, bootstrap, html5, creative, landing page, sass, clean, design, modern, angular js, mailchimp subscription," />
-		<meta name="author" content="Hencework"/>
+		<title>La Madriguera Store</title>
+		<meta name="description" content="Sitio web oficial de La Madriguera Store." />
+		<meta name="keywords" content="Madriguera, tienda, ropa, personalizada, España" />
+		<meta name="author" content="IESA Latam"/>
 		
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -45,14 +45,14 @@
 					<!--Right Content Intro-->
 					<div class="side side-right">
 						<!-- Color Bg Animation-->
-						<div class=""></div>
+						<div class="animated-bg"></div>
 						<!-- /Color Bg Animation-->
 						
 						<!--Right Nav-->
 						<div class="call-to-action contact">
 							<div>
 								<span class="goto-next">
-									more info
+									Más información
 									<span class="add-sep"></span>
 								</span>
 							</div>	
@@ -62,7 +62,7 @@
 						<div class="main-content sec-pad">
 							<!--Logo-->
 							<header class="logo">
-								<img src="img/logo-light.png" alt="logo">
+								<img src="img/logo.png" alt="logo" width="80px">
 							</header>
 							<!--/Logo-->
 							
@@ -74,13 +74,13 @@
 										<!--Ticker-->
 										<div class="tlt">
 											<ul  class="texts">
-												<li data-in-effect="bounce" data-out-effect="hinge" data-in-shuffle="true" data-out-shuffle="true">
-													Stay Tuned 
+												<li data-in-effect="bounce" data-out-effect="" data-in-shuffle="true" data-out-shuffle="true">
+													Proximamente 
 												</li>
-												<li  data-in-effect="bounce" data-out-effect="hinge" data-in-shuffle="true" data-out-shuffle="true">
+												<li  data-in-effect="bounce" data-out-effect="" data-in-shuffle="true" data-out-shuffle="true">
 													Be Patient
 												</li>
-												<li  data-in-effect="bounce" data-out-effect="hinge" data-in-shuffle="true" data-out-shuffle="true">
+												<li  data-in-effect="bounce" data-out-effect="" data-in-shuffle="true" data-out-shuffle="true">
 													Back Soon
 												</li>
 											</ul>
@@ -142,7 +142,7 @@
 									</ul>
 									<!--/Social Icons-->
 									
-									<p>Pampered by Hencework © 2017</p>
+									<p>La Madriguera Store ©2021</p>
 									
 								</footer>
 								<!--/Footer-->
@@ -301,45 +301,7 @@
 						<section class="container-fluid align-center text-left animated sec-pad-top team-sec">
 							<div class="row">
 								<div class="col-lg-12">
-									<h3>Our Wonderful Team</h3>
-									<div class="row">
-										<div class="col-sm-4  col-xs-12 margin-btm-xs">
-											<img class="img-responsive" src="img/team1.jpg" alt="team"/>
-											<span class="team-per">john doe</span>
-											<span class="team-desn">executive</span>
-											<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem consequat ipsum.</p>
-											<ul class="team-social">
-												<li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-behance"></i></a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4  col-xs-12 margin-btm-xs">
-											<img class="img-responsive" src="img/team2.jpg" alt="team"/>
-											<span class="team-per">max tailor</span>
-											<span class="team-desn">director</span>
-											<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem consequat ipsum.</p>
-											<ul class="team-social">
-												<li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-behance"></i></a></li>
-											</ul>
-										</div>
-										<div class="col-sm-4  col-xs-12 margin-btm-xs margin-bottom-0">
-											<img class="img-responsive" src="img/team3.jpg" alt="team"/>
-											<span class="team-per">amanda grey</span>
-											<span class="team-desn">creative head</span>
-											<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem consequat ipsum.</p>
-											<ul class="team-social">
-												<li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-												<li><a href="" target="_blank"><i class="fa fa-behance"></i></a></li>
-											</ul>
-										</div>
-									</div>
+									
 								</div>	
 							</div>
 						</section>
