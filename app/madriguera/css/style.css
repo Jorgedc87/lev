@@ -1182,7 +1182,7 @@ p.tagline, .address-detail a.tagline {
     color: #fff; }
 
   .logo img {
-    width: auto; }
+    width: 80px; }
 
   .page {
     position: static;
@@ -1312,4 +1312,20 @@ p.tagline, .address-detail a.tagline {
 .font-madriguera{
   color:white !important;
   font-size: 50px;
+}
+
+.logo__header{
+  display:flex;
+  column-gap: 5px;
+  font-size: 35px;
+  justify-items: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Akrobat";
+  letter-spacing: 0;
+}
+
+.logo__header span{
+  font-family: "Akrobat Bold";
+  letter-spacing: -1px;
 }

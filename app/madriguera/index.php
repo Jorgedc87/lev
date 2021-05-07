@@ -63,8 +63,9 @@
 						
 						<div class="main-content sec-pad">
 							<!--Logo-->
-							<header class="logo">
+							<header class="logo logo__header">
 								<img src="img/logo.png" alt="logo" width="80px">
+								<span>La Madriguera </span>   Store
 							</header>
 							<!--/Logo-->
 							
@@ -86,7 +87,7 @@
 										</div>
 										<!--/Ticker-->
 										
-										<p class="col-md-9 col-xs-12 pad-zero">This demo is crafted for all out there who are in search of a decent coming soon template with the clock in it. It includes all required features from Portfolio to Contact form and Social Links to Notify Form.</p>
+										<p class="col-md-9 col-xs-12 pad-zero">Estamos trabajando en el nuevo sitio que muy pronto estará disponible. Mientras tanto, dejanos tu email para participar de sorteos y grandes descuentos. ¡También te esperamos en nuestras redes sociales!</p>
 										<div class="clearfix"></div>
 										
 										<!--Notify Sec-->
@@ -182,7 +183,7 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<h3>Nosotros</h3>
-									<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+									<p>La Madriguera Stores es tu tienda de personalización. Arrancamos en 2021 tanto en formato físico como con tienda online para satisfacer las necesidades de personalización de objetos de nuestros clientes. Es el lugar donde transformar todas tus ideas, tus diseños digitales, tu marca personal o tu branding empresarial en objetos físicos como prendas de ropa o accesorios de merchandising.</p>
 									<div class="about-icon-wrap padding-top-sm">
 										<div class="row">
 											<div class="col-sm-4  col-xs-12  margin-btm-xs" >
@@ -193,7 +194,7 @@
 												<p>En La Madriguera existen infinitas posibilidades. Desde adquirir un diseño propio ya estampado en tienda, utilizar un diseño propio y aplicarlo en cualquiera de nuestros productos y prendas personalizables, hasta incluso acudir a tienda con tu propio objeto o prenda, aplicaremos la técnica adecuada para lograr el mejor resultado. Y todo en un tiempo récord.</p>
 											</div>
 											<div class="col-sm-4  col-xs-12 margin-btm-xs">
-											<img src="img/CONEJO.png" alt="" style="width:80px">
+											<img src="img/conejo.png" alt="" style="width:80px">
 												<span class="key-fact">
 													Marca
 												</span>
@@ -229,7 +230,7 @@
 										  <img class="img-responsive" src="img/project1.jpg" itemprop="thumbnail" alt="Image description" />
 										  <div class="hover"><span>+</span></div>
 									  </a>
-										<figcaption itemprop="caption description">Tazas</figcaption>
+										<figcaption itemprop="caption description">Merchandising personal o empresarial</figcaption>
 
 									</figure>
 									<figure class="col-sm-6 margin-btm-xs" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -237,21 +238,21 @@
 										  <img class="img-responsive" src="img/project2.jpg" itemprop="thumbnail" alt="Image description" />
 										  <div class="hover"><span>+</span></div>
 									  </a>
-										<figcaption itemprop="caption description">Vestimenta</figcaption>
+										<figcaption itemprop="caption description">Camisetas de todo tipo de materias primas, calidades y gramajes.</figcaption>
 									</figure>
 									<figure class="col-sm-6 margin-btm-xs" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 									  <a href="img/project3.jpg" itemprop="contentUrl" data-size="730x490">
 										  <img class="img-responsive" src="img/project3.jpg" itemprop="thumbnail" alt="Image description" />
 										  <div class="hover"><span>+</span></div>
 									  </a>
-										<figcaption itemprop="caption description">Bolsa</figcaption>
+										<figcaption itemprop="caption description">Packaging 100% reciclable - Ecofriendly.</figcaption>
 									</figure>
 									<figure class="col-sm-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
 									  <a href="img/project4.jpg" itemprop="contentUrl" data-size="730x490">
 										  <img class="img-responsive" src="img/project4.jpg" itemprop="thumbnail" alt="Image description" />
 										  <div class="hover"><span>+</span></div>
 									  </a>
-										<figcaption itemprop="caption description">Tags</figcaption>
+										<figcaption itemprop="caption description">Tenemos capacidad para atender pedidos de gran volumen. Monetiza tu trabajo</figcaption>
 									</figure>
 								</div>
 							</div>
@@ -294,7 +295,7 @@
 						
 						<!--form sec-->
 						<section data-ng-controller="ContactController" class="container-fluid align-center animated  sec-pad">
-							<h3>Hola <span  data-ng-bind="formData.inputName||'There'">.</span> Puedes dejarnos tus dudas.</h3>
+							<h3> <span  data-ng-bind="formData.inputName||''"></span> ¡Gracias por llegar hasta aquí! Contáctanos.</h3>
 							<div>
 								<form data-ng-submit="submit(contactform, $event)"  name="contactform"  method="post" class="row form-horizontal" role="form">
 									<div class="form-group input--hoshi col-sm-6" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
