@@ -163,8 +163,24 @@ body {
 	-webkit-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 }
-.side-right,.side-left {
+.side-right {
     color: #000;
+    right: 0;
+}
+.negrita{
+	font-family: "Akrobat Black";
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 40px;
+    color: #fff;
+    right: 0;
+}
+.side-left{
+	font-family: "Akrobat Bold";
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 40px;
+    color: #fff;
     right: 0;
 }
 /* Open and close */

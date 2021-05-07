@@ -20,7 +20,7 @@
 $(document).ready(function(){
   beavis();
   $('.la-anim-1').addClass('la-animate');
-  $('body').niceScroll({cursorcolor:"#b15cff",cursorborderradius:0,cursorborder:"0px"});
+  
 	
 });
 /*****Ready function end*****/
@@ -359,14 +359,3 @@ $('input[type=text], textarea').placeholder();
 	initPhotoSwipeFromDOM('.project-gallery');
 /***** Photoswipe init end*****/		
 
-/*****Clock Init Start*****/	
-setInterval(function() {
-  function r(el, deg) {
-	el.setAttribute('transform', 'rotate('+ deg +' 40.5 40.5)')
-  }
-  var d = new Date()
-  r(sec, 6*d.getSeconds())  
-  r(min, 6*d.getMinutes())
-  r(hour, 30*(d.getHours()%12) + d.getMinutes()/2)
-}, 1000);
-/*****Clock Init end*****/

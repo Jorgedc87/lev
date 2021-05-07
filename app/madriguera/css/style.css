@@ -22,7 +22,7 @@ Project:	Popeye
 /****************************/
 /** Reset **/
 /****************************/
-html, body, div, span, applet, object, iframe, h1, .side-right .tlt, h2, h3, h4, h5, h6, p, .address-detail a, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, .side-right .tlt2, h2, h3, h4, h5, h6, p, .address-detail a, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -78,10 +78,10 @@ a:focus {
   text-decoration: none;
   outline: none; }
 
-h1, .side-right .tlt, h2, h3, h4, h5, h6 {
+h1, .side-right .tlt2, h2, h3, h4, h5, h6 {
   color: #fff; }
 
-h1, .side-right .tlt {
+h1, .side-right .tlt2 {
   font-size: 120px;
   line-height: 150px;
   font-weight: 700;
@@ -116,6 +116,65 @@ p, .address-detail a {
 
 .force-UTF-8 {
   content: "¡"; }
+
+/****************************/
+/** FONTS **/
+@font-face {
+  font-family: 'Akrobat Black';
+  src: url("../fonts/Akrobat-Black.eot");
+  src: url("../fonts/Akrobat-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-Black.woff2") format("woff2"), url("../fonts/Akrobat-Black.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akrobat Bold';
+  src: url("../fonts/Akrobat-Bold.eot");
+  src: url("../fonts/Akrobat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-Bold.woff2") format("woff2"), url("../fonts/Akrobat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akrobat ExtraBold';
+  src: url("../fonts/Akrobat-ExtraBold.eot");
+  src: url("../fonts/Akrobat-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-ExtraBold.woff2") format("woff2"), url("../fonts/Akrobat-ExtraBold.woff") format("woff");
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akrobat ExtraLight';
+  src: url("../fonts/Akrobat-ExtraLight.eot");
+  src: url("../fonts/Akrobat-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-ExtraLight.woff2") format("woff2"), url("../fonts/Akrobat-ExtraLight.woff") format("woff");
+  font-weight: smaller;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akrobat Light';
+  src: url("../fonts/Akrobat-Light.eot");
+  src: url("../fonts/Akrobat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-Light.woff2") format("woff2"), url("../fonts/Akrobat-Light.woff") format("woff");
+  font-weight: small;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akrobat';
+  src: url("../fonts/Akrobat-Regular.eot");
+  src: url("../fonts/Akrobat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-Regular.woff2") format("woff2"), url("../fonts/Akrobat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akrobat SemiBold';
+  src: url("../fonts/Akrobat-SemiBold.eot");
+  src: url("../fonts/Akrobat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-SemiBold.woff2") format("woff2"), url("../fonts/Akrobat-SemiBold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Akrobat Thin';
+  src: url("../fonts/Akrobat-Thin.eot");
+  src: url("../fonts/Akrobat-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Akrobat-Thin.woff2") format("woff2"), url("../fonts/Akrobat-Thin.woff") format("woff");
+  font-weight: small;
+  font-style: normal;
+}
 
 /****************************/
 /** Main **/
@@ -309,7 +368,7 @@ p, .address-detail a {
   text-align: center;
   background: #e2234d; }
   .side-left p, .side-left .address-detail a, .address-detail .side-left a {
-    color: #000; }
+    color: #fff; }
   .side-left .small-hr {
     margin-top: 17px;
     margin-bottom: 25px; }
@@ -319,7 +378,7 @@ p, .address-detail a {
   .side-left footer {
     float: left; }
   .side-left #countdown .days-wrap {
-    color: #383e3e; }
+    color: #FFF; }
   .side-left .content-wrap {
     height: 100%;
     padding-left: 100px;
@@ -976,7 +1035,7 @@ p.tagline, .address-detail a.tagline {
   .padding-top-sm-120 {
     padding-top: 120px; } }
 @media only screen and (max-width: 1600px) {
-  h1, .side-right .tlt {
+  h1, .side-right .tlt2 {
     font-size: 90px;
     line-height: 100px; }
 
@@ -1032,7 +1091,7 @@ p.tagline, .address-detail a.tagline {
     padding-left: 75px;
     padding-right: 75px; } }
 @media only screen and (max-width: 1400px) {
-  h1, .side-right .tlt {
+  h1, .side-right .tlt2 {
     font-size: 75px;
     line-height: 85px; }
 
@@ -1190,7 +1249,7 @@ p.tagline, .address-detail a.tagline {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px); } }
 @media only screen and (max-width: 767px) {
-  h1, .side-right .tlt {
+  h1, .side-right .tlt2 {
     font-size: 55px;
     line-height: 65px; }
 
@@ -1224,7 +1283,7 @@ p.tagline, .address-detail a.tagline {
   .notify-cmpt.notify-form-type-2 .notify-wrap .notify-input-box {
     padding: 0; } }
 @media only screen and (max-width: 414px) {
-  h1, .side-right .tlt {
+  h1, .side-right .tlt2 {
     font-size: 45px;
     line-height: 55px; }
 
@@ -1235,3 +1294,22 @@ p.tagline, .address-detail a.tagline {
     width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Ediciones */
+
+.clients{
+  filter: grayscale(100%);
+  transition: filter 1.5s;
+  
+}
+
+.clients:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+  transition: filter 1.5s;
+}
+
+.font-madriguera{
+  color:white !important;
+  font-size: 50px;
+}
