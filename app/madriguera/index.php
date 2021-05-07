@@ -78,7 +78,7 @@
 										<div class="tlt2">
 											
 												
-												<span class="tlt" data-in-effect="fadeInLeft" data-out-effect="" data-in-shuffle="true" data-out-shuffle="true">Proximamente</span> <span class="tlt" data-in-effect="fadeIn" data-out-effect="fadeOut" data-in-shuffle="true" data-out-shuffle="true">...</span> 
+												<span class="tlt" data-in-effect="fadeInLeft" data-out-effect="" data-in-shuffle="true" data-out-shuffle="true">Próximamente</span> <span class="tlt" data-in-effect="fadeIn" data-out-effect="fadeOut" data-in-shuffle="true" data-out-shuffle="true">...</span> 
 												
 												<!-- <li  data-in-effect="bounce" data-out-effect="fadeOut" data-in-shuffle="true" data-out-shuffle="true">
 													Back Soon
